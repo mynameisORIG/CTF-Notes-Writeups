@@ -1,0 +1,181 @@
+Starting Nmap 7.92 ( https://nmap.org ) at 2022-07-13 13:47 EDT
+Nmap scan report for 192.168.143.168
+Host is up (0.024s latency).
+Not shown: 65428 closed tcp ports (conn-refused), 87 filtered tcp ports (no-response)
+PORT      STATE SERVICE              VERSION
+135/tcp   open  msrpc                Microsoft Windows RPC
+139/tcp   open  netbios-ssn          Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds?
+3389/tcp  open  ms-wbt-server        Microsoft Terminal Services
+| ssl-cert: Subject: commonName=Fishyyy
+| Not valid before: 2021-10-28T07:30:11
+|_Not valid after:  2022-04-29T07:30:11
+|_ssl-date: 2021-10-29T15:50:45+00:00; -257d01h59m58s from scanner time.
+| rdp-ntlm-info: 
+|   Target_Name: FISHYYY
+|   NetBIOS_Domain_Name: FISHYYY
+|   NetBIOS_Computer_Name: FISHYYY
+|   DNS_Domain_Name: Fishyyy
+|   DNS_Computer_Name: Fishyyy
+|   Product_Version: 10.0.19041
+|_  System_Time: 2021-10-29T15:50:32+00:00
+3700/tcp  open  giop                 CORBA naming service
+3820/tcp  open  ssl/giop             CORBA naming service
+| ssl-cert: Subject: commonName=localhost/organizationName=Oracle Corporation/stateOrProvinceName=California/countryName=US
+| Not valid before: 2014-08-21T13:30:10
+|_Not valid after:  2024-08-18T13:30:10
+|_ssl-date: TLS randomness does not represent time
+4848/tcp  open  http                 Sun GlassFish Open Source Edition  4.1
+|_http-server-header: GlassFish Server Open Source Edition  4.1 
+|_http-title: Login
+5040/tcp  open  unknown
+6060/tcp  open  x11?
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 200 
+|     Accept-Ranges: bytes
+|     ETag: W/"425-1267803922000"
+|     Last-Modified: Fri, 05 Mar 2010 15:45:22 GMT
+|     Content-Type: text/html
+|     Content-Length: 425
+|     Date: Fri, 29 Oct 2021 15:48:02 GMT
+|     Connection: close
+|     Server: Synametrics Web Server v7
+|     <html>
+|     <head>
+|     <META HTTP-EQUIV="REFRESH" CONTENT="1;URL=app">
+|     </head>
+|     <body>
+|     <script type="text/javascript">
+|     <!--
+|     currentLocation = window.location.pathname;
+|     if(currentLocation.charAt(currentLocation.length - 1) == "/"){
+|     window.location = window.location + "app";
+|     }else{
+|     window.location = window.location + "/app";
+|     //-->
+|     </script>
+|     Loading Administration console. Please wait...
+|     </body>
+|     </html>
+|   HTTPOptions: 
+|     HTTP/1.1 403 
+|     Cache-Control: private
+|     Expires: Thu, 01 Jan 1970 00:00:00 GMT
+|     Set-Cookie: JSESSIONID=9ACC0F3F107974837660369856735EAB; Path=/
+|     Content-Type: text/html;charset=ISO-8859-1
+|     Content-Length: 5028
+|     Date: Fri, 29 Oct 2021 15:48:06 GMT
+|     Connection: close
+|     Server: Synametrics Web Server v7
+|     <!DOCTYPE html>
+|     <html>
+|     <head>
+|     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+|     <title>
+|     SynaMan - Synametrics File Manager - Version: 5.1 - build 1595 
+|     </title>
+|     <meta NAME="Description" CONTENT="SynaMan - Synametrics File Manager" />
+|     <meta NAME="Keywords" CONTENT="SynaMan - Synametrics File Manager" />
+|     <meta http-equiv="X-UA-Compatible" content="IE=10" />
+|     <link rel="icon" type="image/png" href="images/favicon.png">
+|     <link type="text/css" rel="stylesheet" href="images/AjaxFileExplorer.css">
+|     <link rel="stylesheet" type="text/css"
+|   JavaRMI: 
+|     HTTP/1.1 400 
+|     Content-Type: text/html;charset=utf-8
+|     Content-Length: 145
+|     Date: Fri, 29 Oct 2021 15:47:57 GMT
+|     Connection: close
+|     Server: Synametrics Web Server v7
+|_    <html><head><title>Oops</title><body><h1>Oops</h1><p>Well, that didn't go as we had expected.</p><p>This error has been logged.</p></body></html>
+7676/tcp  open  java-message-service Java Message Service 301
+7680/tcp  open  tcpwrapped
+8080/tcp  open  http                 Sun GlassFish Open Source Edition  4.1
+|_http-server-header: GlassFish Server Open Source Edition  4.1 
+| http-methods: 
+|_  Potentially risky methods: PUT DELETE TRACE
+|_http-title: Data Web
+8181/tcp  open  ssl/http             Sun GlassFish Open Source Edition  4.1
+| ssl-cert: Subject: commonName=localhost/organizationName=Oracle Corporation/stateOrProvinceName=California/countryName=US
+| Not valid before: 2014-08-21T13:30:10
+|_Not valid after:  2024-08-18T13:30:10
+|_ssl-date: TLS randomness does not represent time
+| http-methods: 
+|_  Potentially risky methods: PUT DELETE TRACE
+|_http-server-header: GlassFish Server Open Source Edition  4.1 
+|_http-title: Data Web
+8686/tcp  open  java-rmi             Java RMI
+| rmi-dumpregistry: 
+|   Fishyyy/7676/jmxrmi
+|     javax.management.remote.rmi.RMIServerImpl_Stub
+|     @169.254.139.35:49715
+|     extends
+|       java.rmi.server.RemoteStub
+|       extends
+|         java.rmi.server.RemoteObject
+|   jmxrmi
+|     javax.management.remote.rmi.RMIServerImpl_Stub
+|     @169.254.139.35:8686
+|     extends
+|       java.rmi.server.RemoteStub
+|       extends
+|_        java.rmi.server.RemoteObject
+49664/tcp open  msrpc                Microsoft Windows RPC
+49665/tcp open  msrpc                Microsoft Windows RPC
+49666/tcp open  msrpc                Microsoft Windows RPC
+49667/tcp open  msrpc                Microsoft Windows RPC
+49668/tcp open  msrpc                Microsoft Windows RPC
+49669/tcp open  msrpc                Microsoft Windows RPC
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port6060-TCP:V=7.92%I=7%D=7/13%Time=62CF054A%P=x86_64-pc-linux-gnu%r(Ja
+SF:vaRMI,139,"HTTP/1\.1\x20400\x20\r\nContent-Type:\x20text/html;charset=u
+SF:tf-8\r\nContent-Length:\x20145\r\nDate:\x20Fri,\x2029\x20Oct\x202021\x2
+SF:015:47:57\x20GMT\r\nConnection:\x20close\r\nServer:\x20Synametrics\x20W
+SF:eb\x20Server\x20v7\r\n\r\n<html><head><title>Oops</title><body><h1>Oops
+SF:</h1><p>Well,\x20that\x20didn't\x20go\x20as\x20we\x20had\x20expected\.<
+SF:/p><p>This\x20error\x20has\x20been\x20logged\.</p></body></html>")%r(Ge
+SF:tRequest,2A4,"HTTP/1\.1\x20200\x20\r\nAccept-Ranges:\x20bytes\r\nETag:\
+SF:x20W/\"425-1267803922000\"\r\nLast-Modified:\x20Fri,\x2005\x20Mar\x2020
+SF:10\x2015:45:22\x20GMT\r\nContent-Type:\x20text/html\r\nContent-Length:\
+SF:x20425\r\nDate:\x20Fri,\x2029\x20Oct\x202021\x2015:48:02\x20GMT\r\nConn
+SF:ection:\x20close\r\nServer:\x20Synametrics\x20Web\x20Server\x20v7\r\n\r
+SF:\n<html>\r\n<head>\r\n<META\x20HTTP-EQUIV=\"REFRESH\"\x20CONTENT=\"1;UR
+SF:L=app\">\r\n</head>\r\n<body>\r\n\r\n<script\x20type=\"text/javascript\
+SF:">\r\n<!--\r\n\r\nvar\x20currentLocation\x20=\x20window\.location\.path
+SF:name;\r\nif\(currentLocation\.charAt\(currentLocation\.length\x20-\x201
+SF:\)\x20==\x20\"/\"\){\r\n\twindow\.location\x20=\x20window\.location\x20
+SF:\+\x20\"app\";\r\n}else{\r\n\twindow\.location\x20=\x20window\.location
+SF:\x20\+\x20\"/app\";\r\n}\x20\r\n//-->\r\n</script>\r\n\r\nLoading\x20Ad
+SF:ministration\x20console\.\x20Please\x20wait\.\.\.\r\n</body>\r\n</html>
+SF:")%r(HTTPOptions,14D3,"HTTP/1\.1\x20403\x20\r\nCache-Control:\x20privat
+SF:e\r\nExpires:\x20Thu,\x2001\x20Jan\x201970\x2000:00:00\x20GMT\r\nSet-Co
+SF:okie:\x20JSESSIONID=9ACC0F3F107974837660369856735EAB;\x20Path=/\r\nCont
+SF:ent-Type:\x20text/html;charset=ISO-8859-1\r\nContent-Length:\x205028\r\
+SF:nDate:\x20Fri,\x2029\x20Oct\x202021\x2015:48:06\x20GMT\r\nConnection:\x
+SF:20close\r\nServer:\x20Synametrics\x20Web\x20Server\x20v7\r\n\r\n<!DOCTY
+SF:PE\x20html>\r\n\r\n\r\n<html>\r\n<head>\r\n<meta\x20http-equiv=\"conten
+SF:t-type\"\x20content=\"text/html;\x20charset=UTF-8\"\x20/>\r\n<title>\r\
+SF:nSynaMan\x20-\x20Synametrics\x20File\x20Manager\x20-\x20Version:\x205\.
+SF:1\x20-\x20build\x201595\x20\r\n</title>\r\n\r\n\r\n<meta\x20NAME=\"Desc
+SF:ription\"\x20CONTENT=\"SynaMan\x20-\x20Synametrics\x20File\x20Manager\"
+SF:\x20/>\r\n<meta\x20NAME=\"Keywords\"\x20CONTENT=\"SynaMan\x20-\x20Synam
+SF:etrics\x20File\x20Manager\"\x20/>\r\n\r\n\r\n<meta\x20http-equiv=\"X-UA
+SF:-Compatible\"\x20content=\"IE=10\"\x20/>\r\n\r\n\r\n\r\n<link\x20rel=\"
+SF:icon\"\x20type=\"image/png\"\x20href=\"images/favicon\.png\">\r\n\x20\r
+SF:\n\x20\r\n\r\n<link\x20type=\"text/css\"\x20rel=\"stylesheet\"\x20href=
+SF:\"images/AjaxFileExplorer\.css\">\r\n\r\n\r\n\r\n<link\x20rel=\"stylesh
+SF:eet\"\x20type=\"text/css\"\x20");
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-time: 
+|   date: 2021-10-29T15:50:34
+|_  start_date: N/A
+| smb2-security-mode: 
+|   3.1.1: 
+|_    Message signing enabled but not required
+|_clock-skew: mean: -257d01h59m57s, deviation: 0s, median: -257d01h59m58s
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 215.42 seconds

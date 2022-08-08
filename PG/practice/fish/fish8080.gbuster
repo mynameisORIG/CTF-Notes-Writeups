@@ -1,0 +1,21 @@
+===============================================================
+Gobuster v3.1.0
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://192.168.143.168:8080
+[+] Method:                  GET
+[+] Threads:                 50
+[+] Wordlist:                /usr/share/wordlists/dirb/common.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.1.0
+[+] Timeout:                 10s
+===============================================================
+2022/07/13 14:24:57 Starting gobuster in directory enumeration mode
+===============================================================
+/css                  (Status: 301) [Size: 182] [--> http://192.168.143.168:8080/css/]
+/images               (Status: 301) [Size: 185] [--> http://192.168.143.168:8080/images/]
+/index.html           (Status: 200) [Size: 12113]                                        
+/js                   (Status: 301) [Size: 181] [--> http://192.168.143.168:8080/js/]    
+===============================================================
+2022/07/13 14:25:00 Finished
+===============================================================

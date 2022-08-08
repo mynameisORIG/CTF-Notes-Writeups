@@ -1,0 +1,58 @@
+Starting Nmap 7.92 ( https://nmap.org ) at 2022-05-03 20:54 EDT
+Nmap scan report for 192.168.62.45
+Host is up (0.023s latency).
+Not shown: 65523 closed tcp ports (conn-refused)
+PORT      STATE SERVICE            VERSION
+80/tcp    open  http               GoAhead WebServer
+|_http-server-header: GoAhead-Webs
+| http-title: HP Power Manager
+|_Requested resource was http://192.168.62.45/index.asp
+135/tcp   open  msrpc              Microsoft Windows RPC
+139/tcp   open  netbios-ssn        Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds       Windows 7 Ultimate N 7600 microsoft-ds (workgroup: WORKGROUP)
+3389/tcp  open  ssl/ms-wbt-server?
+| rdp-ntlm-info: 
+|   Target_Name: KEVIN
+|   NetBIOS_Domain_Name: KEVIN
+|   NetBIOS_Computer_Name: KEVIN
+|   DNS_Domain_Name: kevin
+|   DNS_Computer_Name: kevin
+|   Product_Version: 6.1.7600
+|_  System_Time: 2022-05-04T00:55:42+00:00
+| ssl-cert: Subject: commonName=kevin
+| Not valid before: 2022-05-03T00:51:02
+|_Not valid after:  2022-11-02T00:51:02
+|_ssl-date: 2022-05-04T00:55:53+00:00; -19s from scanner time.
+3573/tcp  open  tag-ups-1?
+49152/tcp open  msrpc              Microsoft Windows RPC
+49153/tcp open  msrpc              Microsoft Windows RPC
+49154/tcp open  msrpc              Microsoft Windows RPC
+49155/tcp open  msrpc              Microsoft Windows RPC
+49158/tcp open  msrpc              Microsoft Windows RPC
+49159/tcp open  msrpc              Microsoft Windows RPC
+Service Info: Host: KEVIN; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb-os-discovery: 
+|   OS: Windows 7 Ultimate N 7600 (Windows 7 Ultimate N 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_7::-
+|   Computer name: kevin
+|   NetBIOS computer name: KEVIN\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2022-05-03T17:55:42-07:00
+| smb2-security-mode: 
+|   2.1: 
+|_    Message signing enabled but not required
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+|_nbstat: NetBIOS name: KEVIN, NetBIOS user: <unknown>, NetBIOS MAC: 00:50:56:bf:20:e3 (VMware)
+| smb2-time: 
+|   date: 2022-05-04T00:55:42
+|_  start_date: 2022-05-04T00:51:26
+|_clock-skew: mean: 1h23m41s, deviation: 3h07m50s, median: -19s
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 103.18 seconds

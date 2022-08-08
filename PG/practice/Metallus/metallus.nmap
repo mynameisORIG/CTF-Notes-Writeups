@@ -1,0 +1,157 @@
+Starting Nmap 7.92 ( https://nmap.org ) at 2022-04-25 18:38 EDT
+Nmap scan report for 192.168.234.96
+Host is up (0.032s latency).
+Not shown: 65517 filtered tcp ports (no-response)
+PORT      STATE SERVICE       VERSION
+135/tcp   open  msrpc         Microsoft Windows RPC
+139/tcp   open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds?
+5040/tcp  open  unknown
+7680/tcp  open  tcpwrapped
+12000/tcp open  cce4x?
+| fingerprint-strings: 
+|   Kerberos, SMBProgNeg: 
+|_    RECONNECT
+22222/tcp open  ssh           OpenSSH for_Windows_8.1 (protocol 2.0)
+| ssh-hostkey: 
+|   3072 5b:1b:c7:30:66:22:2a:22:fd:a3:68:6e:56:1c:6d:86 (RSA)
+|   256 fa:eb:c9:3a:2b:c8:3c:08:95:1c:7d:5d:75:29:ac:b2 (ECDSA)
+|_  256 57:9d:ca:b4:93:7d:cd:5e:3f:b7:b1:a5:bd:f5:44:bf (ED25519)
+40443/tcp open  unknown
+| fingerprint-strings: 
+|   DNSStatusRequestTCP, DNSVersionBindReqTCP, Help: 
+|     HTTP/1.1 500 
+|     Transfer-Encoding: chunked
+|     Date: Mon, 25 Apr 2022 22:41:36 GMT
+|     Connection: close
+|     Server: AppManager
+|   FourOhFourRequest: 
+|     HTTP/1.1 404 
+|     Set-Cookie: JSESSIONID_APM_40443=B6A2FD583B05586840122546DCCB12C4; Path=/; HttpOnly
+|     Content-Type: text/html;charset=UTF-8
+|     Content-Length: 973
+|     Date: Mon, 25 Apr 2022 22:41:42 GMT
+|     Connection: close
+|     Server: AppManager
+|     <!DOCTYPE html>
+|     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+|     <html>
+|     <head>
+|     <title>Applications Manager</title>
+|     <link REL="SHORTCUT ICON" HREF="/favicon.ico">
+|     <!-- Includes commonstyle CSS and dynamic style sheet bases on user selection -->
+|     <link href="/images/commonstyle.css?rev=14440" rel="stylesheet" type="text/css">
+|     <link href="/images/newUI/newCommonstyle.css?rev=14260" rel="stylesheet" type="text/css">
+|     <link href="/images/Grey/style.css?rev=14030" rel="stylesheet" type="text/css">
+|     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+|     </head>
+|     <body bgcolor="#FFFFFF" leftmargin="0" t
+|   Kerberos, SMBProgNeg: 
+|     HTTP/1.1 500 
+|     Transfer-Encoding: chunked
+|     Date: Mon, 25 Apr 2022 22:41:39 GMT
+|     Connection: close
+|     Server: AppManager
+|   SSLSessionReq, TLSSessionReq, TerminalServerCookie: 
+|     HTTP/1.1 500 
+|     Transfer-Encoding: chunked
+|     Date: Mon, 25 Apr 2022 22:41:38 GMT
+|     Connection: close
+|     Server: AppManager
+|   X11Probe: 
+|     HTTP/1.1 500 
+|     Transfer-Encoding: chunked
+|     Date: Mon, 25 Apr 2022 22:41:41 GMT
+|     Connection: close
+|_    Server: AppManager
+49664/tcp open  msrpc         Microsoft Windows RPC
+49665/tcp open  msrpc         Microsoft Windows RPC
+49666/tcp open  msrpc         Microsoft Windows RPC
+49667/tcp open  msrpc         Microsoft Windows RPC
+49668/tcp open  msrpc         Microsoft Windows RPC
+49669/tcp open  msrpc         Microsoft Windows RPC
+49691/tcp open  java-rmi      Java RMI
+49717/tcp open  unknown
+49780/tcp open  unknown
+| fingerprint-strings: 
+|   Kerberos, SMBProgNeg, X11Probe, ms-sql-s: 
+|_    CLOSE_SESSION
+49781/tcp open  unknown
+| fingerprint-strings: 
+|   Kerberos, SMBProgNeg, X11Probe, ms-sql-s: 
+|_    CLOSE_SESSION
+4 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port12000-TCP:V=7.92%I=7%D=4/25%Time=626723C9%P=x86_64-pc-linux-gnu%r(K
+SF:erberos,16,"\0\0\0\x12\0\tRECONNECT\0\x010\0\0\0\0")%r(SMBProgNeg,16,"\
+SF:0\0\0\x12\0\tRECONNECT\0\x010\0\0\0\0");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port40443-TCP:V=7.92%I=7%D=4/25%Time=626723A2%P=x86_64-pc-linux-gnu%r(D
+SF:NSVersionBindReqTCP,7E,"HTTP/1\.1\x20500\x20\r\nTransfer-Encoding:\x20c
+SF:hunked\r\nDate:\x20Mon,\x2025\x20Apr\x202022\x2022:41:36\x20GMT\r\nConn
+SF:ection:\x20close\r\nServer:\x20AppManager\r\n\r\n0\r\n\r\n")%r(DNSStatu
+SF:sRequestTCP,7E,"HTTP/1\.1\x20500\x20\r\nTransfer-Encoding:\x20chunked\r
+SF:\nDate:\x20Mon,\x2025\x20Apr\x202022\x2022:41:36\x20GMT\r\nConnection:\
+SF:x20close\r\nServer:\x20AppManager\r\n\r\n0\r\n\r\n")%r(Help,7E,"HTTP/1\
+SF:.1\x20500\x20\r\nTransfer-Encoding:\x20chunked\r\nDate:\x20Mon,\x2025\x
+SF:20Apr\x202022\x2022:41:36\x20GMT\r\nConnection:\x20close\r\nServer:\x20
+SF:AppManager\r\n\r\n0\r\n\r\n")%r(SSLSessionReq,7E,"HTTP/1\.1\x20500\x20\
+SF:r\nTransfer-Encoding:\x20chunked\r\nDate:\x20Mon,\x2025\x20Apr\x202022\
+SF:x2022:41:38\x20GMT\r\nConnection:\x20close\r\nServer:\x20AppManager\r\n
+SF:\r\n0\r\n\r\n")%r(TerminalServerCookie,7E,"HTTP/1\.1\x20500\x20\r\nTran
+SF:sfer-Encoding:\x20chunked\r\nDate:\x20Mon,\x2025\x20Apr\x202022\x2022:4
+SF:1:38\x20GMT\r\nConnection:\x20close\r\nServer:\x20AppManager\r\n\r\n0\r
+SF:\n\r\n")%r(TLSSessionReq,7E,"HTTP/1\.1\x20500\x20\r\nTransfer-Encoding:
+SF:\x20chunked\r\nDate:\x20Mon,\x2025\x20Apr\x202022\x2022:41:38\x20GMT\r\
+SF:nConnection:\x20close\r\nServer:\x20AppManager\r\n\r\n0\r\n\r\n")%r(Ker
+SF:beros,7E,"HTTP/1\.1\x20500\x20\r\nTransfer-Encoding:\x20chunked\r\nDate
+SF::\x20Mon,\x2025\x20Apr\x202022\x2022:41:39\x20GMT\r\nConnection:\x20clo
+SF:se\r\nServer:\x20AppManager\r\n\r\n0\r\n\r\n")%r(SMBProgNeg,7E,"HTTP/1\
+SF:.1\x20500\x20\r\nTransfer-Encoding:\x20chunked\r\nDate:\x20Mon,\x2025\x
+SF:20Apr\x202022\x2022:41:39\x20GMT\r\nConnection:\x20close\r\nServer:\x20
+SF:AppManager\r\n\r\n0\r\n\r\n")%r(X11Probe,7E,"HTTP/1\.1\x20500\x20\r\nTr
+SF:ansfer-Encoding:\x20chunked\r\nDate:\x20Mon,\x2025\x20Apr\x202022\x2022
+SF::41:41\x20GMT\r\nConnection:\x20close\r\nServer:\x20AppManager\r\n\r\n0
+SF:\r\n\r\n")%r(FourOhFourRequest,4BB,"HTTP/1\.1\x20404\x20\r\nSet-Cookie:
+SF:\x20JSESSIONID_APM_40443=B6A2FD583B05586840122546DCCB12C4;\x20Path=/;\x
+SF:20HttpOnly\r\nContent-Type:\x20text/html;charset=UTF-8\r\nContent-Lengt
+SF:h:\x20973\r\nDate:\x20Mon,\x2025\x20Apr\x202022\x2022:41:42\x20GMT\r\nC
+SF:onnection:\x20close\r\nServer:\x20AppManager\r\n\r\n<!DOCTYPE\x20html>\
+SF:n\n<meta\x20http-equiv=\"X-UA-Compatible\"\x20content=\"IE=edge\">\n\n\
+SF:n\n\n\n\n\n\n\n\n<html>\n<head>\n<title>Applications\x20Manager</title>
+SF:\n\n<link\x20REL=\"SHORTCUT\x20ICON\"\x20HREF=\"/favicon\.ico\">\n\n<!-
+SF:-\x20Includes\x20commonstyle\x20CSS\x20and\x20dynamic\x20style\x20sheet
+SF:\x20bases\x20on\x20user\x20selection\x20-->\n\n<link\x20href=\"/images/
+SF:commonstyle\.css\?rev=14440\"\x20rel=\"stylesheet\"\x20type=\"text/css\
+SF:">\n\n\x20\x20\x20\x20\n\x20\x20\x20\x20\n\x20\x20\x20\x20\x20\x20\x20\
+SF:x20<link\x20href=\"/images/newUI/newCommonstyle\.css\?rev=14260\"\x20re
+SF:l=\"stylesheet\"\x20type=\"text/css\">\n\x20\x20\x20\x20\n\n<link\x20hr
+SF:ef=\"/images/Grey/style\.css\?rev=14030\"\x20rel=\"stylesheet\"\x20type
+SF:=\"text/css\">\n\n<meta\x20http-equiv=\"Content-Type\"\x20content=\"tex
+SF:t/html;\x20charset=iso-8859-1\">\n</head>\n\n<body\x20bgcolor=\"#FFFFFF
+SF:\"\x20leftmargin=\"0\"\x20t");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port49780-TCP:V=7.92%I=7%D=4/25%Time=626723B9%P=x86_64-pc-linux-gnu%r(K
+SF:erberos,1A,"\0\0\0\x16\0\rCLOSE_SESSION\0\x010\0\0\0\0")%r(SMBProgNeg,1
+SF:A,"\0\0\0\x16\0\rCLOSE_SESSION\0\x010\0\0\0\0")%r(X11Probe,1A,"\0\0\0\x
+SF:16\0\rCLOSE_SESSION\0\x010\0\0\0\0")%r(ms-sql-s,1A,"\0\0\0\x16\0\rCLOSE
+SF:_SESSION\0\x010\0\0\0\0");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port49781-TCP:V=7.92%I=7%D=4/25%Time=626723BB%P=x86_64-pc-linux-gnu%r(K
+SF:erberos,1A,"\0\0\0\x16\0\rCLOSE_SESSION\0\x010\0\0\0\0")%r(SMBProgNeg,1
+SF:A,"\0\0\0\x16\0\rCLOSE_SESSION\0\x010\0\0\0\0")%r(X11Probe,1A,"\0\0\0\x
+SF:16\0\rCLOSE_SESSION\0\x010\0\0\0\0")%r(ms-sql-s,1A,"\0\0\0\x16\0\rCLOSE
+SF:_SESSION\0\x010\0\0\0\0");
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: -2s
+| smb2-time: 
+|   date: 2022-04-25T22:43:44
+|_  start_date: N/A
+| smb2-security-mode: 
+|   3.1.1: 
+|_    Message signing enabled but not required
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 345.27 seconds

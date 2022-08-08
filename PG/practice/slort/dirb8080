@@ -1,0 +1,41 @@
+===============================================================
+Gobuster v3.1.0
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://192.168.232.53:8080
+[+] Method:                  GET
+[+] Threads:                 50
+[+] Wordlist:                /usr/share/wordlists/dirb/common.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.1.0
+[+] Timeout:                 10s
+===============================================================
+2022/04/18 13:53:53 Starting gobuster in directory enumeration mode
+===============================================================
+/.hta                 (Status: 403) [Size: 1046]
+/.htpasswd            (Status: 403) [Size: 1046]
+/.htaccess            (Status: 403) [Size: 1046]
+/aux                  (Status: 403) [Size: 1046]
+/cgi-bin/             (Status: 403) [Size: 1060]
+/com2                 (Status: 403) [Size: 1046]
+/com3                 (Status: 403) [Size: 1046]
+/com1                 (Status: 403) [Size: 1046]
+/con                  (Status: 403) [Size: 1046]
+/dashboard            (Status: 301) [Size: 351] [--> http://192.168.232.53:8080/dashboard/]
+/favicon.ico          (Status: 200) [Size: 30894]                                          
+/img                  (Status: 301) [Size: 345] [--> http://192.168.232.53:8080/img/]      
+/index.php            (Status: 302) [Size: 0] [--> http://192.168.232.53:8080/dashboard/]  
+/licenses             (Status: 403) [Size: 1205]                                           
+/lpt1                 (Status: 403) [Size: 1046]                                           
+/lpt2                 (Status: 403) [Size: 1046]                                           
+/examples             (Status: 503) [Size: 1060]                                           
+/nul                  (Status: 403) [Size: 1046]                                           
+/phpmyadmin           (Status: 403) [Size: 1205]                                           
+/prn                  (Status: 403) [Size: 1046]                                           
+/server-info          (Status: 403) [Size: 1205]                                           
+/site                 (Status: 301) [Size: 346] [--> http://192.168.232.53:8080/site/]     
+/server-status        (Status: 403) [Size: 1205]                                           
+/webalizer            (Status: 403) [Size: 1046]                                           
+===============================================================
+2022/04/18 13:54:01 Finished
+===============================================================

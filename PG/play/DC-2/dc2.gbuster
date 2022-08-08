@@ -1,0 +1,26 @@
+===============================================================
+Gobuster v3.1.0
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://dc-2
+[+] Method:                  GET
+[+] Threads:                 50
+[+] Wordlist:                /usr/share/wordlists/dirb/common.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.1.0
+[+] Timeout:                 10s
+===============================================================
+2022/07/02 13:57:18 Starting gobuster in directory enumeration mode
+===============================================================
+/.htaccess            (Status: 403) [Size: 288]
+/.hta                 (Status: 403) [Size: 283]
+/.htpasswd            (Status: 403) [Size: 288]
+/index.php            (Status: 301) [Size: 0] [--> http://dc-2/]
+/server-status        (Status: 403) [Size: 292]                 
+/wp-admin             (Status: 301) [Size: 299] [--> http://dc-2/wp-admin/]
+/wp-content           (Status: 301) [Size: 301] [--> http://dc-2/wp-content/]
+/wp-includes          (Status: 301) [Size: 302] [--> http://dc-2/wp-includes/]
+/xmlrpc.php           (Status: 405) [Size: 42]                                
+===============================================================
+2022/07/02 13:57:24 Finished
+===============================================================

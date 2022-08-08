@@ -1,0 +1,41 @@
+===============================================================
+Gobuster v3.1.0
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://192.168.247.169
+[+] Method:                  GET
+[+] Threads:                 50
+[+] Wordlist:                /usr/share/wordlists/dirb/common.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.1.0
+[+] Timeout:                 10s
+===============================================================
+2022/05/07 14:17:11 Starting gobuster in directory enumeration mode
+===============================================================
+/.hta                 (Status: 403) [Size: 304]
+/.htaccess            (Status: 403) [Size: 304]
+/.htpasswd            (Status: 403) [Size: 304]
+/assets               (Status: 301) [Size: 343] [--> http://192.168.247.169/assets/]
+/aux                  (Status: 403) [Size: 304]                                     
+/cgi-bin/             (Status: 403) [Size: 304]                                     
+/com1                 (Status: 403) [Size: 304]                                     
+/com3                 (Status: 403) [Size: 304]                                     
+/com2                 (Status: 403) [Size: 304]                                     
+/con                  (Status: 403) [Size: 304]                                     
+/css                  (Status: 301) [Size: 340] [--> http://192.168.247.169/css/]   
+/index.php            (Status: 200) [Size: 9635]                                    
+/js                   (Status: 301) [Size: 339] [--> http://192.168.247.169/js/]    
+/licenses             (Status: 403) [Size: 423]                                     
+/lpt1                 (Status: 403) [Size: 304]                                     
+/lpt2                 (Status: 403) [Size: 304]                                     
+/nul                  (Status: 403) [Size: 304]                                     
+/phpmyadmin           (Status: 403) [Size: 423]                                     
+/prn                  (Status: 403) [Size: 304]                                     
+/server-info          (Status: 403) [Size: 423]                                     
+/server-status        (Status: 403) [Size: 423]                                     
+/examples             (Status: 503) [Size: 404]                                     
+/uploads              (Status: 301) [Size: 344] [--> http://192.168.247.169/uploads/]
+/webalizer            (Status: 403) [Size: 423]                                      
+===============================================================
+2022/05/07 14:17:13 Finished
+===============================================================

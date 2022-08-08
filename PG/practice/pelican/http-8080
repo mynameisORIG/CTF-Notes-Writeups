@@ -1,0 +1,18 @@
+===============================================================
+Gobuster v3.1.0
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://192.168.62.98:8080/
+[+] Method:                  GET
+[+] Threads:                 50
+[+] Wordlist:                /usr/share/wordlists/dirb/common.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.1.0
+[+] Timeout:                 10s
+===============================================================
+2022/05/03 18:54:02 Starting gobuster in directory enumeration mode
+===============================================================
+/application.wadl     (Status: 200) [Size: 18900]
+===============================================================
+2022/05/03 18:54:04 Finished
+===============================================================

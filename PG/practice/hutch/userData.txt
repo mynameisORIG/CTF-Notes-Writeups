@@ -1,0 +1,507 @@
+# extended LDIF
+#
+# LDAPv3
+# base <DC=hutch,DC=offsec> with scope subtree
+# filter: (objectClass=person)
+# requesting: ALL
+#
+
+# Guest, Users, hutch.offsec
+dn: CN=Guest,CN=Users,DC=hutch,DC=offsec
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Guest
+description: Built-in account for guest access to the computer/domain
+distinguishedName: CN=Guest,CN=Users,DC=hutch,DC=offsec
+instanceType: 4
+whenCreated: 20201104052540.0Z
+whenChanged: 20201104052540.0Z
+uSNCreated: 8197
+memberOf: CN=Guests,CN=Builtin,DC=hutch,DC=offsec
+uSNChanged: 8197
+name: Guest
+objectGUID:: VKtEAAOQ8ki8PKRBs7xH+A==
+userAccountControl: 66082
+badPwdCount: 0
+codePage: 0
+countryCode: 0
+badPasswordTime: 0
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 0
+primaryGroupID: 514
+objectSid:: AQUAAAAAAAUVAAAARZojhOF3UxtpokGn9QEAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: Guest
+sAMAccountType: 805306368
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=hutch,DC=offsec
+isCriticalSystemObject: TRUE
+dSCorePropagationData: 20201104053513.0Z
+dSCorePropagationData: 20201104052623.0Z
+dSCorePropagationData: 16010101000417.0Z
+
+# Rosaline Placidi, Users, hutch.offsec
+dn: CN=Rosaline Placidi,CN=Users,DC=hutch,DC=offsec
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Rosaline Placidi
+distinguishedName: CN=Rosaline Placidi,CN=Users,DC=hutch,DC=offsec
+instanceType: 4
+whenCreated: 20201104053505.0Z
+whenChanged: 20201104053505.0Z
+uSNCreated: 12759
+uSNChanged: 12763
+name: Rosaline Placidi
+objectGUID:: ZnXcaol0h0O06eCHssgsaw==
+userAccountControl: 512
+badPwdCount: 0
+codePage: 0
+countryCode: 0
+badPasswordTime: 0
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 132489417051062737
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAARZojhOF3UxtpokGnTwQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: rplacidi
+sAMAccountType: 805306368
+userPrincipalName: rplacidi@hutch.offsec
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=hutch,DC=offsec
+dSCorePropagationData: 20201104053513.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Otto Patry, Users, hutch.offsec
+dn: CN=Otto Patry,CN=Users,DC=hutch,DC=offsec
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Otto Patry
+distinguishedName: CN=Otto Patry,CN=Users,DC=hutch,DC=offsec
+instanceType: 4
+whenCreated: 20201104053505.0Z
+whenChanged: 20201104053505.0Z
+uSNCreated: 12765
+uSNChanged: 12769
+name: Otto Patry
+objectGUID:: Z/B36x+G7EKQOh7bdq2Gdg==
+userAccountControl: 512
+badPwdCount: 0
+codePage: 0
+countryCode: 0
+badPasswordTime: 0
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 132489417052162728
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAARZojhOF3UxtpokGnUAQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: opatry
+sAMAccountType: 805306368
+userPrincipalName: opatry@hutch.offsec
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=hutch,DC=offsec
+dSCorePropagationData: 20201104053513.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Lyndsie Taunton, Users, hutch.offsec
+dn: CN=Lyndsie Taunton,CN=Users,DC=hutch,DC=offsec
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Lyndsie Taunton
+distinguishedName: CN=Lyndsie Taunton,CN=Users,DC=hutch,DC=offsec
+instanceType: 4
+whenCreated: 20201104053505.0Z
+whenChanged: 20201104053505.0Z
+uSNCreated: 12771
+uSNChanged: 12775
+name: Lyndsie Taunton
+objectGUID:: osEKgirap0C06Opb/Wc8lQ==
+userAccountControl: 512
+badPwdCount: 0
+codePage: 0
+countryCode: 0
+badPasswordTime: 0
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 132489417052642725
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAARZojhOF3UxtpokGnUQQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: ltaunton
+sAMAccountType: 805306368
+userPrincipalName: ltaunton@hutch.offsec
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=hutch,DC=offsec
+dSCorePropagationData: 20201104053513.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Arlyn Costello, Users, hutch.offsec
+dn: CN=Arlyn Costello,CN=Users,DC=hutch,DC=offsec
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Arlyn Costello
+distinguishedName: CN=Arlyn Costello,CN=Users,DC=hutch,DC=offsec
+instanceType: 4
+whenCreated: 20201104053505.0Z
+whenChanged: 20201104053505.0Z
+uSNCreated: 12777
+uSNChanged: 12781
+name: Arlyn Costello
+objectGUID:: OdMef64Ah0apX2/LyqiHYA==
+userAccountControl: 512
+badPwdCount: 0
+codePage: 0
+countryCode: 0
+badPasswordTime: 0
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 132489417053152725
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAARZojhOF3UxtpokGnUgQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: acostello
+sAMAccountType: 805306368
+userPrincipalName: acostello@hutch.offsec
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=hutch,DC=offsec
+dSCorePropagationData: 20201104053513.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Johnnie Sparwell, Users, hutch.offsec
+dn: CN=Johnnie Sparwell,CN=Users,DC=hutch,DC=offsec
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Johnnie Sparwell
+distinguishedName: CN=Johnnie Sparwell,CN=Users,DC=hutch,DC=offsec
+instanceType: 4
+whenCreated: 20201104053505.0Z
+whenChanged: 20201104053505.0Z
+uSNCreated: 12783
+uSNChanged: 12787
+name: Johnnie Sparwell
+objectGUID:: y1RU3ceaqEyn1XecBNhkVQ==
+userAccountControl: 512
+badPwdCount: 0
+codePage: 0
+countryCode: 0
+badPasswordTime: 0
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 132489417053772722
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAARZojhOF3UxtpokGnUwQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: jsparwell
+sAMAccountType: 805306368
+userPrincipalName: jsparwell@hutch.offsec
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=hutch,DC=offsec
+dSCorePropagationData: 20201104053513.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Ottilie Knee, Users, hutch.offsec
+dn: CN=Ottilie Knee,CN=Users,DC=hutch,DC=offsec
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Ottilie Knee
+distinguishedName: CN=Ottilie Knee,CN=Users,DC=hutch,DC=offsec
+instanceType: 4
+whenCreated: 20201104053505.0Z
+whenChanged: 20201104053505.0Z
+uSNCreated: 12789
+uSNChanged: 12793
+name: Ottilie Knee
+objectGUID:: /bMvDx/e506T4lQ+rB8/FA==
+userAccountControl: 512
+badPwdCount: 0
+codePage: 0
+countryCode: 0
+badPasswordTime: 0
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 132489417054332736
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAARZojhOF3UxtpokGnVAQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: oknee
+sAMAccountType: 805306368
+userPrincipalName: oknee@hutch.offsec
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=hutch,DC=offsec
+dSCorePropagationData: 20201104053513.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Joan McKendry, Users, hutch.offsec
+dn: CN=Joan McKendry,CN=Users,DC=hutch,DC=offsec
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Joan McKendry
+distinguishedName: CN=Joan McKendry,CN=Users,DC=hutch,DC=offsec
+instanceType: 4
+whenCreated: 20201104053505.0Z
+whenChanged: 20201104053505.0Z
+uSNCreated: 12795
+uSNChanged: 12799
+name: Joan McKendry
+objectGUID:: awivgHuoDEKrRWtvGV31rQ==
+userAccountControl: 512
+badPwdCount: 0
+codePage: 0
+countryCode: 0
+badPasswordTime: 0
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 132489417054922729
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAARZojhOF3UxtpokGnVQQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: jmckendry
+sAMAccountType: 805306368
+userPrincipalName: jmckendry@hutch.offsec
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=hutch,DC=offsec
+dSCorePropagationData: 20201104053513.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Alexia Victoria, Users, hutch.offsec
+dn: CN=Alexia Victoria,CN=Users,DC=hutch,DC=offsec
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Alexia Victoria
+distinguishedName: CN=Alexia Victoria,CN=Users,DC=hutch,DC=offsec
+instanceType: 4
+whenCreated: 20201104053505.0Z
+whenChanged: 20201104053505.0Z
+uSNCreated: 12801
+uSNChanged: 12805
+name: Alexia Victoria
+objectGUID:: pYkiH0wnEUGtTvJmed1oTQ==
+userAccountControl: 512
+badPwdCount: 0
+codePage: 0
+countryCode: 0
+badPasswordTime: 0
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 132489417055452791
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAARZojhOF3UxtpokGnVgQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: avictoria
+sAMAccountType: 805306368
+userPrincipalName: avictoria@hutch.offsec
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=hutch,DC=offsec
+dSCorePropagationData: 20201104053513.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Jane Frarey, Users, hutch.offsec
+dn: CN=Jane Frarey,CN=Users,DC=hutch,DC=offsec
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Jane Frarey
+distinguishedName: CN=Jane Frarey,CN=Users,DC=hutch,DC=offsec
+instanceType: 4
+whenCreated: 20201104053505.0Z
+whenChanged: 20201104053505.0Z
+uSNCreated: 12807
+uSNChanged: 12811
+name: Jane Frarey
+objectGUID:: ixEEnk99f0WcwVSNK+e+oA==
+userAccountControl: 512
+badPwdCount: 0
+codePage: 0
+countryCode: 0
+badPasswordTime: 0
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 132489417056032732
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAARZojhOF3UxtpokGnVwQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: jfrarey
+sAMAccountType: 805306368
+userPrincipalName: jfrarey@hutch.offsec
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=hutch,DC=offsec
+dSCorePropagationData: 20201104053513.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Editha Aburrow, Users, hutch.offsec
+dn: CN=Editha Aburrow,CN=Users,DC=hutch,DC=offsec
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Editha Aburrow
+distinguishedName: CN=Editha Aburrow,CN=Users,DC=hutch,DC=offsec
+instanceType: 4
+whenCreated: 20201104053505.0Z
+whenChanged: 20201104053505.0Z
+uSNCreated: 12813
+uSNChanged: 12817
+name: Editha Aburrow
+objectGUID:: +7Byu5JQuU2TfrLSegT8VQ==
+userAccountControl: 512
+badPwdCount: 0
+codePage: 0
+countryCode: 0
+badPasswordTime: 0
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 132489417056522726
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAARZojhOF3UxtpokGnWAQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: eaburrow
+sAMAccountType: 805306368
+userPrincipalName: eaburrow@hutch.offsec
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=hutch,DC=offsec
+dSCorePropagationData: 20201104053513.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Claus Luddy, Users, hutch.offsec
+dn: CN=Claus Luddy,CN=Users,DC=hutch,DC=offsec
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Claus Luddy
+distinguishedName: CN=Claus Luddy,CN=Users,DC=hutch,DC=offsec
+instanceType: 4
+whenCreated: 20201104053505.0Z
+whenChanged: 20201104053505.0Z
+uSNCreated: 12819
+uSNChanged: 12823
+name: Claus Luddy
+objectGUID:: XXbxCiLxHkKjA7Pd0VTq1A==
+userAccountControl: 512
+badPwdCount: 0
+codePage: 0
+countryCode: 0
+badPasswordTime: 0
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 132489417057032735
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAARZojhOF3UxtpokGnWQQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: cluddy
+sAMAccountType: 805306368
+userPrincipalName: cluddy@hutch.offsec
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=hutch,DC=offsec
+dSCorePropagationData: 20201104053513.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Arthur Gitthouse, Users, hutch.offsec
+dn: CN=Arthur Gitthouse,CN=Users,DC=hutch,DC=offsec
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Arthur Gitthouse
+distinguishedName: CN=Arthur Gitthouse,CN=Users,DC=hutch,DC=offsec
+instanceType: 4
+whenCreated: 20201104053505.0Z
+whenChanged: 20201104053505.0Z
+uSNCreated: 12825
+uSNChanged: 12829
+name: Arthur Gitthouse
+objectGUID:: PQ8QTFNtw0elgPkzWaOmHA==
+userAccountControl: 512
+badPwdCount: 0
+codePage: 0
+countryCode: 0
+badPasswordTime: 0
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 132489417057602730
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAARZojhOF3UxtpokGnWgQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: agitthouse
+sAMAccountType: 805306368
+userPrincipalName: agitthouse@hutch.offsec
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=hutch,DC=offsec
+dSCorePropagationData: 20201104053513.0Z
+dSCorePropagationData: 16010101000001.0Z
+
+# Freddy McSorley, Users, hutch.offsec
+dn: CN=Freddy McSorley,CN=Users,DC=hutch,DC=offsec
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Freddy McSorley
+description: Password set to CrabSharkJellyfish192 at user's request. Please c
+ hange on next login.
+distinguishedName: CN=Freddy McSorley,CN=Users,DC=hutch,DC=offsec
+instanceType: 4
+whenCreated: 20201104053505.0Z
+whenChanged: 20210216133934.0Z
+uSNCreated: 12831
+uSNChanged: 49179
+name: Freddy McSorley
+objectGUID:: TxilGIhMVkuei6KplCd8ug==
+userAccountControl: 66048
+badPwdCount: 0
+codePage: 0
+countryCode: 0
+badPasswordTime: 132489437036308102
+lastLogoff: 0
+lastLogon: 132579563744834908
+pwdLastSet: 132489417058152751
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAARZojhOF3UxtpokGnWwQAAA==
+accountExpires: 9223372036854775807
+logonCount: 2
+sAMAccountName: fmcsorley
+sAMAccountType: 805306368
+userPrincipalName: fmcsorley@hutch.offsec
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=hutch,DC=offsec
+dSCorePropagationData: 20201104053513.0Z
+dSCorePropagationData: 16010101000001.0Z
+lastLogonTimestamp: 132579563744834908
+msDS-SupportedEncryptionTypes: 0
+
+# search reference
+ref: ldap://ForestDnsZones.hutch.offsec/DC=ForestDnsZones,DC=hutch,DC=offsec
+
+# search reference
+ref: ldap://DomainDnsZones.hutch.offsec/DC=DomainDnsZones,DC=hutch,DC=offsec
+
+# search reference
+ref: ldap://hutch.offsec/CN=Configuration,DC=hutch,DC=offsec
+
+# search result
+search: 2
+result: 0 Success
+
+# numResponses: 18
+# numEntries: 14
+# numReferences: 3
