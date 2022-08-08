@@ -1,0 +1,27 @@
+===============================================================
+Gobuster v3.1.0
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://jarvis
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /usr/share/wordlists/dirb/common.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.1.0
+[+] Timeout:                 10s
+===============================================================
+2022/07/23 13:42:33 Starting gobuster in directory enumeration mode
+===============================================================
+/.hta                 (Status: 403) [Size: 285]
+/.htpasswd            (Status: 403) [Size: 290]
+/.htaccess            (Status: 403) [Size: 290]
+/css                  (Status: 301) [Size: 298] [--> http://jarvis/css/]
+/fonts                (Status: 301) [Size: 300] [--> http://jarvis/fonts/]
+/images               (Status: 301) [Size: 301] [--> http://jarvis/images/]
+/index.php            (Status: 200) [Size: 23628]                          
+/js                   (Status: 301) [Size: 297] [--> http://jarvis/js/]    
+/phpmyadmin           (Status: 301) [Size: 305] [--> http://jarvis/phpmyadmin/]
+/server-status        (Status: 403) [Size: 294]                                
+===============================================================
+2022/07/23 13:42:41 Finished
+===============================================================

@@ -1,0 +1,6155 @@
+[{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "mynameis"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "distinguishedName": [
+            "CN=mynameis,CN=Users,DC=htb,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "memberOf": [
+            "CN=Exchange Windows Permissions,OU=Microsoft Exchange Security Groups,DC=htb,DC=local"
+        ],
+        "name": [
+            "mynameis"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{533b44fe-9351-4293-a16c-350670206817}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-9601"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2022-01-09 19:28:16.658649+00:00"
+        ],
+        "sAMAccountName": [
+            "mynameis"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            1244989
+        ],
+        "uSNCreated": [
+            1244935
+        ],
+        "userAccountControl": [
+            512
+        ],
+        "whenChanged": [
+            "2022-01-09 19:28:16+00:00"
+        ],
+        "whenCreated": [
+            "2022-01-09 19:28:16+00:00"
+        ]
+    },
+    "dn": "CN=mynameis,CN=Users,DC=htb,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "Santi Rodriguez"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:54+00:00",
+            "2022-01-09 19:31:54+00:00",
+            "2022-01-09 19:31:54+00:00",
+            "2022-01-09 19:31:54+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "displayName": [
+            "Santi Rodriguez"
+        ],
+        "distinguishedName": [
+            "CN=Santi Rodriguez,OU=Developers,OU=Information Technology,OU=Employees,DC=htb,DC=local"
+        ],
+        "givenName": [
+            "Santi"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "name": [
+            "Santi Rodriguez"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{51662955-bd3d-4116-8750-0275d849e080}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-1152"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2019-09-20 23:02:55.134827+00:00"
+        ],
+        "sAMAccountName": [
+            "santi"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "sn": [
+            "Rodriguez"
+        ],
+        "uSNChanged": [
+            28843
+        ],
+        "uSNCreated": [
+            28837
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "userPrincipalName": [
+            "santi@htb.local"
+        ],
+        "whenChanged": [
+            "2019-09-20 23:02:55+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-20 23:02:55+00:00"
+        ]
+    },
+    "dn": "CN=Santi Rodriguez,OU=Developers,OU=Information Technology,OU=Employees,DC=htb,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "Mark Brandt"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "displayName": [
+            "Mark Brandt"
+        ],
+        "distinguishedName": [
+            "CN=Mark Brandt,OU=Sysadmins,OU=Information Technology,OU=Employees,DC=htb,DC=local"
+        ],
+        "givenName": [
+            "Mark"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "name": [
+            "Mark Brandt"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{a2346d62-c59d-4ac0-8587-5fe868199ff6}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-1151"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2019-09-20 22:57:30.243568+00:00"
+        ],
+        "sAMAccountName": [
+            "mark"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "sn": [
+            "Brandt"
+        ],
+        "uSNChanged": [
+            28831
+        ],
+        "uSNCreated": [
+            28825
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "userPrincipalName": [
+            "mark@htb.local"
+        ],
+        "whenChanged": [
+            "2019-09-20 22:57:30+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-20 22:57:30+00:00"
+        ]
+    },
+    "dn": "CN=Mark Brandt,OU=Sysadmins,OU=Information Technology,OU=Employees,DC=htb,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "Andy Hislip"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "displayName": [
+            "Andy Hislip"
+        ],
+        "distinguishedName": [
+            "CN=Andy Hislip,OU=Helpdesk,OU=Information Technology,OU=Employees,DC=htb,DC=local"
+        ],
+        "givenName": [
+            "Andy"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "name": [
+            "Andy Hislip"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{b1f106c8-f894-4c61-b670-483a5a7615a6}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-1150"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2019-09-22 22:44:16.291082+00:00"
+        ],
+        "sAMAccountName": [
+            "andy"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "sn": [
+            "Hislip"
+        ],
+        "uSNChanged": [
+            32970
+        ],
+        "uSNCreated": [
+            28800
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "userPrincipalName": [
+            "andy@htb.local"
+        ],
+        "whenChanged": [
+            "2019-09-22 22:44:16+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-20 22:39:56+00:00"
+        ]
+    },
+    "dn": "CN=Andy Hislip,OU=Helpdesk,OU=Information Technology,OU=Employees,DC=htb,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "adminCount": [
+            1
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "svc-alfresco"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:54+00:00",
+            "2022-01-09 19:31:54+00:00",
+            "2022-01-09 19:31:54+00:00",
+            "2022-01-09 19:31:54+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "displayName": [
+            "svc-alfresco"
+        ],
+        "distinguishedName": [
+            "CN=svc-alfresco,OU=Service Accounts,DC=htb,DC=local"
+        ],
+        "givenName": [
+            "svc-alfresco"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "2022-01-09 18:45:34.013029+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2022-01-09 18:45:34.013029+00:00"
+        ],
+        "logonCount": [
+            7
+        ],
+        "logonHours": [
+            {
+                "encoded": "////////////////////////////",
+                "encoding": "base64"
+            }
+        ],
+        "memberOf": [
+            "CN=Service Accounts,OU=Security Groups,DC=htb,DC=local"
+        ],
+        "msDS-SupportedEncryptionTypes": [
+            0
+        ],
+        "name": [
+            "svc-alfresco"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{58a51302-4c7c-4686-9502-d3ada3afaef1}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-1147"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2022-01-09 19:31:22.299669+00:00"
+        ],
+        "sAMAccountName": [
+            "svc-alfresco"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            1255520
+        ],
+        "uSNCreated": [
+            26083
+        ],
+        "userAccountControl": [
+            4260352
+        ],
+        "userPrincipalName": [
+            "svc-alfresco@htb.local"
+        ],
+        "whenChanged": [
+            "2022-01-09 19:31:22+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-20 00:58:51+00:00"
+        ]
+    },
+    "dn": "CN=svc-alfresco,OU=Service Accounts,DC=htb,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "Lucinda Berger"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "displayName": [
+            "Lucinda Berger"
+        ],
+        "distinguishedName": [
+            "CN=Lucinda Berger,OU=IT Management,OU=Information Technology,OU=Employees,DC=htb,DC=local"
+        ],
+        "givenName": [
+            "Lucinda"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "name": [
+            "Lucinda Berger"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{ac87d1ab-bc69-47ef-8fbb-f806352379b9}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-1146"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2019-09-20 00:44:13.233891+00:00"
+        ],
+        "sAMAccountName": [
+            "lucinda"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "sn": [
+            "Berger"
+        ],
+        "uSNChanged": [
+            26068
+        ],
+        "uSNCreated": [
+            26053
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "userPrincipalName": [
+            "lucinda@htb.local"
+        ],
+        "whenChanged": [
+            "2019-09-20 00:45:55+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-20 00:44:13+00:00"
+        ]
+    },
+    "dn": "CN=Lucinda Berger,OU=IT Management,OU=Information Technology,OU=Employees,DC=htb,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "Sebastien Caron"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:54+00:00",
+            "2022-01-09 19:31:54+00:00",
+            "2022-01-09 19:31:54+00:00",
+            "2022-01-09 19:31:54+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "displayName": [
+            "Sebastien Caron"
+        ],
+        "distinguishedName": [
+            "CN=Sebastien Caron,OU=Exchange Administrators,OU=Information Technology,OU=Employees,DC=htb,DC=local"
+        ],
+        "givenName": [
+            "Sebastien"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "2019-09-22 22:29:29.586227+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2019-09-20 23:42:49.467669+00:00"
+        ],
+        "logonCount": [
+            8
+        ],
+        "name": [
+            "Sebastien Caron"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{281c9815-4d8a-427d-9df5-0905df78d06b}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-1145"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2019-09-20 00:29:59.544725+00:00"
+        ],
+        "sAMAccountName": [
+            "sebastien"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "sn": [
+            "Caron"
+        ],
+        "uSNChanged": [
+            81993
+        ],
+        "uSNCreated": [
+            26021
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "userPrincipalName": [
+            "sebastien@htb.local"
+        ],
+        "whenChanged": [
+            "2019-09-23 22:03:53+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-20 00:29:59+00:00"
+        ]
+    },
+    "dn": "CN=Sebastien Caron,OU=Exchange Administrators,OU=Information Technology,OU=Employees,DC=htb,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "HealthMailbox0659cc188f4c4f9f978f6c2142c4181e"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:54+00:00",
+            "2022-01-09 19:31:54+00:00",
+            "2022-01-09 19:31:54+00:00",
+            "2022-01-09 19:31:54+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "displayName": [
+            "HealthMailbox-EXCH01-010"
+        ],
+        "distinguishedName": [
+            "CN=HealthMailbox0659cc188f4c4f9f978f6c2142c4181e,CN=Monitoring Mailboxes,CN=Microsoft Exchange System Objects,DC=htb,DC=local"
+        ],
+        "garbageCollPeriod": [
+            1209600
+        ],
+        "homeMDB": [
+            "CN=Mailbox Database 1118319013,CN=Databases,CN=Exchange Administrative Group (FYDIBOHF23SPDLT),CN=Administrative Groups,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "internetEncoding": [
+            0
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "legacyExchangeDN": [
+            "/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=a1dc6736d3f44f68a4d46b101758b583-Healt"
+        ],
+        "logonCount": [
+            0
+        ],
+        "mDBUseDefaults": [
+            true
+        ],
+        "mail": [
+            "HealthMailbox0659cc188f4c4f9f978f6c2142c4181e@htb.local"
+        ],
+        "mailNickname": [
+            "HealthMailbox0659cc188f4c4f9f978f6c2142c4181e"
+        ],
+        "msExchAddressBookFlags": [
+            1
+        ],
+        "msExchArchiveDatabaseLink": [
+            "CN=Mailbox Database 1118319013,CN=Databases,CN=Exchange Administrative Group (FYDIBOHF23SPDLT),CN=Administrative Groups,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchArchiveGUID": [
+            {
+                "encoded": "f6CK2qKwPEewvovXhfUSVw==",
+                "encoding": "base64"
+            }
+        ],
+        "msExchArchiveName": [
+            "In-Place Archive -HealthMailbox-EXCH01-010"
+        ],
+        "msExchArchiveQuota": [
+            104857600
+        ],
+        "msExchArchiveWarnQuota": [
+            94371840
+        ],
+        "msExchBypassAudit": [
+            false
+        ],
+        "msExchCalendarLoggingQuota": [
+            6291456
+        ],
+        "msExchDumpsterQuota": [
+            31457280
+        ],
+        "msExchDumpsterWarningQuota": [
+            20971520
+        ],
+        "msExchELCMailboxFlags": [
+            2
+        ],
+        "msExchGroupSecurityFlags": [
+            0
+        ],
+        "msExchHideFromAddressLists": [
+            true
+        ],
+        "msExchHomeServerName": [
+            "/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Configuration/cn=Servers/cn=EXCH01"
+        ],
+        "msExchMDBRulesQuota": [
+            256
+        ],
+        "msExchMailboxAuditEnable": [
+            false
+        ],
+        "msExchMailboxAuditLogAgeLimit": [
+            7776000
+        ],
+        "msExchMailboxFolderSet": [
+            0
+        ],
+        "msExchMailboxGuid": [
+            {
+                "encoded": "ICk2wrR8wUeQ7zdnfgmEuQ==",
+                "encoding": "base64"
+            }
+        ],
+        "msExchMailboxSecurityDescriptor": [
+            {
+                "encoded": "AQAEgBQAAAAgAAAAAAAAACwAAAABAQAAAAAABQoAAAABAQAAAAAABQoAAAAEABwAAQAAAAACFAABAAIAAQEAAAAAAAUKAAAA",
+                "encoding": "base64"
+            }
+        ],
+        "msExchMailboxTemplateLink": [
+            "CN=Default MRM Policy,CN=Retention Policies Container,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchModerationFlags": [
+            0
+        ],
+        "msExchPoliciesExcluded": [
+            "{26491cfc-9e50-4857-861b-0cb8df22b5d7}"
+        ],
+        "msExchPoliciesIncluded": [
+            "f5cca5ec-fafc-4e09-8b7f-be05572cb7cb",
+            "{26491cfc-9e50-4857-861b-0cb8df22b5d7}"
+        ],
+        "msExchProvisioningFlags": [
+            0
+        ],
+        "msExchRBACPolicyLink": [
+            "CN=Default Role Assignment Policy,CN=Policies,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchRecipientSoftDeletedStatus": [
+            0
+        ],
+        "msExchRecipientTypeDetails": [
+            549755813888
+        ],
+        "msExchTextMessagingState": [
+            302120705,
+            16842751
+        ],
+        "msExchTransportRecipientSettingsFlags": [
+            0
+        ],
+        "msExchUMDtmfMap": [
+            "emailAddress:432584624526906592218834243939783622142241813",
+            "lastNameFirstName:4325846245269392401010",
+            "firstNameLastName:4325846245269392401010"
+        ],
+        "msExchUMEnabledFlags2": [
+            -1
+        ],
+        "msExchUserAccountControl": [
+            0
+        ],
+        "msExchVersion": [
+            88218628259840
+        ],
+        "msExchWhenMailboxCreated": [
+            "2019-09-19 11:57:58+00:00"
+        ],
+        "name": [
+            "HealthMailbox0659cc188f4c4f9f978f6c2142c4181e"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{e2532499-07e6-4c86-9f3b-9555915fa820}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-1144"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "protocolSettings": [
+            "RemotePowerShell\u00a71"
+        ],
+        "proxyAddresses": [
+            "SMTP:HealthMailbox0659cc188f4c4f9f978f6c2142c4181e@htb.local",
+            "SIP:HealthMailbox0659cc188f4c4f9f978f6c2142c4181e@htb.local"
+        ],
+        "pwdLastSet": [
+            "2019-09-19 11:57:58.643993+00:00"
+        ],
+        "sAMAccountName": [
+            "HealthMailbox0659cc1"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "showInAddressBook": [
+            "CN=All Recipients(VLV),CN=All System Address Lists,CN=Address Lists Container,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "uSNChanged": [
+            25284
+        ],
+        "uSNCreated": [
+            25277
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "userPrincipalName": [
+            "HealthMailbox0659cc188f4c4f9f978f6c2142c4181e@htb.local"
+        ],
+        "whenChanged": [
+            "2019-09-19 11:58:09+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-19 11:57:58+00:00"
+        ]
+    },
+    "dn": "CN=HealthMailbox0659cc188f4c4f9f978f6c2142c4181e,CN=Monitoring Mailboxes,CN=Microsoft Exchange System Objects,DC=htb,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "HealthMailbox7108a4e350f84b32a7a90d8e718f78cf"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:54+00:00",
+            "2022-01-09 19:31:54+00:00",
+            "2022-01-09 19:31:54+00:00",
+            "2022-01-09 19:31:54+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "displayName": [
+            "HealthMailbox-EXCH01-009"
+        ],
+        "distinguishedName": [
+            "CN=HealthMailbox7108a4e350f84b32a7a90d8e718f78cf,CN=Monitoring Mailboxes,CN=Microsoft Exchange System Objects,DC=htb,DC=local"
+        ],
+        "garbageCollPeriod": [
+            1209600
+        ],
+        "homeMDB": [
+            "CN=Mailbox Database 1118319013,CN=Databases,CN=Exchange Administrative Group (FYDIBOHF23SPDLT),CN=Administrative Groups,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "internetEncoding": [
+            0
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "legacyExchangeDN": [
+            "/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=dcd99265300d4323b2dfb93b20be96a1-Healt"
+        ],
+        "logonCount": [
+            0
+        ],
+        "mDBUseDefaults": [
+            true
+        ],
+        "mail": [
+            "HealthMailbox7108a4e350f84b32a7a90d8e718f78cf@htb.local"
+        ],
+        "mailNickname": [
+            "HealthMailbox7108a4e350f84b32a7a90d8e718f78cf"
+        ],
+        "msExchAddressBookFlags": [
+            1
+        ],
+        "msExchArchiveDatabaseLink": [
+            "CN=Mailbox Database 1118319013,CN=Databases,CN=Exchange Administrative Group (FYDIBOHF23SPDLT),CN=Administrative Groups,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchArchiveGUID": [
+            {
+                "encoded": "jXTBQpptqkuDNQucSpB0DQ==",
+                "encoding": "base64"
+            }
+        ],
+        "msExchArchiveName": [
+            "In-Place Archive -HealthMailbox-EXCH01-009"
+        ],
+        "msExchArchiveQuota": [
+            104857600
+        ],
+        "msExchArchiveWarnQuota": [
+            94371840
+        ],
+        "msExchBypassAudit": [
+            false
+        ],
+        "msExchCalendarLoggingQuota": [
+            6291456
+        ],
+        "msExchDumpsterQuota": [
+            31457280
+        ],
+        "msExchDumpsterWarningQuota": [
+            20971520
+        ],
+        "msExchELCMailboxFlags": [
+            2
+        ],
+        "msExchGroupSecurityFlags": [
+            0
+        ],
+        "msExchHideFromAddressLists": [
+            true
+        ],
+        "msExchHomeServerName": [
+            "/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Configuration/cn=Servers/cn=EXCH01"
+        ],
+        "msExchMDBRulesQuota": [
+            256
+        ],
+        "msExchMailboxAuditEnable": [
+            false
+        ],
+        "msExchMailboxAuditLogAgeLimit": [
+            7776000
+        ],
+        "msExchMailboxFolderSet": [
+            0
+        ],
+        "msExchMailboxGuid": [
+            {
+                "encoded": "+0+7Mv2Lhky1RFW2tRQx9Q==",
+                "encoding": "base64"
+            }
+        ],
+        "msExchMailboxSecurityDescriptor": [
+            {
+                "encoded": "AQAEgBQAAAAgAAAAAAAAACwAAAABAQAAAAAABQoAAAABAQAAAAAABQoAAAAEABwAAQAAAAACFAABAAIAAQEAAAAAAAUKAAAA",
+                "encoding": "base64"
+            }
+        ],
+        "msExchMailboxTemplateLink": [
+            "CN=Default MRM Policy,CN=Retention Policies Container,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchModerationFlags": [
+            0
+        ],
+        "msExchPoliciesExcluded": [
+            "{26491cfc-9e50-4857-861b-0cb8df22b5d7}"
+        ],
+        "msExchPoliciesIncluded": [
+            "f5cca5ec-fafc-4e09-8b7f-be05572cb7cb",
+            "{26491cfc-9e50-4857-861b-0cb8df22b5d7}"
+        ],
+        "msExchProvisioningFlags": [
+            0
+        ],
+        "msExchRBACPolicyLink": [
+            "CN=Default Role Assignment Policy,CN=Policies,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchRecipientSoftDeletedStatus": [
+            0
+        ],
+        "msExchRecipientTypeDetails": [
+            549755813888
+        ],
+        "msExchTextMessagingState": [
+            302120705,
+            16842751
+        ],
+        "msExchTransportRecipientSettingsFlags": [
+            0
+        ],
+        "msExchUMDtmfMap": [
+            "emailAddress:432584624526971082433503842322729038371837823",
+            "lastNameFirstName:4325846245269392401009",
+            "firstNameLastName:4325846245269392401009"
+        ],
+        "msExchUMEnabledFlags2": [
+            -1
+        ],
+        "msExchUserAccountControl": [
+            0
+        ],
+        "msExchVersion": [
+            88218628259840
+        ],
+        "msExchWhenMailboxCreated": [
+            "2019-09-19 11:57:48+00:00"
+        ],
+        "name": [
+            "HealthMailbox7108a4e350f84b32a7a90d8e718f78cf"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{2ba59f3b-3128-43f7-8ded-de99131c3d30}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-1143"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "protocolSettings": [
+            "RemotePowerShell\u00a71"
+        ],
+        "proxyAddresses": [
+            "SMTP:HealthMailbox7108a4e350f84b32a7a90d8e718f78cf@htb.local",
+            "SIP:HealthMailbox7108a4e350f84b32a7a90d8e718f78cf@htb.local"
+        ],
+        "pwdLastSet": [
+            "2019-09-19 11:57:48.253342+00:00"
+        ],
+        "sAMAccountName": [
+            "HealthMailbox7108a4e"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "showInAddressBook": [
+            "CN=All Recipients(VLV),CN=All System Address Lists,CN=Address Lists Container,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "uSNChanged": [
+            25282
+        ],
+        "uSNCreated": [
+            25265
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "userPrincipalName": [
+            "HealthMailbox7108a4e350f84b32a7a90d8e718f78cf@htb.local"
+        ],
+        "whenChanged": [
+            "2019-09-19 11:57:58+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-19 11:57:48+00:00"
+        ]
+    },
+    "dn": "CN=HealthMailbox7108a4e350f84b32a7a90d8e718f78cf,CN=Monitoring Mailboxes,CN=Microsoft Exchange System Objects,DC=htb,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "HealthMailboxb01ac647a64648d2a5fa21df27058a24"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:54+00:00",
+            "2022-01-09 19:31:54+00:00",
+            "2022-01-09 19:31:54+00:00",
+            "2022-01-09 19:31:54+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "displayName": [
+            "HealthMailbox-EXCH01-008"
+        ],
+        "distinguishedName": [
+            "CN=HealthMailboxb01ac647a64648d2a5fa21df27058a24,CN=Monitoring Mailboxes,CN=Microsoft Exchange System Objects,DC=htb,DC=local"
+        ],
+        "garbageCollPeriod": [
+            1209600
+        ],
+        "homeMDB": [
+            "CN=Mailbox Database 1118319013,CN=Databases,CN=Exchange Administrative Group (FYDIBOHF23SPDLT),CN=Administrative Groups,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "internetEncoding": [
+            0
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "legacyExchangeDN": [
+            "/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=8f894abc744b43c08ed41ea7dea3b5ee-Healt"
+        ],
+        "logonCount": [
+            0
+        ],
+        "mDBUseDefaults": [
+            true
+        ],
+        "mail": [
+            "HealthMailboxb01ac647a64648d2a5fa21df27058a24@htb.local"
+        ],
+        "mailNickname": [
+            "HealthMailboxb01ac647a64648d2a5fa21df27058a24"
+        ],
+        "msExchAddressBookFlags": [
+            1
+        ],
+        "msExchArchiveDatabaseLink": [
+            "CN=Mailbox Database 1118319013,CN=Databases,CN=Exchange Administrative Group (FYDIBOHF23SPDLT),CN=Administrative Groups,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchArchiveGUID": [
+            {
+                "encoded": "CN6R6o7WfESg4f8SO83OkQ==",
+                "encoding": "base64"
+            }
+        ],
+        "msExchArchiveName": [
+            "In-Place Archive -HealthMailbox-EXCH01-008"
+        ],
+        "msExchArchiveQuota": [
+            104857600
+        ],
+        "msExchArchiveWarnQuota": [
+            94371840
+        ],
+        "msExchBypassAudit": [
+            false
+        ],
+        "msExchCalendarLoggingQuota": [
+            6291456
+        ],
+        "msExchDumpsterQuota": [
+            31457280
+        ],
+        "msExchDumpsterWarningQuota": [
+            20971520
+        ],
+        "msExchELCMailboxFlags": [
+            2
+        ],
+        "msExchGroupSecurityFlags": [
+            0
+        ],
+        "msExchHideFromAddressLists": [
+            true
+        ],
+        "msExchHomeServerName": [
+            "/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Configuration/cn=Servers/cn=EXCH01"
+        ],
+        "msExchMDBRulesQuota": [
+            256
+        ],
+        "msExchMailboxAuditEnable": [
+            false
+        ],
+        "msExchMailboxAuditLogAgeLimit": [
+            7776000
+        ],
+        "msExchMailboxFolderSet": [
+            0
+        ],
+        "msExchMailboxGuid": [
+            {
+                "encoded": "fncFjc27Fkm/zJVAEUICRA==",
+                "encoding": "base64"
+            }
+        ],
+        "msExchMailboxSecurityDescriptor": [
+            {
+                "encoded": "AQAEgBQAAAAgAAAAAAAAACwAAAABAQAAAAAABQoAAAABAQAAAAAABQoAAAAEABwAAQAAAAACFAABAAIAAQEAAAAAAAUKAAAA",
+                "encoding": "base64"
+            }
+        ],
+        "msExchMailboxTemplateLink": [
+            "CN=Default MRM Policy,CN=Retention Policies Container,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchModerationFlags": [
+            0
+        ],
+        "msExchPoliciesExcluded": [
+            "{26491cfc-9e50-4857-861b-0cb8df22b5d7}"
+        ],
+        "msExchPoliciesIncluded": [
+            "f5cca5ec-fafc-4e09-8b7f-be05572cb7cb",
+            "{26491cfc-9e50-4857-861b-0cb8df22b5d7}"
+        ],
+        "msExchProvisioningFlags": [
+            0
+        ],
+        "msExchRBACPolicyLink": [
+            "CN=Default Role Assignment Policy,CN=Policies,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchRecipientSoftDeletedStatus": [
+            0
+        ],
+        "msExchRecipientTypeDetails": [
+            549755813888
+        ],
+        "msExchTextMessagingState": [
+            302120705,
+            16842751
+        ],
+        "msExchTransportRecipientSettingsFlags": [
+            0
+        ],
+        "msExchUMDtmfMap": [
+            "emailAddress:432584624526920122647264648322532213327058224",
+            "lastNameFirstName:4325846245269392401008",
+            "firstNameLastName:4325846245269392401008"
+        ],
+        "msExchUMEnabledFlags2": [
+            -1
+        ],
+        "msExchUserAccountControl": [
+            0
+        ],
+        "msExchVersion": [
+            88218628259840
+        ],
+        "msExchWhenMailboxCreated": [
+            "2019-09-19 11:57:37+00:00"
+        ],
+        "name": [
+            "HealthMailboxb01ac647a64648d2a5fa21df27058a24"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{be9e3cf2-065d-4a89-922e-4f0dca7f2d14}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-1142"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "protocolSettings": [
+            "RemotePowerShell\u00a71"
+        ],
+        "proxyAddresses": [
+            "SMTP:HealthMailboxb01ac647a64648d2a5fa21df27058a24@htb.local",
+            "SIP:HealthMailboxb01ac647a64648d2a5fa21df27058a24@htb.local"
+        ],
+        "pwdLastSet": [
+            "2019-09-19 11:57:37.878559+00:00"
+        ],
+        "sAMAccountName": [
+            "HealthMailboxb01ac64"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "showInAddressBook": [
+            "CN=All Recipients(VLV),CN=All System Address Lists,CN=Address Lists Container,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "uSNChanged": [
+            25270
+        ],
+        "uSNCreated": [
+            25253
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "userPrincipalName": [
+            "HealthMailboxb01ac647a64648d2a5fa21df27058a24@htb.local"
+        ],
+        "whenChanged": [
+            "2019-09-19 11:57:49+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-19 11:57:37+00:00"
+        ]
+    },
+    "dn": "CN=HealthMailboxb01ac647a64648d2a5fa21df27058a24,CN=Monitoring Mailboxes,CN=Microsoft Exchange System Objects,DC=htb,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "HealthMailboxfd87238e536e49e08738480d300e3772"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:54+00:00",
+            "2022-01-09 19:31:54+00:00",
+            "2022-01-09 19:31:54+00:00",
+            "2022-01-09 19:31:54+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "displayName": [
+            "HealthMailbox-EXCH01-007"
+        ],
+        "distinguishedName": [
+            "CN=HealthMailboxfd87238e536e49e08738480d300e3772,CN=Monitoring Mailboxes,CN=Microsoft Exchange System Objects,DC=htb,DC=local"
+        ],
+        "garbageCollPeriod": [
+            1209600
+        ],
+        "homeMDB": [
+            "CN=Mailbox Database 1118319013,CN=Databases,CN=Exchange Administrative Group (FYDIBOHF23SPDLT),CN=Administrative Groups,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "internetEncoding": [
+            0
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "legacyExchangeDN": [
+            "/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=fe2e1dda3f6d422c80f7cb9bc232f388-Healt"
+        ],
+        "logonCount": [
+            0
+        ],
+        "mDBUseDefaults": [
+            true
+        ],
+        "mail": [
+            "HealthMailboxfd87238e536e49e08738480d300e3772@htb.local"
+        ],
+        "mailNickname": [
+            "HealthMailboxfd87238e536e49e08738480d300e3772"
+        ],
+        "msExchAddressBookFlags": [
+            1
+        ],
+        "msExchArchiveDatabaseLink": [
+            "CN=Mailbox Database 1118319013,CN=Databases,CN=Exchange Administrative Group (FYDIBOHF23SPDLT),CN=Administrative Groups,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchArchiveGUID": [
+            {
+                "encoded": "yTPts2YdlkioJOdTMgwDjw==",
+                "encoding": "base64"
+            }
+        ],
+        "msExchArchiveName": [
+            "In-Place Archive -HealthMailbox-EXCH01-007"
+        ],
+        "msExchArchiveQuota": [
+            104857600
+        ],
+        "msExchArchiveWarnQuota": [
+            94371840
+        ],
+        "msExchBypassAudit": [
+            false
+        ],
+        "msExchCalendarLoggingQuota": [
+            6291456
+        ],
+        "msExchDumpsterQuota": [
+            31457280
+        ],
+        "msExchDumpsterWarningQuota": [
+            20971520
+        ],
+        "msExchELCMailboxFlags": [
+            2
+        ],
+        "msExchGroupSecurityFlags": [
+            0
+        ],
+        "msExchHideFromAddressLists": [
+            true
+        ],
+        "msExchHomeServerName": [
+            "/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Configuration/cn=Servers/cn=EXCH01"
+        ],
+        "msExchMDBRulesQuota": [
+            256
+        ],
+        "msExchMailboxAuditEnable": [
+            false
+        ],
+        "msExchMailboxAuditLogAgeLimit": [
+            7776000
+        ],
+        "msExchMailboxFolderSet": [
+            0
+        ],
+        "msExchMailboxGuid": [
+            {
+                "encoded": "Ve4J8SaMvEeFfZopLsqZ/g==",
+                "encoding": "base64"
+            }
+        ],
+        "msExchMailboxSecurityDescriptor": [
+            {
+                "encoded": "AQAEgBQAAAAgAAAAAAAAACwAAAABAQAAAAAABQoAAAABAQAAAAAABQoAAAAEABwAAQAAAAACFAABAAIAAQEAAAAAAAUKAAAA",
+                "encoding": "base64"
+            }
+        ],
+        "msExchMailboxTemplateLink": [
+            "CN=Default MRM Policy,CN=Retention Policies Container,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchModerationFlags": [
+            0
+        ],
+        "msExchPoliciesExcluded": [
+            "{26491cfc-9e50-4857-861b-0cb8df22b5d7}"
+        ],
+        "msExchPoliciesIncluded": [
+            "f5cca5ec-fafc-4e09-8b7f-be05572cb7cb",
+            "{26491cfc-9e50-4857-861b-0cb8df22b5d7}"
+        ],
+        "msExchProvisioningFlags": [
+            0
+        ],
+        "msExchRBACPolicyLink": [
+            "CN=Default Role Assignment Policy,CN=Policies,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchRecipientSoftDeletedStatus": [
+            0
+        ],
+        "msExchRecipientTypeDetails": [
+            549755813888
+        ],
+        "msExchTextMessagingState": [
+            302120705,
+            16842751
+        ],
+        "msExchTransportRecipientSettingsFlags": [
+            0
+        ],
+        "msExchUMDtmfMap": [
+            "emailAddress:432584624526933872383536349308738480330033772",
+            "lastNameFirstName:4325846245269392401007",
+            "firstNameLastName:4325846245269392401007"
+        ],
+        "msExchUMEnabledFlags2": [
+            -1
+        ],
+        "msExchUserAccountControl": [
+            0
+        ],
+        "msExchVersion": [
+            88218628259840
+        ],
+        "msExchWhenMailboxCreated": [
+            "2019-09-19 11:57:27+00:00"
+        ],
+        "name": [
+            "HealthMailboxfd87238e536e49e08738480d300e3772"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{9294180a-33c3-40eb-97ae-01eaf5ee645a}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-1141"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "protocolSettings": [
+            "RemotePowerShell\u00a71"
+        ],
+        "proxyAddresses": [
+            "SMTP:HealthMailboxfd87238e536e49e08738480d300e3772@htb.local",
+            "SIP:HealthMailboxfd87238e536e49e08738480d300e3772@htb.local"
+        ],
+        "pwdLastSet": [
+            "2019-09-19 11:57:27.487680+00:00"
+        ],
+        "sAMAccountName": [
+            "HealthMailboxfd87238"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "showInAddressBook": [
+            "CN=All Recipients(VLV),CN=All System Address Lists,CN=Address Lists Container,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "uSNChanged": [
+            25258
+        ],
+        "uSNCreated": [
+            25242
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "userPrincipalName": [
+            "HealthMailboxfd87238e536e49e08738480d300e3772@htb.local"
+        ],
+        "whenChanged": [
+            "2019-09-19 11:57:38+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-19 11:57:27+00:00"
+        ]
+    },
+    "dn": "CN=HealthMailboxfd87238e536e49e08738480d300e3772,CN=Monitoring Mailboxes,CN=Microsoft Exchange System Objects,DC=htb,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "HealthMailbox83d6781be36b4bbf8893b03c2ee379ab"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:54+00:00",
+            "2022-01-09 19:31:54+00:00",
+            "2022-01-09 19:31:54+00:00",
+            "2022-01-09 19:31:54+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "displayName": [
+            "HealthMailbox-EXCH01-006"
+        ],
+        "distinguishedName": [
+            "CN=HealthMailbox83d6781be36b4bbf8893b03c2ee379ab,CN=Monitoring Mailboxes,CN=Microsoft Exchange System Objects,DC=htb,DC=local"
+        ],
+        "garbageCollPeriod": [
+            1209600
+        ],
+        "homeMDB": [
+            "CN=Mailbox Database 1118319013,CN=Databases,CN=Exchange Administrative Group (FYDIBOHF23SPDLT),CN=Administrative Groups,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "internetEncoding": [
+            0
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "legacyExchangeDN": [
+            "/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=7fe3e45e103f4a2c85a701da81410349-Healt"
+        ],
+        "logonCount": [
+            0
+        ],
+        "mDBUseDefaults": [
+            true
+        ],
+        "mail": [
+            "HealthMailbox83d6781be36b4bbf8893b03c2ee379ab@htb.local"
+        ],
+        "mailNickname": [
+            "HealthMailbox83d6781be36b4bbf8893b03c2ee379ab"
+        ],
+        "msExchAddressBookFlags": [
+            1
+        ],
+        "msExchArchiveDatabaseLink": [
+            "CN=Mailbox Database 1118319013,CN=Databases,CN=Exchange Administrative Group (FYDIBOHF23SPDLT),CN=Administrative Groups,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchArchiveGUID": [
+            {
+                "encoded": "YwZ1GGUkp0WlfxybxAMUqQ==",
+                "encoding": "base64"
+            }
+        ],
+        "msExchArchiveName": [
+            "In-Place Archive -HealthMailbox-EXCH01-006"
+        ],
+        "msExchArchiveQuota": [
+            104857600
+        ],
+        "msExchArchiveWarnQuota": [
+            94371840
+        ],
+        "msExchBypassAudit": [
+            false
+        ],
+        "msExchCalendarLoggingQuota": [
+            6291456
+        ],
+        "msExchDumpsterQuota": [
+            31457280
+        ],
+        "msExchDumpsterWarningQuota": [
+            20971520
+        ],
+        "msExchELCMailboxFlags": [
+            2
+        ],
+        "msExchGroupSecurityFlags": [
+            0
+        ],
+        "msExchHideFromAddressLists": [
+            true
+        ],
+        "msExchHomeServerName": [
+            "/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Configuration/cn=Servers/cn=EXCH01"
+        ],
+        "msExchMDBRulesQuota": [
+            256
+        ],
+        "msExchMailboxAuditEnable": [
+            false
+        ],
+        "msExchMailboxAuditLogAgeLimit": [
+            7776000
+        ],
+        "msExchMailboxFolderSet": [
+            0
+        ],
+        "msExchMailboxGuid": [
+            {
+                "encoded": "h5+Z674RBUyO4qGcs2B7Tg==",
+                "encoding": "base64"
+            }
+        ],
+        "msExchMailboxSecurityDescriptor": [
+            {
+                "encoded": "AQAEgBQAAAAgAAAAAAAAACwAAAABAQAAAAAABQoAAAABAQAAAAAABQoAAAAEABwAAQAAAAACFAABAAIAAQEAAAAAAAUKAAAA",
+                "encoding": "base64"
+            }
+        ],
+        "msExchMailboxTemplateLink": [
+            "CN=Default MRM Policy,CN=Retention Policies Container,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchModerationFlags": [
+            0
+        ],
+        "msExchPoliciesExcluded": [
+            "{26491cfc-9e50-4857-861b-0cb8df22b5d7}"
+        ],
+        "msExchPoliciesIncluded": [
+            "f5cca5ec-fafc-4e09-8b7f-be05572cb7cb",
+            "{26491cfc-9e50-4857-861b-0cb8df22b5d7}"
+        ],
+        "msExchProvisioningFlags": [
+            0
+        ],
+        "msExchRBACPolicyLink": [
+            "CN=Default Role Assignment Policy,CN=Policies,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchRecipientSoftDeletedStatus": [
+            0
+        ],
+        "msExchRecipientTypeDetails": [
+            549755813888
+        ],
+        "msExchTextMessagingState": [
+            302120705,
+            16842751
+        ],
+        "msExchTransportRecipientSettingsFlags": [
+            0
+        ],
+        "msExchUMDtmfMap": [
+            "emailAddress:432584624526983367812336242238893203223337922",
+            "lastNameFirstName:4325846245269392401006",
+            "firstNameLastName:4325846245269392401006"
+        ],
+        "msExchUMEnabledFlags2": [
+            -1
+        ],
+        "msExchUserAccountControl": [
+            0
+        ],
+        "msExchVersion": [
+            88218628259840
+        ],
+        "msExchWhenMailboxCreated": [
+            "2019-09-19 11:57:16+00:00"
+        ],
+        "name": [
+            "HealthMailbox83d6781be36b4bbf8893b03c2ee379ab"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{4b730772-e4ad-473e-96b1-21729780ff0f}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-1140"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "protocolSettings": [
+            "RemotePowerShell\u00a71"
+        ],
+        "proxyAddresses": [
+            "SMTP:HealthMailbox83d6781be36b4bbf8893b03c2ee379ab@htb.local",
+            "SIP:HealthMailbox83d6781be36b4bbf8893b03c2ee379ab@htb.local"
+        ],
+        "pwdLastSet": [
+            "2019-09-19 11:57:17.065807+00:00"
+        ],
+        "sAMAccountName": [
+            "HealthMailbox83d6781"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "showInAddressBook": [
+            "CN=All Recipients(VLV),CN=All System Address Lists,CN=Address Lists Container,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "uSNChanged": [
+            25236
+        ],
+        "uSNCreated": [
+            25229
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "userPrincipalName": [
+            "HealthMailbox83d6781be36b4bbf8893b03c2ee379ab@htb.local"
+        ],
+        "whenChanged": [
+            "2019-09-19 11:57:27+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-19 11:57:17+00:00"
+        ]
+    },
+    "dn": "CN=HealthMailbox83d6781be36b4bbf8893b03c2ee379ab,CN=Monitoring Mailboxes,CN=Microsoft Exchange System Objects,DC=htb,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "HealthMailbox6ded67848a234577a1756e072081d01f"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:54+00:00",
+            "2022-01-09 19:31:54+00:00",
+            "2022-01-09 19:31:54+00:00",
+            "2022-01-09 19:31:54+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "displayName": [
+            "HealthMailbox-EXCH01-005"
+        ],
+        "distinguishedName": [
+            "CN=HealthMailbox6ded67848a234577a1756e072081d01f,CN=Monitoring Mailboxes,CN=Microsoft Exchange System Objects,DC=htb,DC=local"
+        ],
+        "garbageCollPeriod": [
+            1209600
+        ],
+        "homeMDB": [
+            "CN=Mailbox Database 1118319013,CN=Databases,CN=Exchange Administrative Group (FYDIBOHF23SPDLT),CN=Administrative Groups,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "internetEncoding": [
+            0
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "legacyExchangeDN": [
+            "/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=b85b76489f7943238bdc023354515ea1-Healt"
+        ],
+        "logonCount": [
+            0
+        ],
+        "mDBUseDefaults": [
+            true
+        ],
+        "mail": [
+            "HealthMailbox6ded67848a234577a1756e072081d01f@htb.local"
+        ],
+        "mailNickname": [
+            "HealthMailbox6ded67848a234577a1756e072081d01f"
+        ],
+        "msExchAddressBookFlags": [
+            1
+        ],
+        "msExchArchiveDatabaseLink": [
+            "CN=Mailbox Database 1118319013,CN=Databases,CN=Exchange Administrative Group (FYDIBOHF23SPDLT),CN=Administrative Groups,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchArchiveGUID": [
+            {
+                "encoded": "ZsgYiLTSd0+LCkr5AMAD5g==",
+                "encoding": "base64"
+            }
+        ],
+        "msExchArchiveName": [
+            "In-Place Archive -HealthMailbox-EXCH01-005"
+        ],
+        "msExchArchiveQuota": [
+            104857600
+        ],
+        "msExchArchiveWarnQuota": [
+            94371840
+        ],
+        "msExchBypassAudit": [
+            false
+        ],
+        "msExchCalendarLoggingQuota": [
+            6291456
+        ],
+        "msExchDumpsterQuota": [
+            31457280
+        ],
+        "msExchDumpsterWarningQuota": [
+            20971520
+        ],
+        "msExchELCMailboxFlags": [
+            2
+        ],
+        "msExchGroupSecurityFlags": [
+            0
+        ],
+        "msExchHideFromAddressLists": [
+            true
+        ],
+        "msExchHomeServerName": [
+            "/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Configuration/cn=Servers/cn=EXCH01"
+        ],
+        "msExchMDBRulesQuota": [
+            256
+        ],
+        "msExchMailboxAuditEnable": [
+            false
+        ],
+        "msExchMailboxAuditLogAgeLimit": [
+            7776000
+        ],
+        "msExchMailboxFolderSet": [
+            0
+        ],
+        "msExchMailboxGuid": [
+            {
+                "encoded": "AvP/ydgqAU2I3I5u4wj8IA==",
+                "encoding": "base64"
+            }
+        ],
+        "msExchMailboxSecurityDescriptor": [
+            {
+                "encoded": "AQAEgBQAAAAgAAAAAAAAACwAAAABAQAAAAAABQoAAAABAQAAAAAABQoAAAAEABwAAQAAAAACFAABAAIAAQEAAAAAAAUKAAAA",
+                "encoding": "base64"
+            }
+        ],
+        "msExchMailboxTemplateLink": [
+            "CN=Default MRM Policy,CN=Retention Policies Container,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchModerationFlags": [
+            0
+        ],
+        "msExchPoliciesExcluded": [
+            "{26491cfc-9e50-4857-861b-0cb8df22b5d7}"
+        ],
+        "msExchPoliciesIncluded": [
+            "f5cca5ec-fafc-4e09-8b7f-be05572cb7cb",
+            "{26491cfc-9e50-4857-861b-0cb8df22b5d7}"
+        ],
+        "msExchProvisioningFlags": [
+            0
+        ],
+        "msExchRBACPolicyLink": [
+            "CN=Default Role Assignment Policy,CN=Policies,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchRecipientSoftDeletedStatus": [
+            0
+        ],
+        "msExchRecipientTypeDetails": [
+            549755813888
+        ],
+        "msExchTextMessagingState": [
+            302120705,
+            16842751
+        ],
+        "msExchTransportRecipientSettingsFlags": [
+            0
+        ],
+        "msExchUMDtmfMap": [
+            "emailAddress:432584624526963336784822345772175630720813013",
+            "lastNameFirstName:4325846245269392401005",
+            "firstNameLastName:4325846245269392401005"
+        ],
+        "msExchUMEnabledFlags2": [
+            -1
+        ],
+        "msExchUserAccountControl": [
+            0
+        ],
+        "msExchVersion": [
+            88218628259840
+        ],
+        "msExchWhenMailboxCreated": [
+            "2019-09-19 11:57:06+00:00"
+        ],
+        "name": [
+            "HealthMailbox6ded67848a234577a1756e072081d01f"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{50b6acca-22f4-49a0-8869-b86f961aac2e}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-1139"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "protocolSettings": [
+            "RemotePowerShell\u00a71"
+        ],
+        "proxyAddresses": [
+            "SMTP:HealthMailbox6ded67848a234577a1756e072081d01f@htb.local",
+            "SIP:HealthMailbox6ded67848a234577a1756e072081d01f@htb.local"
+        ],
+        "pwdLastSet": [
+            "2019-09-19 11:57:06.597013+00:00"
+        ],
+        "sAMAccountName": [
+            "HealthMailbox6ded678"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "showInAddressBook": [
+            "CN=All Recipients(VLV),CN=All System Address Lists,CN=Address Lists Container,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "uSNChanged": [
+            25234
+        ],
+        "uSNCreated": [
+            25217
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "userPrincipalName": [
+            "HealthMailbox6ded67848a234577a1756e072081d01f@htb.local"
+        ],
+        "whenChanged": [
+            "2019-09-19 11:57:17+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-19 11:57:06+00:00"
+        ]
+    },
+    "dn": "CN=HealthMailbox6ded67848a234577a1756e072081d01f,CN=Monitoring Mailboxes,CN=Microsoft Exchange System Objects,DC=htb,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "HealthMailbox968e74dd3edb414cb4018376e7dd95ba"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:54+00:00",
+            "2022-01-09 19:31:54+00:00",
+            "2022-01-09 19:31:54+00:00",
+            "2022-01-09 19:31:54+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "displayName": [
+            "HealthMailbox-EXCH01-004"
+        ],
+        "distinguishedName": [
+            "CN=HealthMailbox968e74dd3edb414cb4018376e7dd95ba,CN=Monitoring Mailboxes,CN=Microsoft Exchange System Objects,DC=htb,DC=local"
+        ],
+        "garbageCollPeriod": [
+            1209600
+        ],
+        "homeMDB": [
+            "CN=Mailbox Database 1118319013,CN=Databases,CN=Exchange Administrative Group (FYDIBOHF23SPDLT),CN=Administrative Groups,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "internetEncoding": [
+            0
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "legacyExchangeDN": [
+            "/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=9cbd37b3d8484e93985906401227e840-Healt"
+        ],
+        "logonCount": [
+            0
+        ],
+        "mDBUseDefaults": [
+            true
+        ],
+        "mail": [
+            "HealthMailbox968e74dd3edb414cb4018376e7dd95ba@htb.local"
+        ],
+        "mailNickname": [
+            "HealthMailbox968e74dd3edb414cb4018376e7dd95ba"
+        ],
+        "msExchAddressBookFlags": [
+            1
+        ],
+        "msExchArchiveDatabaseLink": [
+            "CN=Mailbox Database 1118319013,CN=Databases,CN=Exchange Administrative Group (FYDIBOHF23SPDLT),CN=Administrative Groups,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchArchiveGUID": [
+            {
+                "encoded": "/S2TUxDn202fQ6X13Sccpw==",
+                "encoding": "base64"
+            }
+        ],
+        "msExchArchiveName": [
+            "In-Place Archive -HealthMailbox-EXCH01-004"
+        ],
+        "msExchArchiveQuota": [
+            104857600
+        ],
+        "msExchArchiveWarnQuota": [
+            94371840
+        ],
+        "msExchBypassAudit": [
+            false
+        ],
+        "msExchCalendarLoggingQuota": [
+            6291456
+        ],
+        "msExchDumpsterQuota": [
+            31457280
+        ],
+        "msExchDumpsterWarningQuota": [
+            20971520
+        ],
+        "msExchELCMailboxFlags": [
+            2
+        ],
+        "msExchGroupSecurityFlags": [
+            0
+        ],
+        "msExchHideFromAddressLists": [
+            true
+        ],
+        "msExchHomeServerName": [
+            "/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Configuration/cn=Servers/cn=EXCH01"
+        ],
+        "msExchMDBRulesQuota": [
+            256
+        ],
+        "msExchMailboxAuditEnable": [
+            false
+        ],
+        "msExchMailboxAuditLogAgeLimit": [
+            7776000
+        ],
+        "msExchMailboxFolderSet": [
+            0
+        ],
+        "msExchMailboxGuid": [
+            {
+                "encoded": "2xCh4rQfhEGCA2Yagi8hsQ==",
+                "encoding": "base64"
+            }
+        ],
+        "msExchMailboxSecurityDescriptor": [
+            {
+                "encoded": "AQAEgBQAAAAgAAAAAAAAACwAAAABAQAAAAAABQoAAAABAQAAAAAABQoAAAAEABwAAQAAAAACFAABAAIAAQEAAAAAAAUKAAAA",
+                "encoding": "base64"
+            }
+        ],
+        "msExchMailboxTemplateLink": [
+            "CN=Default MRM Policy,CN=Retention Policies Container,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchModerationFlags": [
+            0
+        ],
+        "msExchPoliciesExcluded": [
+            "{26491cfc-9e50-4857-861b-0cb8df22b5d7}"
+        ],
+        "msExchPoliciesIncluded": [
+            "f5cca5ec-fafc-4e09-8b7f-be05572cb7cb",
+            "{26491cfc-9e50-4857-861b-0cb8df22b5d7}"
+        ],
+        "msExchProvisioningFlags": [
+            0
+        ],
+        "msExchRBACPolicyLink": [
+            "CN=Default Role Assignment Policy,CN=Policies,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchRecipientSoftDeletedStatus": [
+            0
+        ],
+        "msExchRecipientTypeDetails": [
+            549755813888
+        ],
+        "msExchTextMessagingState": [
+            302120705,
+            16842751
+        ],
+        "msExchTransportRecipientSettingsFlags": [
+            0
+        ],
+        "msExchUMDtmfMap": [
+            "emailAddress:432584624526996837433333241422401837637339522",
+            "lastNameFirstName:4325846245269392401004",
+            "firstNameLastName:4325846245269392401004"
+        ],
+        "msExchUMEnabledFlags2": [
+            -1
+        ],
+        "msExchUserAccountControl": [
+            0
+        ],
+        "msExchVersion": [
+            88218628259840
+        ],
+        "msExchWhenMailboxCreated": [
+            "2019-09-19 11:56:56+00:00"
+        ],
+        "name": [
+            "HealthMailbox968e74dd3edb414cb4018376e7dd95ba"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{28d0b664-f820-4ec3-a627-2afecf03e5fa}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-1138"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "protocolSettings": [
+            "RemotePowerShell\u00a71"
+        ],
+        "proxyAddresses": [
+            "SMTP:HealthMailbox968e74dd3edb414cb4018376e7dd95ba@htb.local",
+            "SIP:HealthMailbox968e74dd3edb414cb4018376e7dd95ba@htb.local"
+        ],
+        "pwdLastSet": [
+            "2019-09-19 11:56:56.143970+00:00"
+        ],
+        "sAMAccountName": [
+            "HealthMailbox968e74d"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "showInAddressBook": [
+            "CN=All Recipients(VLV),CN=All System Address Lists,CN=Address Lists Container,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "uSNChanged": [
+            25221
+        ],
+        "uSNCreated": [
+            25206
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "userPrincipalName": [
+            "HealthMailbox968e74dd3edb414cb4018376e7dd95ba@htb.local"
+        ],
+        "whenChanged": [
+            "2019-09-19 11:57:06+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-19 11:56:56+00:00"
+        ]
+    },
+    "dn": "CN=HealthMailbox968e74dd3edb414cb4018376e7dd95ba,CN=Monitoring Mailboxes,CN=Microsoft Exchange System Objects,DC=htb,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "HealthMailbox670628ec4dd64321acfdf6e67db3a2d8"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:54+00:00",
+            "2022-01-09 19:31:54+00:00",
+            "2022-01-09 19:31:54+00:00",
+            "2022-01-09 19:31:54+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "displayName": [
+            "HealthMailbox-EXCH01-003"
+        ],
+        "distinguishedName": [
+            "CN=HealthMailbox670628ec4dd64321acfdf6e67db3a2d8,CN=Monitoring Mailboxes,CN=Microsoft Exchange System Objects,DC=htb,DC=local"
+        ],
+        "garbageCollPeriod": [
+            1209600
+        ],
+        "homeMDB": [
+            "CN=Mailbox Database 1118319013,CN=Databases,CN=Exchange Administrative Group (FYDIBOHF23SPDLT),CN=Administrative Groups,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "internetEncoding": [
+            0
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "legacyExchangeDN": [
+            "/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=3929e9cb391e403dbd779170005fcdc0-Healt"
+        ],
+        "logonCount": [
+            0
+        ],
+        "mDBUseDefaults": [
+            true
+        ],
+        "mail": [
+            "HealthMailbox670628ec4dd64321acfdf6e67db3a2d8@htb.local"
+        ],
+        "mailNickname": [
+            "HealthMailbox670628ec4dd64321acfdf6e67db3a2d8"
+        ],
+        "msExchAddressBookFlags": [
+            1
+        ],
+        "msExchArchiveDatabaseLink": [
+            "CN=Mailbox Database 1118319013,CN=Databases,CN=Exchange Administrative Group (FYDIBOHF23SPDLT),CN=Administrative Groups,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchArchiveGUID": [
+            {
+                "encoded": "2IHsJZMxXUWJxsqge+Hb+w==",
+                "encoding": "base64"
+            }
+        ],
+        "msExchArchiveName": [
+            "In-Place Archive -HealthMailbox-EXCH01-003"
+        ],
+        "msExchArchiveQuota": [
+            104857600
+        ],
+        "msExchArchiveWarnQuota": [
+            94371840
+        ],
+        "msExchBypassAudit": [
+            false
+        ],
+        "msExchCalendarLoggingQuota": [
+            6291456
+        ],
+        "msExchDumpsterQuota": [
+            31457280
+        ],
+        "msExchDumpsterWarningQuota": [
+            20971520
+        ],
+        "msExchELCMailboxFlags": [
+            2
+        ],
+        "msExchGroupSecurityFlags": [
+            0
+        ],
+        "msExchHideFromAddressLists": [
+            true
+        ],
+        "msExchHomeServerName": [
+            "/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Configuration/cn=Servers/cn=EXCH01"
+        ],
+        "msExchMDBRulesQuota": [
+            256
+        ],
+        "msExchMailboxAuditEnable": [
+            false
+        ],
+        "msExchMailboxAuditLogAgeLimit": [
+            7776000
+        ],
+        "msExchMailboxFolderSet": [
+            0
+        ],
+        "msExchMailboxGuid": [
+            {
+                "encoded": "9s5pNP6yrkOy6f3rEIfwqw==",
+                "encoding": "base64"
+            }
+        ],
+        "msExchMailboxSecurityDescriptor": [
+            {
+                "encoded": "AQAEgBQAAAAgAAAAAAAAACwAAAABAQAAAAAABQoAAAABAQAAAAAABQoAAAAEABwAAQAAAAACFAABAAIAAQEAAAAAAAUKAAAA",
+                "encoding": "base64"
+            }
+        ],
+        "msExchMailboxTemplateLink": [
+            "CN=Default MRM Policy,CN=Retention Policies Container,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchModerationFlags": [
+            0
+        ],
+        "msExchPoliciesExcluded": [
+            "{26491cfc-9e50-4857-861b-0cb8df22b5d7}"
+        ],
+        "msExchPoliciesIncluded": [
+            "f5cca5ec-fafc-4e09-8b7f-be05572cb7cb",
+            "{26491cfc-9e50-4857-861b-0cb8df22b5d7}"
+        ],
+        "msExchProvisioningFlags": [
+            0
+        ],
+        "msExchRBACPolicyLink": [
+            "CN=Default Role Assignment Policy,CN=Policies,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchRecipientSoftDeletedStatus": [
+            0
+        ],
+        "msExchRecipientTypeDetails": [
+            549755813888
+        ],
+        "msExchTextMessagingState": [
+            302120705,
+            16842751
+        ],
+        "msExchTransportRecipientSettingsFlags": [
+            0
+        ],
+        "msExchUMDtmfMap": [
+            "emailAddress:432584624526967062832433643212233363673232238",
+            "lastNameFirstName:4325846245269392401003",
+            "firstNameLastName:4325846245269392401003"
+        ],
+        "msExchUMEnabledFlags2": [
+            -1
+        ],
+        "msExchUserAccountControl": [
+            0
+        ],
+        "msExchVersion": [
+            88218628259840
+        ],
+        "msExchWhenMailboxCreated": [
+            "2019-09-19 11:56:45+00:00"
+        ],
+        "name": [
+            "HealthMailbox670628ec4dd64321acfdf6e67db3a2d8"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{cdce5ab8-bd37-4622-99c0-771d9e37df53}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-1137"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "protocolSettings": [
+            "RemotePowerShell\u00a71"
+        ],
+        "proxyAddresses": [
+            "SMTP:HealthMailbox670628ec4dd64321acfdf6e67db3a2d8@htb.local",
+            "SIP:HealthMailbox670628ec4dd64321acfdf6e67db3a2d8@htb.local"
+        ],
+        "pwdLastSet": [
+            "2019-09-19 11:56:45.643993+00:00"
+        ],
+        "sAMAccountName": [
+            "HealthMailbox670628e"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "showInAddressBook": [
+            "CN=All Recipients(VLV),CN=All System Address Lists,CN=Address Lists Container,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "uSNChanged": [
+            25200
+        ],
+        "uSNCreated": [
+            25193
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "userPrincipalName": [
+            "HealthMailbox670628ec4dd64321acfdf6e67db3a2d8@htb.local"
+        ],
+        "whenChanged": [
+            "2019-09-19 11:56:56+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-19 11:56:45+00:00"
+        ]
+    },
+    "dn": "CN=HealthMailbox670628ec4dd64321acfdf6e67db3a2d8,CN=Monitoring Mailboxes,CN=Microsoft Exchange System Objects,DC=htb,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "HealthMailboxc0a90c97d4994429b15003d6a518f3f5"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:54+00:00",
+            "2022-01-09 19:31:54+00:00",
+            "2022-01-09 19:31:54+00:00",
+            "2022-01-09 19:31:54+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "displayName": [
+            "HealthMailbox-EXCH01-002"
+        ],
+        "distinguishedName": [
+            "CN=HealthMailboxc0a90c97d4994429b15003d6a518f3f5,CN=Monitoring Mailboxes,CN=Microsoft Exchange System Objects,DC=htb,DC=local"
+        ],
+        "garbageCollPeriod": [
+            1209600
+        ],
+        "homeMDB": [
+            "CN=Mailbox Database 1118319013,CN=Databases,CN=Exchange Administrative Group (FYDIBOHF23SPDLT),CN=Administrative Groups,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "internetEncoding": [
+            0
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "legacyExchangeDN": [
+            "/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=969648f9cc804df6913c946977fc56eb-Healt"
+        ],
+        "logonCount": [
+            0
+        ],
+        "mDBUseDefaults": [
+            true
+        ],
+        "mail": [
+            "HealthMailboxc0a90c97d4994429b15003d6a518f3f5@htb.local"
+        ],
+        "mailNickname": [
+            "HealthMailboxc0a90c97d4994429b15003d6a518f3f5"
+        ],
+        "msExchAddressBookFlags": [
+            1
+        ],
+        "msExchArchiveDatabaseLink": [
+            "CN=Mailbox Database 1118319013,CN=Databases,CN=Exchange Administrative Group (FYDIBOHF23SPDLT),CN=Administrative Groups,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchArchiveGUID": [
+            {
+                "encoded": "rhHZgKwmMEGpjLiWMnr9Gw==",
+                "encoding": "base64"
+            }
+        ],
+        "msExchArchiveName": [
+            "In-Place Archive -HealthMailbox-EXCH01-002"
+        ],
+        "msExchArchiveQuota": [
+            104857600
+        ],
+        "msExchArchiveWarnQuota": [
+            94371840
+        ],
+        "msExchBypassAudit": [
+            false
+        ],
+        "msExchCalendarLoggingQuota": [
+            6291456
+        ],
+        "msExchDumpsterQuota": [
+            31457280
+        ],
+        "msExchDumpsterWarningQuota": [
+            20971520
+        ],
+        "msExchELCMailboxFlags": [
+            2
+        ],
+        "msExchGroupSecurityFlags": [
+            0
+        ],
+        "msExchHideFromAddressLists": [
+            true
+        ],
+        "msExchHomeServerName": [
+            "/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Configuration/cn=Servers/cn=EXCH01"
+        ],
+        "msExchMDBRulesQuota": [
+            256
+        ],
+        "msExchMailboxAuditEnable": [
+            false
+        ],
+        "msExchMailboxAuditLogAgeLimit": [
+            7776000
+        ],
+        "msExchMailboxFolderSet": [
+            0
+        ],
+        "msExchMailboxGuid": [
+            {
+                "encoded": "hhAl50YyH0y5uxEJeR62Hg==",
+                "encoding": "base64"
+            }
+        ],
+        "msExchMailboxSecurityDescriptor": [
+            {
+                "encoded": "AQAEgBQAAAAgAAAAAAAAACwAAAABAQAAAAAABQoAAAABAQAAAAAABQoAAAAEABwAAQAAAAACFAABAAIAAQEAAAAAAAUKAAAA",
+                "encoding": "base64"
+            }
+        ],
+        "msExchMailboxTemplateLink": [
+            "CN=Default MRM Policy,CN=Retention Policies Container,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchModerationFlags": [
+            0
+        ],
+        "msExchPoliciesExcluded": [
+            "{26491cfc-9e50-4857-861b-0cb8df22b5d7}"
+        ],
+        "msExchPoliciesIncluded": [
+            "f5cca5ec-fafc-4e09-8b7f-be05572cb7cb",
+            "{26491cfc-9e50-4857-861b-0cb8df22b5d7}"
+        ],
+        "msExchProvisioningFlags": [
+            0
+        ],
+        "msExchRBACPolicyLink": [
+            "CN=Default Role Assignment Policy,CN=Policies,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchRecipientSoftDeletedStatus": [
+            0
+        ],
+        "msExchRecipientTypeDetails": [
+            549755813888
+        ],
+        "msExchTextMessagingState": [
+            302120705,
+            16842751
+        ],
+        "msExchTransportRecipientSettingsFlags": [
+            0
+        ],
+        "msExchUMDtmfMap": [
+            "emailAddress:432584624526920290297349944292150033625183335",
+            "lastNameFirstName:4325846245269392401002",
+            "firstNameLastName:4325846245269392401002"
+        ],
+        "msExchUMEnabledFlags2": [
+            -1
+        ],
+        "msExchUserAccountControl": [
+            0
+        ],
+        "msExchVersion": [
+            88218628259840
+        ],
+        "msExchWhenMailboxCreated": [
+            "2019-09-19 11:56:35+00:00"
+        ],
+        "name": [
+            "HealthMailboxc0a90c97d4994429b15003d6a518f3f5"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{eba4c8e0-135e-4ae7-af82-87e5ba7d22e2}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-1136"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "protocolSettings": [
+            "RemotePowerShell\u00a71"
+        ],
+        "proxyAddresses": [
+            "SMTP:HealthMailboxc0a90c97d4994429b15003d6a518f3f5@htb.local",
+            "SIP:HealthMailboxc0a90c97d4994429b15003d6a518f3f5@htb.local"
+        ],
+        "pwdLastSet": [
+            "2019-09-19 11:56:35.206327+00:00"
+        ],
+        "sAMAccountName": [
+            "HealthMailboxc0a90c9"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "showInAddressBook": [
+            "CN=All Recipients(VLV),CN=All System Address Lists,CN=Address Lists Container,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "uSNChanged": [
+            25198
+        ],
+        "uSNCreated": [
+            25182
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "userPrincipalName": [
+            "HealthMailboxc0a90c97d4994429b15003d6a518f3f5@htb.local"
+        ],
+        "whenChanged": [
+            "2019-09-19 11:56:46+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-19 11:56:35+00:00"
+        ]
+    },
+    "dn": "CN=HealthMailboxc0a90c97d4994429b15003d6a518f3f5,CN=Monitoring Mailboxes,CN=Microsoft Exchange System Objects,DC=htb,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "HealthMailboxfc9daad117b84fe08b081886bd8a5a50"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:54+00:00",
+            "2022-01-09 19:31:54+00:00",
+            "2022-01-09 19:31:54+00:00",
+            "2022-01-09 19:31:54+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "displayName": [
+            "HealthMailbox-EXCH01-001"
+        ],
+        "distinguishedName": [
+            "CN=HealthMailboxfc9daad117b84fe08b081886bd8a5a50,CN=Monitoring Mailboxes,CN=Microsoft Exchange System Objects,DC=htb,DC=local"
+        ],
+        "garbageCollPeriod": [
+            1209600
+        ],
+        "homeMDB": [
+            "CN=Mailbox Database 1118319013,CN=Databases,CN=Exchange Administrative Group (FYDIBOHF23SPDLT),CN=Administrative Groups,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "internetEncoding": [
+            0
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "2019-09-23 22:52:05.736013+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2019-09-19 11:58:34.925304+00:00"
+        ],
+        "legacyExchangeDN": [
+            "/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=51ccdec364ff4c61bbb993e4408e5af4-Healt"
+        ],
+        "logonCount": [
+            59
+        ],
+        "mDBUseDefaults": [
+            true
+        ],
+        "mail": [
+            "HealthMailboxfc9daad117b84fe08b081886bd8a5a50@htb.local"
+        ],
+        "mailNickname": [
+            "HealthMailboxfc9daad117b84fe08b081886bd8a5a50"
+        ],
+        "msExchAddressBookFlags": [
+            1
+        ],
+        "msExchArchiveDatabaseLink": [
+            "CN=Mailbox Database 1118319013,CN=Databases,CN=Exchange Administrative Group (FYDIBOHF23SPDLT),CN=Administrative Groups,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchArchiveGUID": [
+            {
+                "encoded": "kGGlnnACYkWMHRc51zaXUg==",
+                "encoding": "base64"
+            }
+        ],
+        "msExchArchiveName": [
+            "In-Place Archive -HealthMailbox-EXCH01-001"
+        ],
+        "msExchArchiveQuota": [
+            104857600
+        ],
+        "msExchArchiveWarnQuota": [
+            94371840
+        ],
+        "msExchBypassAudit": [
+            false
+        ],
+        "msExchCalendarLoggingQuota": [
+            6291456
+        ],
+        "msExchDumpsterQuota": [
+            31457280
+        ],
+        "msExchDumpsterWarningQuota": [
+            20971520
+        ],
+        "msExchELCMailboxFlags": [
+            2
+        ],
+        "msExchGroupSecurityFlags": [
+            0
+        ],
+        "msExchHideFromAddressLists": [
+            true
+        ],
+        "msExchHomeServerName": [
+            "/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Configuration/cn=Servers/cn=EXCH01"
+        ],
+        "msExchMDBRulesQuota": [
+            256
+        ],
+        "msExchMailboxAuditEnable": [
+            false
+        ],
+        "msExchMailboxAuditLogAgeLimit": [
+            7776000
+        ],
+        "msExchMailboxFolderSet": [
+            0
+        ],
+        "msExchMailboxGuid": [
+            {
+                "encoded": "MKM4WyaTTEa8hQXZgmNRRQ==",
+                "encoding": "base64"
+            }
+        ],
+        "msExchMailboxSecurityDescriptor": [
+            {
+                "encoded": "AQAEgBQAAAAgAAAAAAAAACwAAAABAQAAAAAABQoAAAABAQAAAAAABQoAAAAEABwAAQAAAAACFAABAAIAAQEAAAAAAAUKAAAA",
+                "encoding": "base64"
+            }
+        ],
+        "msExchMailboxTemplateLink": [
+            "CN=Default MRM Policy,CN=Retention Policies Container,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchMobileMailboxFlags": [
+            1
+        ],
+        "msExchModerationFlags": [
+            0
+        ],
+        "msExchPoliciesExcluded": [
+            "{26491cfc-9e50-4857-861b-0cb8df22b5d7}"
+        ],
+        "msExchProvisioningFlags": [
+            0
+        ],
+        "msExchRBACPolicyLink": [
+            "CN=Default Role Assignment Policy,CN=Policies,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchRecipientSoftDeletedStatus": [
+            0
+        ],
+        "msExchRecipientTypeDetails": [
+            549755813888
+        ],
+        "msExchTextMessagingState": [
+            302120705,
+            16842751
+        ],
+        "msExchTransportRecipientSettingsFlags": [
+            0
+        ],
+        "msExchUMDtmfMap": [
+            "emailAddress:432584624526932932231172843308208188623825250",
+            "lastNameFirstName:4325846245269392401001",
+            "firstNameLastName:4325846245269392401001"
+        ],
+        "msExchUMEnabledFlags2": [
+            -1
+        ],
+        "msExchUserAccountControl": [
+            0
+        ],
+        "msExchVersion": [
+            88218628259840
+        ],
+        "msExchWhenMailboxCreated": [
+            "2019-09-19 11:56:21+00:00"
+        ],
+        "name": [
+            "HealthMailboxfc9daad117b84fe08b081886bd8a5a50"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{5482e259-5620-4e19-940e-59d7145abc00}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-1135"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "protocolSettings": [
+            "RemotePowerShell\u00a71"
+        ],
+        "proxyAddresses": [
+            "SMTP:HealthMailboxfc9daad117b84fe08b081886bd8a5a50@htb.local",
+            "SIP:HealthMailboxfc9daad117b84fe08b081886bd8a5a50@htb.local"
+        ],
+        "pwdLastSet": [
+            "2019-09-23 22:51:35.267113+00:00"
+        ],
+        "sAMAccountName": [
+            "HealthMailboxfc9daad"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "showInAddressBook": [
+            "CN=All Recipients(VLV),CN=All System Address Lists,CN=Address Lists Container,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "uSNChanged": [
+            99895
+        ],
+        "uSNCreated": [
+            25167
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "userPrincipalName": [
+            "HealthMailboxfc9daad117b84fe08b081886bd8a5a50@htb.local"
+        ],
+        "whenChanged": [
+            "2019-09-23 22:51:35+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-19 11:56:22+00:00"
+        ]
+    },
+    "dn": "CN=HealthMailboxfc9daad117b84fe08b081886bd8a5a50,CN=Monitoring Mailboxes,CN=Microsoft Exchange System Objects,DC=htb,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "HealthMailboxc3d7722415ad41a5b19e3e00e165edbe"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:54+00:00",
+            "2022-01-09 19:31:54+00:00",
+            "2022-01-09 19:31:54+00:00",
+            "2022-01-09 19:31:54+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "displayName": [
+            "HealthMailbox-EXCH01-Mailbox-Database-1118319013"
+        ],
+        "distinguishedName": [
+            "CN=HealthMailboxc3d7722415ad41a5b19e3e00e165edbe,CN=Monitoring Mailboxes,CN=Microsoft Exchange System Objects,DC=htb,DC=local"
+        ],
+        "garbageCollPeriod": [
+            1209600
+        ],
+        "homeMDB": [
+            "CN=Mailbox Database 1118319013,CN=Databases,CN=Exchange Administrative Group (FYDIBOHF23SPDLT),CN=Administrative Groups,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "internetEncoding": [
+            0
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "2019-09-23 22:57:12.361517+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2019-09-19 12:28:13.897545+00:00"
+        ],
+        "legacyExchangeDN": [
+            "/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=a9fa4d86d45346a0b90940ae310cca4a-Healt"
+        ],
+        "logonCount": [
+            1470
+        ],
+        "mDBUseDefaults": [
+            true
+        ],
+        "mail": [
+            "HealthMailboxc3d7722415ad41a5b19e3e00e165edbe@htb.local"
+        ],
+        "mailNickname": [
+            "HealthMailboxc3d7722415ad41a5b19e3e00e165edbe"
+        ],
+        "msExchAddressBookFlags": [
+            1
+        ],
+        "msExchArchiveDatabaseLink": [
+            "CN=Mailbox Database 1118319013,CN=Databases,CN=Exchange Administrative Group (FYDIBOHF23SPDLT),CN=Administrative Groups,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchArchiveGUID": [
+            {
+                "encoded": "0kLQ2xpyDki4Xkpz7EpNVA==",
+                "encoding": "base64"
+            }
+        ],
+        "msExchArchiveName": [
+            "In-Place Archive -HealthMailbox-EXCH01-Mailbox-Database-1118319013"
+        ],
+        "msExchArchiveQuota": [
+            104857600
+        ],
+        "msExchArchiveWarnQuota": [
+            94371840
+        ],
+        "msExchBypassAudit": [
+            false
+        ],
+        "msExchCalendarLoggingQuota": [
+            6291456
+        ],
+        "msExchDumpsterQuota": [
+            31457280
+        ],
+        "msExchDumpsterWarningQuota": [
+            20971520
+        ],
+        "msExchELCMailboxFlags": [
+            2
+        ],
+        "msExchGroupSecurityFlags": [
+            0
+        ],
+        "msExchHideFromAddressLists": [
+            true
+        ],
+        "msExchHomeServerName": [
+            "/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Configuration/cn=Servers/cn=EXCH01"
+        ],
+        "msExchMDBRulesQuota": [
+            256
+        ],
+        "msExchMailboxAuditEnable": [
+            false
+        ],
+        "msExchMailboxAuditLogAgeLimit": [
+            7776000
+        ],
+        "msExchMailboxFolderSet": [
+            0
+        ],
+        "msExchMailboxGuid": [
+            {
+                "encoded": "KUaWlWhcWU6tgHiL/BL9dA==",
+                "encoding": "base64"
+            }
+        ],
+        "msExchMailboxSecurityDescriptor": [
+            {
+                "encoded": "AQAEgBQAAAAgAAAAAAAAACwAAAABAQAAAAAABQoAAAABAQAAAAAABQoAAAAEABwAAQAAAAACFAABAAIAAQEAAAAAAAUKAAAA",
+                "encoding": "base64"
+            }
+        ],
+        "msExchMailboxTemplateLink": [
+            "CN=Default MRM Policy,CN=Retention Policies Container,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchMobileMailboxFlags": [
+            1
+        ],
+        "msExchModerationFlags": [
+            0
+        ],
+        "msExchPoliciesExcluded": [
+            "{26491cfc-9e50-4857-861b-0cb8df22b5d7}"
+        ],
+        "msExchProvisioningFlags": [
+            0
+        ],
+        "msExchRBACPolicyLink": [
+            "CN=Default Role Assignment Policy,CN=Policies,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchRecipientSoftDeletedStatus": [
+            0
+        ],
+        "msExchRecipientTypeDetails": [
+            549755813888
+        ],
+        "msExchTextMessagingState": [
+            302120705,
+            16842751
+        ],
+        "msExchTransportRecipientSettingsFlags": [
+            0
+        ],
+        "msExchUMDtmfMap": [
+            "emailAddress:432584624526923377224152341252193330031653323",
+            "lastNameFirstName:43258462452693924016245269328222731118319013",
+            "firstNameLastName:43258462452693924016245269328222731118319013"
+        ],
+        "msExchUMEnabledFlags2": [
+            -1
+        ],
+        "msExchUserAccountControl": [
+            0
+        ],
+        "msExchUserCulture": [
+            "en-US"
+        ],
+        "msExchVersion": [
+            88218628259840
+        ],
+        "msExchWhenMailboxCreated": [
+            "2019-09-19 11:56:07+00:00"
+        ],
+        "name": [
+            "HealthMailboxc3d7722415ad41a5b19e3e00e165edbe"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{ed9b4fc9-3087-4f7e-9550-0af44f556b99}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-1134"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "protocolSettings": [
+            "RemotePowerShell\u00a71"
+        ],
+        "proxyAddresses": [
+            "SMTP:HealthMailboxc3d7722415ad41a5b19e3e00e165edbe@htb.local",
+            "SIP:HealthMailboxc3d7722415ad41a5b19e3e00e165edbe@htb.local"
+        ],
+        "pwdLastSet": [
+            "2019-09-23 22:51:31.892096+00:00"
+        ],
+        "sAMAccountName": [
+            "HealthMailboxc3d7722"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "showInAddressBook": [
+            "CN=All Recipients(VLV),CN=All System Address Lists,CN=Address Lists Container,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "uSNChanged": [
+            99254
+        ],
+        "uSNCreated": [
+            25150
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "userPrincipalName": [
+            "HealthMailboxc3d7722415ad41a5b19e3e00e165edbe@htb.local"
+        ],
+        "whenChanged": [
+            "2019-09-23 22:51:31+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-19 11:56:07+00:00"
+        ]
+    },
+    "dn": "CN=HealthMailboxc3d7722415ad41a5b19e3e00e165edbe,CN=Monitoring Mailboxes,CN=Microsoft Exchange System Objects,DC=htb,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "SystemMailbox{8cc370d3-822a-4ab8-a926-bb94bd0641a9}"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "displayName": [
+            "SystemMailbox{8cc370d3-822a-4ab8-a926-bb94bd0641a9}"
+        ],
+        "distinguishedName": [
+            "CN=SystemMailbox{8cc370d3-822a-4ab8-a926-bb94bd0641a9},CN=Users,DC=htb,DC=local"
+        ],
+        "homeMDB": [
+            "CN=Mailbox Database 1118319013,CN=Databases,CN=Exchange Administrative Group (FYDIBOHF23SPDLT),CN=Administrative Groups,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "legacyExchangeDN": [
+            "/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=5219688069384f3ea20b8ad4c26a9dab-Syste"
+        ],
+        "logonCount": [
+            0
+        ],
+        "mDBOverHardQuotaLimit": [
+            52428800
+        ],
+        "mDBOverQuotaLimit": [
+            52428800
+        ],
+        "mDBUseDefaults": [
+            false
+        ],
+        "mail": [
+            "SystemMailbox{8cc370d3-822a-4ab8-a926-bb94bd0641a9}@htb.local"
+        ],
+        "mailNickname": [
+            "SystemMailbox{8cc370d3-822a-4ab8-a926-bb94bd0641a9}"
+        ],
+        "msExchAddressBookFlags": [
+            1
+        ],
+        "msExchArchiveQuota": [
+            104857600
+        ],
+        "msExchArchiveWarnQuota": [
+            94371840
+        ],
+        "msExchBypassAudit": [
+            false
+        ],
+        "msExchCalendarLoggingQuota": [
+            6291456
+        ],
+        "msExchDumpsterQuota": [
+            52428800
+        ],
+        "msExchDumpsterWarningQuota": [
+            20971520
+        ],
+        "msExchELCMailboxFlags": [
+            134
+        ],
+        "msExchGroupSecurityFlags": [
+            0
+        ],
+        "msExchHideFromAddressLists": [
+            true
+        ],
+        "msExchHomeServerName": [
+            "/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Configuration/cn=Servers/cn=EXCH01"
+        ],
+        "msExchMailboxAuditEnable": [
+            false
+        ],
+        "msExchMailboxAuditLogAgeLimit": [
+            7776000
+        ],
+        "msExchMailboxFolderSet": [
+            0
+        ],
+        "msExchMailboxGuid": [
+            {
+                "encoded": "c7CT+Ckv/U+vK1QaY1W/FA==",
+                "encoding": "base64"
+            }
+        ],
+        "msExchMailboxSecurityDescriptor": [
+            {
+                "encoded": "AQAEgBQAAAAgAAAAAAAAACwAAAABAQAAAAAABQoAAAABAQAAAAAABQoAAAAEABwAAQAAAAACFAABAAIAAQEAAAAAAAUKAAAA",
+                "encoding": "base64"
+            }
+        ],
+        "msExchMasterAccountSid": [
+            "\u0001\u0001\u0000\u0000\u0000\u0000\u0000\u0005\n\u0000\u0000\u0000"
+        ],
+        "msExchModerationFlags": [
+            6
+        ],
+        "msExchPoliciesIncluded": [
+            "f5cca5ec-fafc-4e09-8b7f-be05572cb7cb",
+            "{26491cfc-9e50-4857-861b-0cb8df22b5d7}"
+        ],
+        "msExchProvisioningFlags": [
+            0
+        ],
+        "msExchRBACPolicyLink": [
+            "CN=Default Role Assignment Policy,CN=Policies,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchRecipientSoftDeletedStatus": [
+            0
+        ],
+        "msExchRecipientTypeDetails": [
+            4398046511104
+        ],
+        "msExchTransportRecipientSettingsFlags": [
+            0
+        ],
+        "msExchUMDtmfMap": [
+            "emailAddress:797836624526982237033822242282926229423064129",
+            "lastNameFirstName:797836624526982237033822242282926229423064129",
+            "firstNameLastName:797836624526982237033822242282926229423064129"
+        ],
+        "msExchUMEnabledFlags2": [
+            -1
+        ],
+        "msExchUserAccountControl": [
+            2
+        ],
+        "msExchVersion": [
+            1126140425011200
+        ],
+        "msExchWhenMailboxCreated": [
+            "2019-09-19 11:48:08+00:00"
+        ],
+        "name": [
+            "SystemMailbox{8cc370d3-822a-4ab8-a926-bb94bd0641a9}"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{c07449e3-87b2-4cfd-adba-aa323b0b72f0}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-1132"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "proxyAddresses": [
+            "SMTP:SystemMailbox{8cc370d3-822a-4ab8-a926-bb94bd0641a9}@htb.local"
+        ],
+        "pwdLastSet": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "sAMAccountName": [
+            "SM_1ffab36a2f5f479cb"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "sn": [
+            "SystemMailbox 8cc370d3-822a-4ab8-a926-bb94bd0641a9"
+        ],
+        "uSNChanged": [
+            24872
+        ],
+        "uSNCreated": [
+            23820
+        ],
+        "userAccountControl": [
+            514
+        ],
+        "userPrincipalName": [
+            "SystemMailbox{8cc370d3-822a-4ab8-a926-bb94bd0641a9}@htb.local"
+        ],
+        "whenChanged": [
+            "2019-09-19 11:48:08+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-19 11:11:27+00:00"
+        ]
+    },
+    "dn": "CN=SystemMailbox{8cc370d3-822a-4ab8-a926-bb94bd0641a9},CN=Users,DC=htb,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "SystemMailbox{2CE34405-31BE-455D-89D7-A7C7DA7A0DAA}"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "displayName": [
+            "Microsoft Exchange"
+        ],
+        "distinguishedName": [
+            "CN=SystemMailbox{2CE34405-31BE-455D-89D7-A7C7DA7A0DAA},CN=Users,DC=htb,DC=local"
+        ],
+        "homeMDB": [
+            "CN=Mailbox Database 1118319013,CN=Databases,CN=Exchange Administrative Group (FYDIBOHF23SPDLT),CN=Administrative Groups,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "legacyExchangeDN": [
+            "/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=7f26bba260144bd2b20640d80eea5c48-Syste"
+        ],
+        "logonCount": [
+            0
+        ],
+        "mDBUseDefaults": [
+            false
+        ],
+        "mail": [
+            "SystemMailbox{2CE34405-31BE-455D-89D7-A7C7DA7A0DAA}@htb.local"
+        ],
+        "mailNickname": [
+            "SystemMailbox{2CE34405-31BE-455D-89D7-A7C7DA7A0DAA}"
+        ],
+        "msExchAddressBookFlags": [
+            1
+        ],
+        "msExchApprovalApplicationLink": [
+            "CN=ModeratedRecipients,CN=Approval Applications,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=AutoGroup,CN=Approval Applications,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchArchiveQuota": [
+            104857600
+        ],
+        "msExchArchiveWarnQuota": [
+            94371840
+        ],
+        "msExchBypassAudit": [
+            false
+        ],
+        "msExchCalendarLoggingQuota": [
+            6291456
+        ],
+        "msExchCapabilityIdentifiers": [
+            66
+        ],
+        "msExchDumpsterQuota": [
+            31457280
+        ],
+        "msExchDumpsterWarningQuota": [
+            20971520
+        ],
+        "msExchELCMailboxFlags": [
+            130
+        ],
+        "msExchGroupSecurityFlags": [
+            0
+        ],
+        "msExchHideFromAddressLists": [
+            true
+        ],
+        "msExchHomeServerName": [
+            "/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Configuration/cn=Servers/cn=EXCH01"
+        ],
+        "msExchMailboxAuditEnable": [
+            false
+        ],
+        "msExchMailboxAuditLogAgeLimit": [
+            7776000
+        ],
+        "msExchMailboxFolderSet": [
+            0
+        ],
+        "msExchMailboxGuid": [
+            {
+                "encoded": "5HiVxBNcaEiZERAdAbA1Zw==",
+                "encoding": "base64"
+            }
+        ],
+        "msExchMailboxSecurityDescriptor": [
+            {
+                "encoded": "AQAEgBQAAAAgAAAAAAAAACwAAAABAQAAAAAABQoAAAABAQAAAAAABQoAAAAEABwAAQAAAAACFAAFAAIAAQEAAAAAAAUKAAAA",
+                "encoding": "base64"
+            }
+        ],
+        "msExchMailboxTemplateLink": [
+            "CN=ArbitrationMailbox,CN=Retention Policies Container,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchMasterAccountSid": [
+            "\u0001\u0001\u0000\u0000\u0000\u0000\u0000\u0005\n\u0000\u0000\u0000"
+        ],
+        "msExchMessageHygieneSCLDeleteThreshold": [
+            9
+        ],
+        "msExchMessageHygieneSCLJunkThreshold": [
+            4
+        ],
+        "msExchMessageHygieneSCLQuarantineThreshold": [
+            9
+        ],
+        "msExchMessageHygieneSCLRejectThreshold": [
+            7
+        ],
+        "msExchModerationFlags": [
+            6
+        ],
+        "msExchPoliciesIncluded": [
+            "f5cca5ec-fafc-4e09-8b7f-be05572cb7cb",
+            "{26491cfc-9e50-4857-861b-0cb8df22b5d7}"
+        ],
+        "msExchProvisioningFlags": [
+            0
+        ],
+        "msExchRecipientDisplayType": [
+            10
+        ],
+        "msExchRecipientSoftDeletedStatus": [
+            0
+        ],
+        "msExchRecipientTypeDetails": [
+            8388608
+        ],
+        "msExchTransportRecipientSettingsFlags": [
+            0
+        ],
+        "msExchUMDtmfMap": [
+            "emailAddress:797836624526922334405312345538937272732720322",
+            "lastNameFirstName:797836624526922334405312345538937272732720322",
+            "firstNameLastName:797836624526922334405312345538937272732720322"
+        ],
+        "msExchUMEnabledFlags2": [
+            -1
+        ],
+        "msExchUserAccountControl": [
+            2
+        ],
+        "msExchVersion": [
+            1126140425011200
+        ],
+        "msExchWhenMailboxCreated": [
+            "2019-09-19 11:48:01+00:00"
+        ],
+        "name": [
+            "SystemMailbox{2CE34405-31BE-455D-89D7-A7C7DA7A0DAA}"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{43a603ea-bd9c-4f69-be7f-d86e4dd35c00}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-1131"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "proxyAddresses": [
+            "SMTP:SystemMailbox{2CE34405-31BE-455D-89D7-A7C7DA7A0DAA}@htb.local"
+        ],
+        "pwdLastSet": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "sAMAccountName": [
+            "SM_c75ee099d0a64c91b"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "sn": [
+            "SystemMailbox{2CE34405-31BE-455D-89D7-A7C7DA7A0DAA}"
+        ],
+        "uSNChanged": [
+            24868
+        ],
+        "uSNCreated": [
+            23812
+        ],
+        "userAccountControl": [
+            514
+        ],
+        "userPrincipalName": [
+            "SystemMailbox{2CE34405-31BE-455D-89D7-A7C7DA7A0DAA}@htb.local"
+        ],
+        "whenChanged": [
+            "2019-09-19 11:48:01+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-19 11:11:27+00:00"
+        ]
+    },
+    "dn": "CN=SystemMailbox{2CE34405-31BE-455D-89D7-A7C7DA7A0DAA},CN=Users,DC=htb,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "SystemMailbox{D0E409A0-AF9B-4720-92FE-AAC869B0D201}"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "displayName": [
+            "E4E Encryption Store - Active"
+        ],
+        "distinguishedName": [
+            "CN=SystemMailbox{D0E409A0-AF9B-4720-92FE-AAC869B0D201},CN=Users,DC=htb,DC=local"
+        ],
+        "homeMDB": [
+            "CN=Mailbox Database 1118319013,CN=Databases,CN=Exchange Administrative Group (FYDIBOHF23SPDLT),CN=Administrative Groups,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "legacyExchangeDN": [
+            "/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=7faef2597f78442cb92fa80bfa3fe4ad-Syste"
+        ],
+        "logonCount": [
+            0
+        ],
+        "mDBUseDefaults": [
+            false
+        ],
+        "mail": [
+            "SystemMailbox{D0E409A0-AF9B-4720-92FE-AAC869B0D201}@htb.local"
+        ],
+        "mailNickname": [
+            "SystemMailbox{D0E409A0-AF9B-4720-92FE-AAC869B0D201}"
+        ],
+        "msExchAddressBookFlags": [
+            1
+        ],
+        "msExchApprovalApplicationLink": [
+            "CN=ModeratedRecipients,CN=Approval Applications,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=AutoGroup,CN=Approval Applications,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchArchiveQuota": [
+            104857600
+        ],
+        "msExchArchiveWarnQuota": [
+            94371840
+        ],
+        "msExchBypassAudit": [
+            false
+        ],
+        "msExchCalendarLoggingQuota": [
+            6291456
+        ],
+        "msExchDumpsterQuota": [
+            31457280
+        ],
+        "msExchDumpsterWarningQuota": [
+            20971520
+        ],
+        "msExchELCMailboxFlags": [
+            130
+        ],
+        "msExchGroupSecurityFlags": [
+            0
+        ],
+        "msExchHideFromAddressLists": [
+            true
+        ],
+        "msExchHomeServerName": [
+            "/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Configuration/cn=Servers/cn=EXCH01"
+        ],
+        "msExchMailboxAuditEnable": [
+            false
+        ],
+        "msExchMailboxAuditLogAgeLimit": [
+            7776000
+        ],
+        "msExchMailboxFolderSet": [
+            0
+        ],
+        "msExchMailboxGuid": [
+            {
+                "encoded": "B27fWZaGWkSWt4VxrYsCNg==",
+                "encoding": "base64"
+            }
+        ],
+        "msExchMailboxSecurityDescriptor": [
+            {
+                "encoded": "AQAEgBQAAAAgAAAAAAAAACwAAAABAQAAAAAABQoAAAABAQAAAAAABQoAAAAEABwAAQAAAAACFAAFAAIAAQEAAAAAAAUKAAAA",
+                "encoding": "base64"
+            }
+        ],
+        "msExchMailboxTemplateLink": [
+            "CN=ArbitrationMailbox,CN=Retention Policies Container,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchMasterAccountSid": [
+            "\u0001\u0001\u0000\u0000\u0000\u0000\u0000\u0005\n\u0000\u0000\u0000"
+        ],
+        "msExchMessageHygieneSCLDeleteThreshold": [
+            9
+        ],
+        "msExchMessageHygieneSCLJunkThreshold": [
+            4
+        ],
+        "msExchMessageHygieneSCLQuarantineThreshold": [
+            9
+        ],
+        "msExchMessageHygieneSCLRejectThreshold": [
+            7
+        ],
+        "msExchModerationFlags": [
+            6
+        ],
+        "msExchPoliciesIncluded": [
+            "f5cca5ec-fafc-4e09-8b7f-be05572cb7cb",
+            "{26491cfc-9e50-4857-861b-0cb8df22b5d7}"
+        ],
+        "msExchProvisioningFlags": [
+            0
+        ],
+        "msExchRecipientDisplayType": [
+            10
+        ],
+        "msExchRecipientSoftDeletedStatus": [
+            0
+        ],
+        "msExchRecipientTypeDetails": [
+            8388608
+        ],
+        "msExchTransportRecipientSettingsFlags": [
+            0
+        ],
+        "msExchUMDtmfMap": [
+            "emailAddress:797836624526930340920239247209233222869203201",
+            "lastNameFirstName:797836624526930340920239247209233222869203201",
+            "firstNameLastName:797836624526930340920239247209233222869203201"
+        ],
+        "msExchUMEnabledFlags2": [
+            -1
+        ],
+        "msExchUserAccountControl": [
+            2
+        ],
+        "msExchVersion": [
+            1126140425011200
+        ],
+        "msExchWhenMailboxCreated": [
+            "2019-09-19 11:47:55+00:00"
+        ],
+        "name": [
+            "SystemMailbox{D0E409A0-AF9B-4720-92FE-AAC869B0D201}"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{153cf762-5ca5-44bb-a390-f10d6890ccdf}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-1130"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "proxyAddresses": [
+            "SMTP:SystemMailbox{D0E409A0-AF9B-4720-92FE-AAC869B0D201}@htb.local"
+        ],
+        "pwdLastSet": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "sAMAccountName": [
+            "SM_7c96b981967141ebb"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "sn": [
+            "SystemMailbox{D0E409A0-AF9B-4720-92FE-AAC869B0D201}"
+        ],
+        "uSNChanged": [
+            24860
+        ],
+        "uSNCreated": [
+            23807
+        ],
+        "userAccountControl": [
+            514
+        ],
+        "userPrincipalName": [
+            "SystemMailbox{D0E409A0-AF9B-4720-92FE-AAC869B0D201}@htb.local"
+        ],
+        "whenChanged": [
+            "2019-09-19 11:47:55+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-19 11:11:27+00:00"
+        ]
+    },
+    "dn": "CN=SystemMailbox{D0E409A0-AF9B-4720-92FE-AAC869B0D201},CN=Users,DC=htb,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "FederatedEmail.4c1f4d8b-8179-4148-93bf-00a95fa1e042"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "displayName": [
+            "Microsoft Exchange Federation Mailbox"
+        ],
+        "distinguishedName": [
+            "CN=FederatedEmail.4c1f4d8b-8179-4148-93bf-00a95fa1e042,CN=Users,DC=htb,DC=local"
+        ],
+        "homeMDB": [
+            "CN=Mailbox Database 1118319013,CN=Databases,CN=Exchange Administrative Group (FYDIBOHF23SPDLT),CN=Administrative Groups,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "legacyExchangeDN": [
+            "/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=1e107e142f7341cc8acb1597635d96e0-Feder"
+        ],
+        "logonCount": [
+            0
+        ],
+        "mDBOverHardQuotaLimit": [
+            1024
+        ],
+        "mDBOverQuotaLimit": [
+            1024
+        ],
+        "mDBStorageQuota": [
+            1024
+        ],
+        "mDBUseDefaults": [
+            false
+        ],
+        "mail": [
+            "FederatedEmail.4c1f4d8b-8179-4148-93bf-00a95fa1e042@htb.local"
+        ],
+        "mailNickname": [
+            "FederatedEmail.4c1f4d8b-8179-4148-93bf-00a95fa1e042"
+        ],
+        "msExchAddressBookFlags": [
+            1
+        ],
+        "msExchArchiveQuota": [
+            104857600
+        ],
+        "msExchArchiveWarnQuota": [
+            94371840
+        ],
+        "msExchBypassAudit": [
+            false
+        ],
+        "msExchCalendarLoggingQuota": [
+            6291456
+        ],
+        "msExchDumpsterQuota": [
+            31457280
+        ],
+        "msExchDumpsterWarningQuota": [
+            20971520
+        ],
+        "msExchELCMailboxFlags": [
+            130
+        ],
+        "msExchGroupSecurityFlags": [
+            0
+        ],
+        "msExchHideFromAddressLists": [
+            true
+        ],
+        "msExchHomeServerName": [
+            "/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Configuration/cn=Servers/cn=EXCH01"
+        ],
+        "msExchMailboxAuditEnable": [
+            false
+        ],
+        "msExchMailboxAuditLogAgeLimit": [
+            7776000
+        ],
+        "msExchMailboxFolderSet": [
+            0
+        ],
+        "msExchMailboxGuid": [
+            {
+                "encoded": "fD9/P9UhF0uiEChI8RY5QA==",
+                "encoding": "base64"
+            }
+        ],
+        "msExchMailboxSecurityDescriptor": [
+            {
+                "encoded": "AQAEgBQAAAAgAAAAAAAAACwAAAABAQAAAAAABQoAAAABAQAAAAAABQoAAAAEABwAAQAAAAACFAAFAAIAAQEAAAAAAAUKAAAA",
+                "encoding": "base64"
+            }
+        ],
+        "msExchMasterAccountSid": [
+            "\u0001\u0001\u0000\u0000\u0000\u0000\u0000\u0005\n\u0000\u0000\u0000"
+        ],
+        "msExchMessageHygieneSCLDeleteThreshold": [
+            9
+        ],
+        "msExchMessageHygieneSCLJunkThreshold": [
+            4
+        ],
+        "msExchMessageHygieneSCLQuarantineThreshold": [
+            9
+        ],
+        "msExchMessageHygieneSCLRejectThreshold": [
+            7
+        ],
+        "msExchModerationFlags": [
+            6
+        ],
+        "msExchPoliciesIncluded": [
+            "f5cca5ec-fafc-4e09-8b7f-be05572cb7cb",
+            "{26491cfc-9e50-4857-861b-0cb8df22b5d7}"
+        ],
+        "msExchProvisioningFlags": [
+            0
+        ],
+        "msExchRMSComputerAccountsLink": [
+            "CN=EXCH01,CN=Computers,DC=htb,DC=local"
+        ],
+        "msExchRecipientDisplayType": [
+            10
+        ],
+        "msExchRecipientSoftDeletedStatus": [
+            0
+        ],
+        "msExchRecipientTypeDetails": [
+            8388608
+        ],
+        "msExchTransportRecipientSettingsFlags": [
+            0
+        ],
+        "msExchUMDtmfMap": [
+            "emailAddress:3333728333624542134382817941489323002953213042",
+            "lastNameFirstName:3333728333624542134382817941489323002953213042",
+            "firstNameLastName:3333728333624542134382817941489323002953213042"
+        ],
+        "msExchUMEnabledFlags2": [
+            -1
+        ],
+        "msExchUserAccountControl": [
+            2
+        ],
+        "msExchVersion": [
+            1126140425011200
+        ],
+        "msExchWhenMailboxCreated": [
+            "2019-09-19 11:47:48+00:00"
+        ],
+        "name": [
+            "FederatedEmail.4c1f4d8b-8179-4148-93bf-00a95fa1e042"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{52be9726-3f12-4fd1-a13a-a5235a31e587}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-1129"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "proxyAddresses": [
+            "SMTP:FederatedEmail.4c1f4d8b-8179-4148-93bf-00a95fa1e042@htb.local"
+        ],
+        "pwdLastSet": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "sAMAccountName": [
+            "SM_9b69f1b9d2cc45549"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "sn": [
+            "FederatedEmail.4c1f4d8b-8179-4148-93bf-00a95fa1e042"
+        ],
+        "uSNChanged": [
+            24851
+        ],
+        "uSNCreated": [
+            23802
+        ],
+        "userAccountControl": [
+            514
+        ],
+        "userPrincipalName": [
+            "FederatedEmail.4c1f4d8b-8179-4148-93bf-00a95fa1e042@htb.local"
+        ],
+        "whenChanged": [
+            "2019-09-19 11:47:48+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-19 11:11:27+00:00"
+        ]
+    },
+    "dn": "CN=FederatedEmail.4c1f4d8b-8179-4148-93bf-00a95fa1e042,CN=Users,DC=htb,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "Migration.8f3e7716-2011-43e4-96b1-aba62d229136"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "displayName": [
+            "Microsoft Exchange Migration"
+        ],
+        "distinguishedName": [
+            "CN=Migration.8f3e7716-2011-43e4-96b1-aba62d229136,CN=Users,DC=htb,DC=local"
+        ],
+        "homeMDB": [
+            "CN=Mailbox Database 1118319013,CN=Databases,CN=Exchange Administrative Group (FYDIBOHF23SPDLT),CN=Administrative Groups,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "legacyExchangeDN": [
+            "/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=57e7055a5ddd483c8abc1df53105efc9-Migra"
+        ],
+        "logonCount": [
+            0
+        ],
+        "mDBOverHardQuotaLimit": [
+            307200
+        ],
+        "mDBOverQuotaLimit": [
+            307200
+        ],
+        "mDBStorageQuota": [
+            153600
+        ],
+        "mDBUseDefaults": [
+            false
+        ],
+        "mail": [
+            "Migration.8f3e7716-2011-43e4-96b1-aba62d229136@htb.local"
+        ],
+        "mailNickname": [
+            "Migration.8f3e7716-2011-43e4-96b1-aba62d229136"
+        ],
+        "msExchAddressBookFlags": [
+            1
+        ],
+        "msExchArchiveQuota": [
+            104857600
+        ],
+        "msExchArchiveWarnQuota": [
+            94371840
+        ],
+        "msExchBypassAudit": [
+            false
+        ],
+        "msExchCalendarLoggingQuota": [
+            6291456
+        ],
+        "msExchCapabilityIdentifiers": [
+            48
+        ],
+        "msExchDumpsterQuota": [
+            31457280
+        ],
+        "msExchDumpsterWarningQuota": [
+            20971520
+        ],
+        "msExchELCMailboxFlags": [
+            130
+        ],
+        "msExchGroupSecurityFlags": [
+            0
+        ],
+        "msExchHideFromAddressLists": [
+            true
+        ],
+        "msExchHomeServerName": [
+            "/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Configuration/cn=Servers/cn=EXCH01"
+        ],
+        "msExchMailboxAuditEnable": [
+            false
+        ],
+        "msExchMailboxAuditLogAgeLimit": [
+            7776000
+        ],
+        "msExchMailboxFolderSet": [
+            0
+        ],
+        "msExchMailboxGuid": [
+            {
+                "encoded": "syuTWHYEuUOSJ6L0QmB0wA==",
+                "encoding": "base64"
+            }
+        ],
+        "msExchMailboxSecurityDescriptor": [
+            {
+                "encoded": "AQAEgBQAAAAgAAAAAAAAACwAAAABAQAAAAAABQoAAAABAQAAAAAABQoAAAAEABwAAQAAAAACFAAFAAIAAQEAAAAAAAUKAAAA",
+                "encoding": "base64"
+            }
+        ],
+        "msExchMasterAccountSid": [
+            "\u0001\u0001\u0000\u0000\u0000\u0000\u0000\u0005\n\u0000\u0000\u0000"
+        ],
+        "msExchMessageHygieneSCLDeleteThreshold": [
+            9
+        ],
+        "msExchMessageHygieneSCLJunkThreshold": [
+            4
+        ],
+        "msExchMessageHygieneSCLQuarantineThreshold": [
+            9
+        ],
+        "msExchMessageHygieneSCLRejectThreshold": [
+            7
+        ],
+        "msExchModerationFlags": [
+            6
+        ],
+        "msExchPoliciesIncluded": [
+            "f5cca5ec-fafc-4e09-8b7f-be05572cb7cb",
+            "{26491cfc-9e50-4857-861b-0cb8df22b5d7}"
+        ],
+        "msExchProvisioningFlags": [
+            0
+        ],
+        "msExchRecipientDisplayType": [
+            10
+        ],
+        "msExchRecipientSoftDeletedStatus": [
+            0
+        ],
+        "msExchRecipientTypeDetails": [
+            8388608
+        ],
+        "msExchRequireAuthToSendTo": [
+            true
+        ],
+        "msExchTransportRecipientSettingsFlags": [
+            0
+        ],
+        "msExchUMDtmfMap": [
+            "emailAddress:64472846683337716201143349621222623229136",
+            "lastNameFirstName:64472846683337716201143349621222623229136",
+            "firstNameLastName:64472846683337716201143349621222623229136"
+        ],
+        "msExchUMEnabledFlags2": [
+            -1
+        ],
+        "msExchUserAccountControl": [
+            2
+        ],
+        "msExchVersion": [
+            1126140425011200
+        ],
+        "msExchWhenMailboxCreated": [
+            "2019-09-19 11:47:42+00:00"
+        ],
+        "name": [
+            "Migration.8f3e7716-2011-43e4-96b1-aba62d229136"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{edd456b3-8483-4b0c-9566-e9a98858a516}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-1128"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "proxyAddresses": [
+            "SMTP:Migration.8f3e7716-2011-43e4-96b1-aba62d229136@htb.local"
+        ],
+        "pwdLastSet": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "sAMAccountName": [
+            "SM_1b41c9286325456bb"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "sn": [
+            "Migration.8f3e7716-2011-43e4-96b1-aba62d229136"
+        ],
+        "uSNChanged": [
+            24846
+        ],
+        "uSNCreated": [
+            23797
+        ],
+        "userAccountControl": [
+            514
+        ],
+        "userPrincipalName": [
+            "Migration.8f3e7716-2011-43e4-96b1-aba62d229136@htb.local"
+        ],
+        "whenChanged": [
+            "2019-09-19 11:47:42+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-19 11:11:27+00:00"
+        ]
+    },
+    "dn": "CN=Migration.8f3e7716-2011-43e4-96b1-aba62d229136,CN=Users,DC=htb,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "authOrig": [
+            "CN=DiscoverySearchMailbox {D919BA05-46A6-415f-80AD-7E09334BB852},CN=Users,DC=htb,DC=local"
+        ],
+        "authOrigBL": [
+            "CN=DiscoverySearchMailbox {D919BA05-46A6-415f-80AD-7E09334BB852},CN=Users,DC=htb,DC=local"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "DiscoverySearchMailbox {D919BA05-46A6-415f-80AD-7E09334BB852}"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "delivContLength": [
+            102400
+        ],
+        "displayName": [
+            "Discovery Search Mailbox"
+        ],
+        "distinguishedName": [
+            "CN=DiscoverySearchMailbox {D919BA05-46A6-415f-80AD-7E09334BB852},CN=Users,DC=htb,DC=local"
+        ],
+        "homeMDB": [
+            "CN=Mailbox Database 1118319013,CN=Databases,CN=Exchange Administrative Group (FYDIBOHF23SPDLT),CN=Administrative Groups,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "legacyExchangeDN": [
+            "/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=4603f8b937e84923b718670f87760b7b-Disco"
+        ],
+        "logonCount": [
+            0
+        ],
+        "mDBOverHardQuotaLimit": [
+            52428800
+        ],
+        "mDBOverQuotaLimit": [
+            52428800
+        ],
+        "mDBUseDefaults": [
+            false
+        ],
+        "mail": [
+            "DiscoverySearchMailbox{D919BA05-46A6-415f-80AD-7E09334BB852}@htb.local"
+        ],
+        "mailNickname": [
+            "DiscoverySearchMailbox{D919BA05-46A6-415f-80AD-7E09334BB852}"
+        ],
+        "msExchAddressBookFlags": [
+            1
+        ],
+        "msExchArchiveQuota": [
+            104857600
+        ],
+        "msExchArchiveWarnQuota": [
+            94371840
+        ],
+        "msExchBypassAudit": [
+            false
+        ],
+        "msExchCalendarLoggingQuota": [
+            6291456
+        ],
+        "msExchDumpsterQuota": [
+            31457280
+        ],
+        "msExchDumpsterWarningQuota": [
+            20971520
+        ],
+        "msExchELCMailboxFlags": [
+            134
+        ],
+        "msExchGroupSecurityFlags": [
+            0
+        ],
+        "msExchHideFromAddressLists": [
+            true
+        ],
+        "msExchHomeServerName": [
+            "/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Configuration/cn=Servers/cn=EXCH01"
+        ],
+        "msExchMailboxAuditEnable": [
+            false
+        ],
+        "msExchMailboxAuditLogAgeLimit": [
+            7776000
+        ],
+        "msExchMailboxFolderSet": [
+            0
+        ],
+        "msExchMailboxGuid": [
+            {
+                "encoded": "tyyKW1N2rkG3YnWxFuh10g==",
+                "encoding": "base64"
+            }
+        ],
+        "msExchMailboxSecurityDescriptor": [
+            {
+                "encoded": "AQAEjBQAAAAgAAAAAAAAACwAAAABAQAAAAAABQoAAAABAQAAAAAABQoAAAAEAEAAAgAAAAACFAABAAIAAQEAAAAAAAUKAAAAAAIkAAEAAAABBQAAAAAABRUAAAAsHiW3FXWyFcWw809XBAAA",
+                "encoding": "base64"
+            }
+        ],
+        "msExchMasterAccountSid": [
+            "\u0001\u0001\u0000\u0000\u0000\u0000\u0000\u0005\n\u0000\u0000\u0000"
+        ],
+        "msExchModerationFlags": [
+            6
+        ],
+        "msExchPoliciesIncluded": [
+            "f5cca5ec-fafc-4e09-8b7f-be05572cb7cb",
+            "{26491cfc-9e50-4857-861b-0cb8df22b5d7}"
+        ],
+        "msExchProvisioningFlags": [
+            0
+        ],
+        "msExchRBACPolicyLink": [
+            "CN=Default Role Assignment Policy,CN=Policies,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchRecipientSoftDeletedStatus": [
+            0
+        ],
+        "msExchRecipientTypeDetails": [
+            536870912
+        ],
+        "msExchTransportRecipientSettingsFlags": [
+            0
+        ],
+        "msExchUMDtmfMap": [
+            "emailAddress:347268379732724624526939192205462641538023730933422852",
+            "lastNameFirstName:673924347268379624526939192205462641538023730933422852",
+            "firstNameLastName:673924347268379624526939192205462641538023730933422852"
+        ],
+        "msExchUMEnabledFlags2": [
+            -1
+        ],
+        "msExchUserAccountControl": [
+            2
+        ],
+        "msExchVersion": [
+            88218628259840
+        ],
+        "msExchWhenMailboxCreated": [
+            "2019-09-19 11:47:36+00:00"
+        ],
+        "name": [
+            "DiscoverySearchMailbox {D919BA05-46A6-415f-80AD-7E09334BB852}"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{1c01af25-e07a-4ec5-b51c-ade57a06480c}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-1127"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "proxyAddresses": [
+            "SMTP:DiscoverySearchMailbox{D919BA05-46A6-415f-80AD-7E09334BB852}@htb.local"
+        ],
+        "pwdLastSet": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "sAMAccountName": [
+            "SM_681f53d4942840e18"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "showInAddressBook": [
+            "CN=All Mailboxes(VLV),CN=All System Address Lists,CN=Address Lists Container,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=All Recipients(VLV),CN=All System Address Lists,CN=Address Lists Container,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "sn": [
+            "MsExchDiscoveryMailbox D919BA05-46A6-415f-80AD-7E09334BB852"
+        ],
+        "submissionContLength": [
+            102400
+        ],
+        "uSNChanged": [
+            24875
+        ],
+        "uSNCreated": [
+            23792
+        ],
+        "userAccountControl": [
+            514
+        ],
+        "userPrincipalName": [
+            "DiscoverySearchMailbox {D919BA05-46A6-415f-80AD-7E09334BB852}@htb.local"
+        ],
+        "whenChanged": [
+            "2019-09-19 11:48:40+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-19 11:11:27+00:00"
+        ]
+    },
+    "dn": "CN=DiscoverySearchMailbox {D919BA05-46A6-415f-80AD-7E09334BB852},CN=Users,DC=htb,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "SystemMailbox{e0dc1c29-89c3-4034-b678-e6c29d823ed9}"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "displayName": [
+            "Microsoft Exchange"
+        ],
+        "distinguishedName": [
+            "CN=SystemMailbox{e0dc1c29-89c3-4034-b678-e6c29d823ed9},CN=Users,DC=htb,DC=local"
+        ],
+        "homeMDB": [
+            "CN=Mailbox Database 1118319013,CN=Databases,CN=Exchange Administrative Group (FYDIBOHF23SPDLT),CN=Administrative Groups,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "legacyExchangeDN": [
+            "/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=44aefc0a94d2429fa20e64cf51b1c537-Syste"
+        ],
+        "logonCount": [
+            0
+        ],
+        "mDBUseDefaults": [
+            false
+        ],
+        "mail": [
+            "SystemMailbox{e0dc1c29-89c3-4034-b678-e6c29d823ed9}@htb.local"
+        ],
+        "mailNickname": [
+            "SystemMailbox{e0dc1c29-89c3-4034-b678-e6c29d823ed9}"
+        ],
+        "msExchAddressBookFlags": [
+            1
+        ],
+        "msExchArchiveQuota": [
+            104857600
+        ],
+        "msExchArchiveWarnQuota": [
+            94371840
+        ],
+        "msExchBypassAudit": [
+            false
+        ],
+        "msExchCalendarLoggingQuota": [
+            6291456
+        ],
+        "msExchCapabilityIdentifiers": [
+            41
+        ],
+        "msExchDumpsterQuota": [
+            31457280
+        ],
+        "msExchDumpsterWarningQuota": [
+            20971520
+        ],
+        "msExchELCMailboxFlags": [
+            2
+        ],
+        "msExchGroupSecurityFlags": [
+            0
+        ],
+        "msExchHideFromAddressLists": [
+            true
+        ],
+        "msExchHomeServerName": [
+            "/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Configuration/cn=Servers/cn=EXCH01"
+        ],
+        "msExchMailboxAuditEnable": [
+            false
+        ],
+        "msExchMailboxAuditLogAgeLimit": [
+            7776000
+        ],
+        "msExchMailboxFolderSet": [
+            0
+        ],
+        "msExchMailboxGuid": [
+            {
+                "encoded": "qgoyiL+jQEu0lkWXMv0iPQ==",
+                "encoding": "base64"
+            }
+        ],
+        "msExchMailboxSecurityDescriptor": [
+            {
+                "encoded": "AQAEgBQAAAAgAAAAAAAAACwAAAABAQAAAAAABQoAAAABAQAAAAAABQoAAAAEABwAAQAAAAACFAAFAAIAAQEAAAAAAAUKAAAA",
+                "encoding": "base64"
+            }
+        ],
+        "msExchMailboxTemplateLink": [
+            "CN=ArbitrationMailbox,CN=Retention Policies Container,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchMasterAccountSid": [
+            "\u0001\u0001\u0000\u0000\u0000\u0000\u0000\u0005\n\u0000\u0000\u0000"
+        ],
+        "msExchModerationFlags": [
+            6
+        ],
+        "msExchPoliciesIncluded": [
+            "f5cca5ec-fafc-4e09-8b7f-be05572cb7cb",
+            "{26491cfc-9e50-4857-861b-0cb8df22b5d7}"
+        ],
+        "msExchProvisioningFlags": [
+            0
+        ],
+        "msExchRecipientDisplayType": [
+            10
+        ],
+        "msExchRecipientSoftDeletedStatus": [
+            0
+        ],
+        "msExchRecipientTypeDetails": [
+            8388608
+        ],
+        "msExchRequireAuthToSendTo": [
+            true
+        ],
+        "msExchTransportRecipientSettingsFlags": [
+            0
+        ],
+        "msExchUMDtmfMap": [
+            "emailAddress:797836624526930321229892340342678362293823339",
+            "lastNameFirstName:67392434726837930321229892340342678362293823339",
+            "firstNameLastName:67392434726837930321229892340342678362293823339"
+        ],
+        "msExchUMEnabledFlags2": [
+            -1
+        ],
+        "msExchUserAccountControl": [
+            2
+        ],
+        "msExchVersion": [
+            1126140425011200
+        ],
+        "msExchWhenMailboxCreated": [
+            "2019-09-19 11:47:29+00:00"
+        ],
+        "name": [
+            "SystemMailbox{e0dc1c29-89c3-4034-b678-e6c29d823ed9}"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{19e3b87e-26ca-4519-b30c-c50583fbd925}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-1126"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "proxyAddresses": [
+            "SMTP:SystemMailbox{e0dc1c29-89c3-4034-b678-e6c29d823ed9}@htb.local"
+        ],
+        "pwdLastSet": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "sAMAccountName": [
+            "SM_75a538d3025e4db9a"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "sn": [
+            "MsExchDiscovery e0dc1c29-89c3-4034-b678-e6c29d823ed9"
+        ],
+        "uSNChanged": [
+            24836
+        ],
+        "uSNCreated": [
+            23787
+        ],
+        "userAccountControl": [
+            514
+        ],
+        "userPrincipalName": [
+            "SystemMailbox{e0dc1c29-89c3-4034-b678-e6c29d823ed9}@htb.local"
+        ],
+        "whenChanged": [
+            "2019-09-19 11:47:29+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-19 11:11:27+00:00"
+        ]
+    },
+    "dn": "CN=SystemMailbox{e0dc1c29-89c3-4034-b678-e6c29d823ed9},CN=Users,DC=htb,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "SystemMailbox{bb558c35-97f1-4cb9-8ff7-d53741dc928c}"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "displayName": [
+            "Microsoft Exchange"
+        ],
+        "distinguishedName": [
+            "CN=SystemMailbox{bb558c35-97f1-4cb9-8ff7-d53741dc928c},CN=Users,DC=htb,DC=local"
+        ],
+        "homeMDB": [
+            "CN=Mailbox Database 1118319013,CN=Databases,CN=Exchange Administrative Group (FYDIBOHF23SPDLT),CN=Administrative Groups,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "legacyExchangeDN": [
+            "/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=5f90cd7455db492fb2b3b90df3946396-Syste"
+        ],
+        "logonCount": [
+            0
+        ],
+        "mDBUseDefaults": [
+            false
+        ],
+        "mail": [
+            "SystemMailbox{bb558c35-97f1-4cb9-8ff7-d53741dc928c}@htb.local"
+        ],
+        "mailNickname": [
+            "SystemMailbox{bb558c35-97f1-4cb9-8ff7-d53741dc928c}"
+        ],
+        "msExchAddressBookFlags": [
+            1
+        ],
+        "msExchApprovalApplicationLink": [
+            "CN=ModeratedRecipients,CN=Approval Applications,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=AutoGroup,CN=Approval Applications,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchArchiveQuota": [
+            104857600
+        ],
+        "msExchArchiveWarnQuota": [
+            94371840
+        ],
+        "msExchBypassAudit": [
+            false
+        ],
+        "msExchCalendarLoggingQuota": [
+            6291456
+        ],
+        "msExchCapabilityIdentifiers": [
+            46,
+            52,
+            51,
+            47,
+            44,
+            43,
+            42,
+            40
+        ],
+        "msExchDumpsterQuota": [
+            31457280
+        ],
+        "msExchDumpsterWarningQuota": [
+            20971520
+        ],
+        "msExchELCMailboxFlags": [
+            130
+        ],
+        "msExchGroupSecurityFlags": [
+            0
+        ],
+        "msExchHideFromAddressLists": [
+            true
+        ],
+        "msExchHomeServerName": [
+            "/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Configuration/cn=Servers/cn=EXCH01"
+        ],
+        "msExchMailboxAuditEnable": [
+            false
+        ],
+        "msExchMailboxAuditLogAgeLimit": [
+            7776000
+        ],
+        "msExchMailboxFolderSet": [
+            0
+        ],
+        "msExchMailboxGuid": [
+            {
+                "encoded": "TtIV23r96U21SzhiG7UJTA==",
+                "encoding": "base64"
+            }
+        ],
+        "msExchMailboxSecurityDescriptor": [
+            {
+                "encoded": "AQAEgBQAAAAgAAAAAAAAACwAAAABAQAAAAAABQoAAAABAQAAAAAABQoAAAAEABwAAQAAAAACFAAFAAIAAQEAAAAAAAUKAAAA",
+                "encoding": "base64"
+            }
+        ],
+        "msExchMailboxTemplateLink": [
+            "CN=ArbitrationMailbox,CN=Retention Policies Container,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchMasterAccountSid": [
+            "\u0001\u0001\u0000\u0000\u0000\u0000\u0000\u0005\n\u0000\u0000\u0000"
+        ],
+        "msExchModerationFlags": [
+            6
+        ],
+        "msExchOABGeneratingMailboxBL": [
+            "CN=Default Offline Address Book,CN=Offline Address Lists,CN=Address Lists Container,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchPoliciesIncluded": [
+            "f5cca5ec-fafc-4e09-8b7f-be05572cb7cb",
+            "{26491cfc-9e50-4857-861b-0cb8df22b5d7}"
+        ],
+        "msExchProvisioningFlags": [
+            0
+        ],
+        "msExchRecipientDisplayType": [
+            10
+        ],
+        "msExchRecipientSoftDeletedStatus": [
+            0
+        ],
+        "msExchRecipientTypeDetails": [
+            8388608
+        ],
+        "msExchRequireAuthToSendTo": [
+            true
+        ],
+        "msExchTextMessagingState": [
+            302120705,
+            16842751
+        ],
+        "msExchTransportRecipientSettingsFlags": [
+            0
+        ],
+        "msExchUMDtmfMap": [
+            "emailAddress:797836624526922558235973142298337353741329282",
+            "lastNameFirstName:797836624526922558235973142298337353741329282",
+            "firstNameLastName:797836624526922558235973142298337353741329282"
+        ],
+        "msExchUMEnabledFlags2": [
+            -1
+        ],
+        "msExchUserAccountControl": [
+            2
+        ],
+        "msExchVersion": [
+            1126140425011200
+        ],
+        "msExchWhenMailboxCreated": [
+            "2019-09-19 11:47:21+00:00"
+        ],
+        "name": [
+            "SystemMailbox{bb558c35-97f1-4cb9-8ff7-d53741dc928c}"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{c271a7f4-3000-43f5-a3a4-741abcd8bec3}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-1125"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "proxyAddresses": [
+            "SMTP:SystemMailbox{bb558c35-97f1-4cb9-8ff7-d53741dc928c}@htb.local"
+        ],
+        "pwdLastSet": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "sAMAccountName": [
+            "SM_ca8c2ed5bdab4dc9b"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "sn": [
+            "SystemMailbox bb558c35-97f1-4cb9-8ff7-d53741dc928c"
+        ],
+        "submissionContLength": [
+            1048576
+        ],
+        "uSNChanged": [
+            24888
+        ],
+        "uSNCreated": [
+            23782
+        ],
+        "userAccountControl": [
+            514
+        ],
+        "userPrincipalName": [
+            "SystemMailbox{bb558c35-97f1-4cb9-8ff7-d53741dc928c}@htb.local"
+        ],
+        "whenChanged": [
+            "2019-09-19 11:49:31+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-19 11:11:27+00:00"
+        ]
+    },
+    "dn": "CN=SystemMailbox{bb558c35-97f1-4cb9-8ff7-d53741dc928c},CN=Users,DC=htb,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "SystemMailbox{1f05a927-89c0-4725-adca-4527114196a1}"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "displayName": [
+            "Microsoft Exchange Approval Assistant"
+        ],
+        "distinguishedName": [
+            "CN=SystemMailbox{1f05a927-89c0-4725-adca-4527114196a1},CN=Users,DC=htb,DC=local"
+        ],
+        "homeMDB": [
+            "CN=Mailbox Database 1118319013,CN=Databases,CN=Exchange Administrative Group (FYDIBOHF23SPDLT),CN=Administrative Groups,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "legacyExchangeDN": [
+            "/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=4d0d9ee8e5aa4097bfd477c844b94abf-Syste"
+        ],
+        "logonCount": [
+            0
+        ],
+        "mDBUseDefaults": [
+            false
+        ],
+        "mail": [
+            "SystemMailbox{1f05a927-89c0-4725-adca-4527114196a1}@htb.local"
+        ],
+        "mailNickname": [
+            "SystemMailbox{1f05a927-89c0-4725-adca-4527114196a1}"
+        ],
+        "msExchAddressBookFlags": [
+            1
+        ],
+        "msExchApprovalApplicationLink": [
+            "CN=ModeratedRecipients,CN=Approval Applications,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=AutoGroup,CN=Approval Applications,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchArchiveQuota": [
+            104857600
+        ],
+        "msExchArchiveWarnQuota": [
+            94371840
+        ],
+        "msExchBypassAudit": [
+            false
+        ],
+        "msExchCalendarLoggingQuota": [
+            6291456
+        ],
+        "msExchDumpsterQuota": [
+            31457280
+        ],
+        "msExchDumpsterWarningQuota": [
+            20971520
+        ],
+        "msExchELCMailboxFlags": [
+            130
+        ],
+        "msExchGroupSecurityFlags": [
+            0
+        ],
+        "msExchHideFromAddressLists": [
+            true
+        ],
+        "msExchHomeServerName": [
+            "/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Configuration/cn=Servers/cn=EXCH01"
+        ],
+        "msExchMailboxAuditEnable": [
+            false
+        ],
+        "msExchMailboxAuditLogAgeLimit": [
+            7776000
+        ],
+        "msExchMailboxFolderSet": [
+            0
+        ],
+        "msExchMailboxGuid": [
+            {
+                "encoded": "2BTFE/z0cEGcqCyxA7V8tA==",
+                "encoding": "base64"
+            }
+        ],
+        "msExchMailboxSecurityDescriptor": [
+            {
+                "encoded": "AQAEgBQAAAAgAAAAAAAAACwAAAABAQAAAAAABQoAAAABAQAAAAAABQoAAAAEABwAAQAAAAACFAAFAAIAAQEAAAAAAAUKAAAA",
+                "encoding": "base64"
+            }
+        ],
+        "msExchMailboxTemplateLink": [
+            "CN=ArbitrationMailbox,CN=Retention Policies Container,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchMasterAccountSid": [
+            "\u0001\u0001\u0000\u0000\u0000\u0000\u0000\u0005\n\u0000\u0000\u0000"
+        ],
+        "msExchModerationFlags": [
+            6
+        ],
+        "msExchPoliciesIncluded": [
+            "f5cca5ec-fafc-4e09-8b7f-be05572cb7cb",
+            "{26491cfc-9e50-4857-861b-0cb8df22b5d7}"
+        ],
+        "msExchProvisioningFlags": [
+            0
+        ],
+        "msExchRecipientDisplayType": [
+            10
+        ],
+        "msExchRecipientSoftDeletedStatus": [
+            0
+        ],
+        "msExchRecipientTypeDetails": [
+            8388608
+        ],
+        "msExchRequireAuthToSendTo": [
+            true
+        ],
+        "msExchTransportRecipientSettingsFlags": [
+            0
+        ],
+        "msExchUMDtmfMap": [
+            "emailAddress:797836624526913052927892047252322452711419621",
+            "lastNameFirstName:6739242777682513052927323243292203259333256342",
+            "firstNameLastName:6739242777682513052927323243292203259333256342"
+        ],
+        "msExchUMEnabledFlags2": [
+            -1
+        ],
+        "msExchUserAccountControl": [
+            2
+        ],
+        "msExchVersion": [
+            1126140425011200
+        ],
+        "msExchWhenMailboxCreated": [
+            "2019-09-19 11:47:15+00:00"
+        ],
+        "name": [
+            "SystemMailbox{1f05a927-89c0-4725-adca-4527114196a1}"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{7a01aa2b-4c48-4a47-b291-20266705efed}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-1124"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "proxyAddresses": [
+            "SMTP:SystemMailbox{1f05a927-89c0-4725-adca-4527114196a1}@htb.local"
+        ],
+        "pwdLastSet": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "sAMAccountName": [
+            "SM_2c8eef0a09b545acb"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "sn": [
+            "MSExchApproval 1f05a927-3be2-4fb9-aa03-b59fe3b56f4c"
+        ],
+        "uSNChanged": [
+            24819
+        ],
+        "uSNCreated": [
+            23777
+        ],
+        "userAccountControl": [
+            514
+        ],
+        "userPrincipalName": [
+            "SystemMailbox{1f05a927-89c0-4725-adca-4527114196a1}@htb.local"
+        ],
+        "whenChanged": [
+            "2019-09-19 11:47:15+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-19 11:11:27+00:00"
+        ]
+    },
+    "dn": "CN=SystemMailbox{1f05a927-89c0-4725-adca-4527114196a1},CN=Users,DC=htb,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "Exchange Online-ApplicationAccount"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "distinguishedName": [
+            "CN=Exchange Online-ApplicationAccount,CN=Users,DC=htb,DC=local"
+        ],
+        "garbageCollPeriod": [
+            1209600
+        ],
+        "instanceType": [
+            4
+        ],
+        "internetEncoding": [
+            0
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "msExchAddressBookFlags": [
+            1
+        ],
+        "msExchBypassAudit": [
+            false
+        ],
+        "msExchGroupSecurityFlags": [
+            0
+        ],
+        "msExchMDBRulesQuota": [
+            256
+        ],
+        "msExchMailboxAuditEnable": [
+            false
+        ],
+        "msExchMailboxAuditLogAgeLimit": [
+            7776000
+        ],
+        "msExchMailboxFolderSet": [
+            0
+        ],
+        "msExchModerationFlags": [
+            6
+        ],
+        "msExchProvisioningFlags": [
+            0
+        ],
+        "msExchRecipientDisplayType": [
+            12
+        ],
+        "msExchRecipientSoftDeletedStatus": [
+            0
+        ],
+        "msExchRecipientTypeDetails": [
+            33554432
+        ],
+        "msExchTransportRecipientSettingsFlags": [
+            0
+        ],
+        "msExchUMEnabledFlags2": [
+            -1
+        ],
+        "msExchUserAccountControl": [
+            0
+        ],
+        "msExchUserBL": [
+            "CN=MeetingGraphApplication-Exchange Online-ApplicationAccount,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=MailboxSearchApplication-Exchange Online-ApplicationAccount,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=TeamMailboxLifecycleApplication-Exchange Online-ApplicationAccou,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Mailbox Search-Exchange Online-ApplicationAccount,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=LegalHoldApplication-Exchange Online-ApplicationAccount,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=ArchiveApplication-Exchange Online-ApplicationAccount,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=UserApplication-Exchange Online-ApplicationAccount,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchVersion": [
+            1130555651391488
+        ],
+        "name": [
+            "Exchange Online-ApplicationAccount"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{2f9f1f5c-7dec-4c21-8ffa-4dc777e76c4a}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-1123"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "sAMAccountName": [
+            "$331000-VK4ADACQNUCA"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            23684
+        ],
+        "uSNCreated": [
+            23683
+        ],
+        "userAccountControl": [
+            546
+        ],
+        "userPrincipalName": [
+            "Exchange_Online-ApplicationAccount@htb.local"
+        ],
+        "whenChanged": [
+            "2019-09-19 11:11:26+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-19 11:11:26+00:00"
+        ]
+    },
+    "dn": "CN=Exchange Online-ApplicationAccount,CN=Users,DC=htb,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "adminCount": [
+            1
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "krbtgt"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Key Distribution Center Service Account"
+        ],
+        "distinguishedName": [
+            "CN=krbtgt,CN=Users,DC=htb,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "memberOf": [
+            "CN=Denied RODC Password Replication Group,CN=Users,DC=htb,DC=local"
+        ],
+        "msDS-SupportedEncryptionTypes": [
+            0
+        ],
+        "name": [
+            "krbtgt"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{4e6893d1-0f65-446c-aa8c-315b78ccf9bc}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-502"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2019-09-18 10:53:23.467453+00:00"
+        ],
+        "sAMAccountName": [
+            "krbtgt"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "servicePrincipalName": [
+            "kadmin/changepw"
+        ],
+        "showInAdvancedViewOnly": [
+            true
+        ],
+        "uSNChanged": [
+            25310
+        ],
+        "uSNCreated": [
+            12324
+        ],
+        "userAccountControl": [
+            514
+        ],
+        "whenChanged": [
+            "2019-09-19 12:08:33+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-18 10:53:23+00:00"
+        ]
+    },
+    "dn": "CN=krbtgt,CN=Users,DC=htb,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "DefaultAccount"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "A user account managed by the system."
+        ],
+        "distinguishedName": [
+            "CN=DefaultAccount,CN=Users,DC=htb,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "memberOf": [
+            "CN=System Managed Accounts Group,CN=Builtin,DC=htb,DC=local"
+        ],
+        "name": [
+            "DefaultAccount"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{c56f63cb-878d-461c-8048-fa1a1c0c87a5}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-503"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "sAMAccountName": [
+            "DefaultAccount"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            8198
+        ],
+        "uSNCreated": [
+            8198
+        ],
+        "userAccountControl": [
+            66082
+        ],
+        "whenChanged": [
+            "2019-09-18 17:45:57+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-18 17:45:57+00:00"
+        ]
+    },
+    "dn": "CN=DefaultAccount,CN=Users,DC=htb,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "Guest"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Built-in account for guest access to the computer/domain"
+        ],
+        "distinguishedName": [
+            "CN=Guest,CN=Users,DC=htb,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "memberOf": [
+            "CN=Guests,CN=Builtin,DC=htb,DC=local"
+        ],
+        "name": [
+            "Guest"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{aedbc1dd-0565-4800-b6e6-46d34f95bd80}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-501"
+        ],
+        "primaryGroupID": [
+            514
+        ],
+        "pwdLastSet": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "sAMAccountName": [
+            "Guest"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            8197
+        ],
+        "uSNCreated": [
+            8197
+        ],
+        "userAccountControl": [
+            66082
+        ],
+        "whenChanged": [
+            "2019-09-18 17:45:57+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-18 17:45:57+00:00"
+        ]
+    },
+    "dn": "CN=Guest,CN=Users,DC=htb,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "adminCount": [
+            1
+        ],
+        "badPasswordTime": [
+            "2021-08-31 13:56:53.150717+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "Administrator"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Built-in account for administering the computer/domain"
+        ],
+        "displayName": [
+            "Administrator"
+        ],
+        "distinguishedName": [
+            "CN=Administrator,CN=Users,DC=htb,DC=local"
+        ],
+        "homeMDB": [
+            "CN=Mailbox Database 1118319013,CN=Databases,CN=Exchange Administrative Group (FYDIBOHF23SPDLT),CN=Administrative Groups,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "2022-01-09 17:42:01.036966+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2022-01-09 17:41:39.239910+00:00"
+        ],
+        "legacyExchangeDN": [
+            "/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=6a918be344de43c78fc5d0609fcafb4d-Admin"
+        ],
+        "logonCount": [
+            97
+        ],
+        "logonHours": [
+            {
+                "encoded": "////////////////////////////",
+                "encoding": "base64"
+            }
+        ],
+        "mDBUseDefaults": [
+            true
+        ],
+        "mail": [
+            "Administrator@htb.local"
+        ],
+        "mailNickname": [
+            "Administrator"
+        ],
+        "memberOf": [
+            "CN=Organization Management,OU=Microsoft Exchange Security Groups,DC=htb,DC=local",
+            "CN=Group Policy Creator Owners,CN=Users,DC=htb,DC=local",
+            "CN=Domain Admins,CN=Users,DC=htb,DC=local",
+            "CN=Enterprise Admins,CN=Users,DC=htb,DC=local",
+            "CN=Schema Admins,CN=Users,DC=htb,DC=local",
+            "CN=Administrators,CN=Builtin,DC=htb,DC=local"
+        ],
+        "msExchArchiveQuota": [
+            104857600
+        ],
+        "msExchArchiveWarnQuota": [
+            94371840
+        ],
+        "msExchCalendarLoggingQuota": [
+            6291456
+        ],
+        "msExchDumpsterQuota": [
+            31457280
+        ],
+        "msExchDumpsterWarningQuota": [
+            20971520
+        ],
+        "msExchELCMailboxFlags": [
+            130
+        ],
+        "msExchHomeServerName": [
+            "/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Configuration/cn=Servers/cn=EXCH01"
+        ],
+        "msExchMailboxGuid": [
+            {
+                "encoded": "vyhjFc3ZqE2l0Ph4ypVXbQ==",
+                "encoding": "base64"
+            }
+        ],
+        "msExchMailboxSecurityDescriptor": [
+            {
+                "encoded": "AQAEgBQAAAAgAAAAAAAAACwAAAABAQAAAAAABQoAAAABAQAAAAAABQoAAAAEABwAAQAAAAACFAABAAIAAQEAAAAAAAUKAAAA",
+                "encoding": "base64"
+            }
+        ],
+        "msExchPoliciesIncluded": [
+            "f5cca5ec-fafc-4e09-8b7f-be05572cb7cb",
+            "{26491cfc-9e50-4857-861b-0cb8df22b5d7}"
+        ],
+        "msExchRBACPolicyLink": [
+            "CN=Default Role Assignment Policy,CN=Policies,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchRecipientDisplayType": [
+            1073741824
+        ],
+        "msExchRecipientTypeDetails": [
+            1
+        ],
+        "msExchUMDtmfMap": [
+            "emailAddress:2364647872867",
+            "lastNameFirstName:2364647872867",
+            "firstNameLastName:2364647872867"
+        ],
+        "msExchUserAccountControl": [
+            0
+        ],
+        "msExchVersion": [
+            88218628259840
+        ],
+        "msExchWhenMailboxCreated": [
+            "2019-09-19 11:47:08+00:00"
+        ],
+        "name": [
+            "Administrator"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{a8133c53-217c-40e2-81cb-887e0f61bdb0}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-500"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "protocolSettings": [
+            "RemotePowerShell\u00a71"
+        ],
+        "proxyAddresses": [
+            "SMTP:Administrator@htb.local"
+        ],
+        "pwdLastSet": [
+            "2021-08-31 00:51:58.690462+00:00"
+        ],
+        "sAMAccountName": [
+            "Administrator"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "showInAddressBook": [
+            "CN=Mailboxes(VLV),CN=All System Address Lists,CN=Address Lists Container,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=All Mailboxes(VLV),CN=All System Address Lists,CN=Address Lists Container,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=All Recipients(VLV),CN=All System Address Lists,CN=Address Lists Container,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Default Global Address List,CN=All Global Address Lists,CN=Address Lists Container,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=All Users,CN=All Address Lists,CN=Address Lists Container,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "uSNChanged": [
+            888877
+        ],
+        "uSNCreated": [
+            8196
+        ],
+        "userAccountControl": [
+            512
+        ],
+        "userPrincipalName": [
+            "Administrator@htb.local"
+        ],
+        "whenChanged": [
+            "2022-01-09 17:41:39+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-18 17:45:57+00:00"
+        ]
+    },
+    "dn": "CN=Administrator,CN=Users,DC=htb,DC=local"
+}]

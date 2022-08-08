@@ -1,0 +1,24 @@
+********************************************************
+ Testing DAV connection
+OPEN		SUCCEED:		http://grandpa.htb
+********************************************************
+NOTE	Random string for this session: IlHHs_1r1R5bJWy
+********************************************************
+ Creating directory
+********************************************************
+ Sending test files
+PUT	jsp	FAIL
+PUT	html	FAIL
+PUT	php	FAIL
+PUT	txt	FAIL
+PUT	cgi	FAIL
+PUT	asp	FAIL
+PUT	jhtml	FAIL
+PUT	shtml	FAIL
+PUT	cfm	FAIL
+PUT	pl	FAIL
+PUT	aspx	FAIL
+
+********************************************************
+/usr/bin/davtest Summary:
+

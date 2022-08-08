@@ -1,0 +1,176 @@
+[{
+    "attributes": {
+        "auditingPolicy": [
+            "\u0000\u0001"
+        ],
+        "creationTime": [
+            "2022-01-09 17:41:04.974195+00:00"
+        ],
+        "dSASignature": [
+            {
+                "encoded": "AQAAACgAAAAAAAAAAAAAAAAAAAAAAAAAOqNrI1l5QUq5WV+CaJoIcQ==",
+                "encoding": "base64"
+            }
+        ],
+        "dSCorePropagationData": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "dc": [
+            "htb"
+        ],
+        "distinguishedName": [
+            "DC=htb,DC=local"
+        ],
+        "fSMORoleOwner": [
+            "CN=NTDS Settings,CN=FOREST,CN=Servers,CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=htb,DC=local"
+        ],
+        "forceLogoff": [
+            -9223372036854775808
+        ],
+        "gPLink": [
+            "[LDAP://CN={31B2F340-016D-11D2-945F-00C04FB984F9},CN=Policies,CN=System,DC=htb,DC=local;0]"
+        ],
+        "instanceType": [
+            5
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "lockOutObservationWindow": [
+            "0:30:00"
+        ],
+        "lockoutDuration": [
+            "0:30:00"
+        ],
+        "lockoutThreshold": [
+            0
+        ],
+        "masteredBy": [
+            "CN=NTDS Settings,CN=FOREST,CN=Servers,CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=htb,DC=local"
+        ],
+        "maxPwdAge": [
+            "999999999 days, 23:59:59.999999"
+        ],
+        "minPwdAge": [
+            "1 day, 0:00:00"
+        ],
+        "minPwdLength": [
+            7
+        ],
+        "modifiedCount": [
+            1
+        ],
+        "modifiedCountAtLastProm": [
+            0
+        ],
+        "ms-DS-MachineAccountQuota": [
+            10
+        ],
+        "msDS-AllUsersTrustQuota": [
+            1000
+        ],
+        "msDS-Behavior-Version": [
+            7
+        ],
+        "msDS-ExpirePasswordsOnSmartCardOnlyAccounts": [
+            true
+        ],
+        "msDS-IsDomainFor": [
+            "CN=NTDS Settings,CN=FOREST,CN=Servers,CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msDS-NcType": [
+            0
+        ],
+        "msDS-PerUserTrustQuota": [
+            1
+        ],
+        "msDS-PerUserTrustTombstonesQuota": [
+            10
+        ],
+        "msDs-masteredBy": [
+            "CN=NTDS Settings,CN=FOREST,CN=Servers,CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=htb,DC=local"
+        ],
+        "nTMixedDomain": [
+            0
+        ],
+        "name": [
+            "htb"
+        ],
+        "nextRid": [
+            1000
+        ],
+        "objectCategory": [
+            "CN=Domain-DNS,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "domain",
+            "domainDNS"
+        ],
+        "objectGUID": [
+            "{dff0c71a-a949-4b26-8c7b-52e3e2cb6eab}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565"
+        ],
+        "otherWellKnownObjects": [
+            "B:32:683A24E2E8164BD3AF86AC3C2CF3F981:CN=Keys,DC=htb,DC=local",
+            "B:32:1EB93889E40C45DF9F0C64D23BBB6237:CN=Managed Service Accounts,DC=htb,DC=local"
+        ],
+        "pwdHistoryLength": [
+            24
+        ],
+        "pwdProperties": [
+            0
+        ],
+        "rIDManagerReference": [
+            "CN=RID Manager$,CN=System,DC=htb,DC=local"
+        ],
+        "replUpToDateVector": [
+            {
+                "encoded": "AgAAAAAAAAARAAAAAAAAAIArugegK3xCjpG3jOKvTZsK8AAAAAAAAPxOmRMDAAAAEeYhGk0xaEyawzvMi5bZbx0ADQAAAAAA1L0+FwMAAABptVkf+oupR7OwUi6g1GLsFlADAAAAAAAB1aoTAwAAADqjayNZeUFKuVlfgmiaCHEFoAAAAAAAAF8hmRMDAAAA/SE/Oe6WNkywQ7wPcI11uhkQBAAAAAAAbsk9FwMAAAAQPAFBtIydRYjierwFjuPXFTADAAAAAADV16YTAwAAALUwxmGiQbBFsTRBGrVOMWMI0AAAAAAAAJ89mRMDAAAATnxjeGYW7EmrnM1R7mBIgRNwAgAAAAAA3W2gEwMAAAAx9MaLRXB5Q6abmfK0jSZwDBABAAAAAACGxZkTAwAAALcC/o8KtvtFmZYhIq0xiqcGsAAAAAAAANcpmRMDAAAAGsSfkDQyx0OeZUxqqC73xgsAAQAAAAAAyq2ZEwMAAABQXe+iXDbzTL3G4S83gpHZF6ADAAAAAABpqqsTAwAAABnC+qpPGbNKkRvwWWMpKnsfkA0AAAAAAC+v6xcDAAAAeU8x61iNhU2SS2ry3Ow5dwngAAAAAAAAz0WZEwMAAADJyl7u96u4QaUcWbSpFqQhHnANAAAAAACZxT4XAwAAABLjqfHAurdPrmqHvN46py0HwAAAAAAAAMM3mRMDAAAAnr2A+UQT+0W62AEK4I4bjxzQDAAAAAAAsa8+FwMAAAA=",
+                "encoding": "base64"
+            }
+        ],
+        "serverState": [
+            1
+        ],
+        "subRefs": [
+            "DC=ForestDnsZones,DC=htb,DC=local",
+            "DC=DomainDnsZones,DC=htb,DC=local",
+            "CN=Configuration,DC=htb,DC=local"
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uASCompat": [
+            1
+        ],
+        "uSNChanged": [
+            1261177
+        ],
+        "uSNCreated": [
+            4099
+        ],
+        "wellKnownObjects": [
+            "B:32:6227F0AF1FC2410D8E3BB10615BB5B0F:CN=NTDS Quotas,DC=htb,DC=local",
+            "B:32:F4BE92A4C777485E878E9421D53087DB:CN=Microsoft,CN=Program Data,DC=htb,DC=local",
+            "B:32:09460C08AE1E4A4EA0F64AEE7DAA1E5A:CN=Program Data,DC=htb,DC=local",
+            "B:32:22B70C67D56E4EFB91E9300FCA3DC1AA:CN=ForeignSecurityPrincipals,DC=htb,DC=local",
+            "B:32:18E2EA80684F11D2B9AA00C04F79F805:CN=Deleted Objects,DC=htb,DC=local",
+            "B:32:2FBAC1870ADE11D297C400C04FD8D5CD:CN=Infrastructure,DC=htb,DC=local",
+            "B:32:AB8153B7768811D1ADED00C04FD8D5CD:CN=LostAndFound,DC=htb,DC=local",
+            "B:32:AB1D30F3768811D1ADED00C04FD8D5CD:CN=System,DC=htb,DC=local",
+            "B:32:A361B2FFFFD211D1AA4B00C04FD7D83A:OU=Domain Controllers,DC=htb,DC=local",
+            "B:32:AA312825768811D1ADED00C04FD8D5CD:CN=Computers,DC=htb,DC=local",
+            "B:32:A9D1CA15768811D1ADED00C04FD8D5CD:CN=Users,DC=htb,DC=local"
+        ],
+        "whenChanged": [
+            "2022-01-09 19:32:20+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-18 17:45:49+00:00"
+        ]
+    },
+    "dn": "DC=htb,DC=local"
+}]

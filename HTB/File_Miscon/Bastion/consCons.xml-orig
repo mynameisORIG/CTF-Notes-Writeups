@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>                                       
+<mrng:Connections xmlns:mrng="http://mremoteng.org" Name="Connections" Export
+="false" EncryptionEngine="AES" BlockCipherMode="GCM" KdfIterations="1000" Fu
+llFileEncryption="false" Protected="ZSvKI7j224Gf/twXpaP5G2QFZMLr1iO1f5JKdtIKL
+6eUg+eWkL5tKO886au0ofFPW0oop8R8ddXKAx4KK7sAk6AA" ConfVersion="2.6">          
+    <Node Name="DC" Type="Connection" Descr="" Icon="mRemoteNG" Panel="Genera
+l" Id="500e7d58-662a-44d4-aff0-3a4f547a3fee" Username="Administrator" Domain=
+"" Password="aEWNFV5uGcjUHF0uS17QTdT9kVqtKCPeoC0Nw5dmaPFjNQ2kt/zO5xDqE4HdVmHA
+owVRdC7emf7lWWA10dQKiw==" Hostname="127.0.0.1" Protocol="RDP" PuttySession="D
+efault Settings" Port="3389" ConnectToConsole="false" UseCredSsp="true" Rende
+ringEngine="IE" ICAEncryptionStrength="EncrBasic" RDPAuthenticationLevel="NoA
+uth" RDPMinutesToIdleTimeout="0" RDPAlertIdleTimeout="false" LoadBalanceInfo=
+"" Colors="Colors16Bit" Resolution="FitToWindow" AutomaticResize="true" Displ
+ayWallpaper="false" DisplayThemes="false" EnableFontSmoothing="false" EnableD
+esktopComposition="false" CacheBitmaps="false" RedirectDiskDrives="false" Red
+irectPorts="false" RedirectPrinters="false" RedirectSmartCards="false" Redire
+ctSound="DoNotPlay" SoundQuality="Dynamic" RedirectKeys="false" Connected="fa
+lse" PreExtApp="" PostExtApp="" MacAddress="" UserField="" ExtApp="" VNCCompr
+ession="CompNone" VNCEncoding="EncHextile" VNCAuthMode="AuthVNC" VNCProxyType
+="ProxyNone" VNCProxyIP="" VNCProxyPort="0" VNCProxyUsername="" VNCProxyPassw
+ord="" VNCColors="ColNormal" VNCSmartSizeMode="SmartSAspect" VNCViewOnly="fal
+se" RDGatewayUsageMethod="Never" RDGatewayHostname="" RDGatewayUseConnectionC
+redentials="Yes" RDGatewayUsername="" RDGatewayPassword="" RDGatewayDomain=""
+ InheritCacheBitmaps="false" InheritColors="false" InheritDescription="false"
+ InheritDisplayThemes="false" InheritDisplayWallpaper="false" InheritEnableFo
+ntSmoothing="false" InheritEnableDesktopComposition="false" InheritDomain="fa
+lse" InheritIcon="false" InheritPanel="false" InheritPassword="false" Inherit
+Port="false" InheritProtocol="false" InheritPuttySession="false" InheritRedir
+ectDiskDrives="false" InheritRedirectKeys="false" InheritRedirectPorts="false
+" InheritRedirectPrinters="false" InheritRedirectSmartCards="false" InheritRe
+directSound="false" InheritSoundQuality="false" InheritResolution="false" Inh
+eritAutomaticResize="false" InheritUseConsoleSession="false" InheritUseCredSs
+p="false" InheritRenderingEngine="false" InheritUsername="false" InheritICAEn
+cryptionStrength="false" InheritRDPAuthenticationLevel="false" InheritRDPMinu
+tesToIdleTimeout="false" InheritRDPAlertIdleTimeout="false" InheritLoadBalanc
+eInfo="false" InheritPreExtApp="false" InheritPostExtApp="false" InheritMacAd
+dress="false" InheritUserField="false" InheritExtApp="false" InheritVNCCompre
+ssion="false" InheritVNCEncoding="false" InheritVNCAuthMode="false" InheritVN
+CProxyType="false" InheritVNCProxyIP="false" InheritVNCProxyPort="false" Inhe
+ritVNCProxyUsername="false" InheritVNCProxyPassword="false" InheritVNCColors=
+"false" InheritVNCSmartSizeMode="false" InheritVNCViewOnly="false" InheritRDG
+atewayUsageMethod="false" InheritRDGatewayHostname="false" InheritRDGatewayUs
+eConnectionCredentials="false" InheritRDGatewayUsername="false" InheritRDGate
+wayPassword="false" InheritRDGatewayDomain="false" />                        
+    <Node Name="L4mpje-PC" Type="Connection" Descr="" Icon="mRemoteNG" Panel=
+"General" Id="8d3579b2-e68e-48c1-8f0f-9ee1347c9128" Username="L4mpje" Domain=
+"" Password="yhgmiu5bbuamU3qMUKc/uYDdmbMrJZ/JvR1kYe4Bhiu8bXybLxVnO0U9fKRylI7N
+cB9QuRsZVvla8esB" Hostname="192.168.1.75" Protocol="RDP" PuttySession="Defaul
+t Settings" Port="3389" ConnectToConsole="false" UseCredSsp="true" RenderingE
+ngine="IE" ICAEncryptionStrength="EncrBasic" RDPAuthenticationLevel="NoAuth" 
+RDPMinutesToIdleTimeout="0" RDPAlertIdleTimeout="false" LoadBalanceInfo="" Co
+lors="Colors16Bit" Resolution="FitToWindow" AutomaticResize="true" DisplayWal
+lpaper="false" DisplayThemes="false" EnableFontSmoothing="false" EnableDeskto
+pComposition="false" CacheBitmaps="false" RedirectDiskDrives="false" Redirect
+Ports="false" RedirectPrinters="false" RedirectSmartCards="false" RedirectSou
+nd="DoNotPlay" SoundQuality="Dynamic" RedirectKeys="false" Connected="false" 
+PreExtApp="" PostExtApp="" MacAddress="" UserField="" ExtApp="" VNCCompressio
+n="CompNone" VNCEncoding="EncHextile" VNCAuthMode="AuthVNC" VNCProxyType="Pro
+xyNone" VNCProxyIP="" VNCProxyPort="0" VNCProxyUsername="" VNCProxyPassword="
+" VNCColors="ColNormal" VNCSmartSizeMode="SmartSAspect" VNCViewOnly="false" R
+DGatewayUsageMethod="Never" RDGatewayHostname="" RDGatewayUseConnectionCreden
+tials="Yes" RDGatewayUsername="" RDGatewayPassword="" RDGatewayDomain="" Inhe
+ritCacheBitmaps="false" InheritColors="false" InheritDescription="false" Inhe
+ritDisplayThemes="false" InheritDisplayWallpaper="false" InheritEnableFontSmo
+othing="false" InheritEnableDesktopComposition="false" InheritDomain="false" 
+InheritIcon="false" InheritPanel="false" InheritPassword="false" InheritPort=
+"false" InheritProtocol="false" InheritPuttySession="false" InheritRedirectDi
+skDrives="false" InheritRedirectKeys="false" InheritRedirectPorts="false" Inh
+eritRedirectPrinters="false" InheritRedirectSmartCards="false" InheritRedirec
+tSound="false" InheritSoundQuality="false" InheritResolution="false" InheritA
+utomaticResize="false" InheritUseConsoleSession="false" InheritUseCredSsp="fa
+lse" InheritRenderingEngine="false" InheritUsername="false" InheritICAEncrypt
+ionStrength="false" InheritRDPAuthenticationLevel="false" InheritRDPMinutesTo
+IdleTimeout="false" InheritRDPAlertIdleTimeout="false" InheritLoadBalanceInfo
+="false" InheritPreExtApp="false" InheritPostExtApp="false" InheritMacAddress
+="false" InheritUserField="false" InheritExtApp="false" InheritVNCCompression
+="false" InheritVNCEncoding="false" InheritVNCAuthMode="false" InheritVNCProx
+yType="false" InheritVNCProxyIP="false" InheritVNCProxyPort="false" InheritVN
+CProxyUsername="false" InheritVNCProxyPassword="false" InheritVNCColors="fals
+e" InheritVNCSmartSizeMode="false" InheritVNCViewOnly="false" InheritRDGatewa
+yUsageMethod="false" InheritRDGatewayHostname="false" InheritRDGatewayUseConn
+ectionCredentials="false" InheritRDGatewayUsername="false" InheritRDGatewayPa
+ssword="false" InheritRDGatewayDomain="false" />                             
+</mrng:Connections>                             

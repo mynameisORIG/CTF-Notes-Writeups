@@ -1,0 +1,302 @@
+[{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "EXCH01"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dNSHostName": [
+            "EXCH01.htb.local"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "distinguishedName": [
+            "CN=EXCH01,CN=Computers,DC=htb,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            false
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "2019-09-23 22:59:40.205635+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2019-09-18 11:06:34.672127+00:00"
+        ],
+        "localPolicyFlags": [
+            0
+        ],
+        "logonCount": [
+            161
+        ],
+        "memberOf": [
+            "CN=Exchange Install Domain Servers,CN=Microsoft Exchange System Objects,DC=htb,DC=local",
+            "CN=Managed Availability Servers,OU=Microsoft Exchange Security Groups,DC=htb,DC=local",
+            "CN=Exchange Trusted Subsystem,OU=Microsoft Exchange Security Groups,DC=htb,DC=local",
+            "CN=Exchange Servers,OU=Microsoft Exchange Security Groups,DC=htb,DC=local"
+        ],
+        "msDS-SupportedEncryptionTypes": [
+            28
+        ],
+        "msExchCapabilityIdentifiers": [
+            1
+        ],
+        "msExchRMSComputerAccountsBL": [
+            "CN=FederatedEmail.4c1f4d8b-8179-4148-93bf-00a95fa1e042,CN=Users,DC=htb,DC=local"
+        ],
+        "name": [
+            "EXCH01"
+        ],
+        "objectCategory": [
+            "CN=Computer,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user",
+            "computer"
+        ],
+        "objectGUID": [
+            "{babfbb15-e032-4376-bd03-6f131e7cfd4c}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-1103"
+        ],
+        "operatingSystem": [
+            "Windows Server 2016 Standard"
+        ],
+        "operatingSystemVersion": [
+            "10.0 (14393)"
+        ],
+        "primaryGroupID": [
+            515
+        ],
+        "pwdLastSet": [
+            "2019-09-18 11:06:32.640875+00:00"
+        ],
+        "sAMAccountName": [
+            "EXCH01$"
+        ],
+        "sAMAccountType": [
+            805306369
+        ],
+        "servicePrincipalName": [
+            "IMAP/EXCH01",
+            "IMAP/EXCH01.htb.local",
+            "IMAP4/EXCH01",
+            "IMAP4/EXCH01.htb.local",
+            "POP/EXCH01",
+            "POP/EXCH01.htb.local",
+            "POP3/EXCH01",
+            "POP3/EXCH01.htb.local",
+            "exchangeRFR/EXCH01",
+            "exchangeRFR/EXCH01.htb.local",
+            "exchangeAB/EXCH01",
+            "exchangeAB/EXCH01.htb.local",
+            "exchangeMDB/EXCH01",
+            "exchangeMDB/EXCH01.htb.local",
+            "SMTP/EXCH01",
+            "SMTP/EXCH01.htb.local",
+            "SmtpSvc/EXCH01",
+            "SmtpSvc/EXCH01.htb.local",
+            "WSMAN/EXCH01",
+            "WSMAN/EXCH01.htb.local",
+            "RestrictedKrbHost/EXCH01",
+            "HOST/EXCH01",
+            "RestrictedKrbHost/EXCH01.htb.local",
+            "HOST/EXCH01.htb.local"
+        ],
+        "uSNChanged": [
+            94361
+        ],
+        "uSNCreated": [
+            12754
+        ],
+        "userAccountControl": [
+            4096
+        ],
+        "whenChanged": [
+            "2019-09-23 22:51:14+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-18 11:06:32+00:00"
+        ]
+    },
+    "dn": "CN=EXCH01,CN=Computers,DC=htb,DC=local"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "FOREST"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dNSHostName": [
+            "FOREST.htb.local"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "distinguishedName": [
+            "CN=FOREST,OU=Domain Controllers,DC=htb,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "2022-01-09 17:42:01.849306+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2022-01-09 17:41:45.114965+00:00"
+        ],
+        "localPolicyFlags": [
+            0
+        ],
+        "logonCount": [
+            83
+        ],
+        "msDFSR-ComputerReferenceBL": [
+            "CN=FOREST,CN=Topology,CN=Domain System Volume,CN=DFSR-GlobalSettings,CN=System,DC=htb,DC=local"
+        ],
+        "msDS-GenerationId": [
+            {
+                "encoded": "nJzXSX4jbQs=",
+                "encoding": "base64"
+            }
+        ],
+        "msDS-SupportedEncryptionTypes": [
+            28
+        ],
+        "name": [
+            "FOREST"
+        ],
+        "objectCategory": [
+            "CN=Computer,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user",
+            "computer"
+        ],
+        "objectGUID": [
+            "{0b814a2b-18eb-4f6a-9449-3387cf40b27a}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-1000"
+        ],
+        "operatingSystem": [
+            "Windows Server 2016 Standard"
+        ],
+        "operatingSystemVersion": [
+            "10.0 (14393)"
+        ],
+        "primaryGroupID": [
+            516
+        ],
+        "pwdLastSet": [
+            "2022-01-09 17:41:21.302353+00:00"
+        ],
+        "rIDSetReferences": [
+            "CN=RID Set,CN=FOREST,OU=Domain Controllers,DC=htb,DC=local"
+        ],
+        "sAMAccountName": [
+            "FOREST$"
+        ],
+        "sAMAccountType": [
+            805306369
+        ],
+        "serverReferenceBL": [
+            "CN=FOREST,CN=Servers,CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=htb,DC=local"
+        ],
+        "servicePrincipalName": [
+            "TERMSRV/FOREST",
+            "TERMSRV/FOREST.htb.local",
+            "exchangeAB/FOREST",
+            "exchangeAB/FOREST.htb.local",
+            "Dfsr-12F9A27C-BF97-4787-9364-D31B6C55EB04/FOREST.htb.local",
+            "ldap/FOREST.htb.local/ForestDnsZones.htb.local",
+            "ldap/FOREST.htb.local/DomainDnsZones.htb.local",
+            "DNS/FOREST.htb.local",
+            "GC/FOREST.htb.local/htb.local",
+            "RestrictedKrbHost/FOREST.htb.local",
+            "RestrictedKrbHost/FOREST",
+            "RPC/236ba33a-7959-4a41-b959-5f82689a0871._msdcs.htb.local",
+            "HOST/FOREST/HTB",
+            "HOST/FOREST.htb.local/HTB",
+            "HOST/FOREST",
+            "HOST/FOREST.htb.local",
+            "HOST/FOREST.htb.local/htb.local",
+            "E3514235-4B06-11D1-AB04-00C04FC2DCD2/236ba33a-7959-4a41-b959-5f82689a0871/htb.local",
+            "ldap/FOREST/HTB",
+            "ldap/236ba33a-7959-4a41-b959-5f82689a0871._msdcs.htb.local",
+            "ldap/FOREST.htb.local/HTB",
+            "ldap/FOREST",
+            "ldap/FOREST.htb.local",
+            "ldap/FOREST.htb.local/htb.local"
+        ],
+        "uSNChanged": [
+            888881
+        ],
+        "uSNCreated": [
+            12293
+        ],
+        "userAccountControl": [
+            532480
+        ],
+        "whenChanged": [
+            "2022-01-09 17:41:45+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-18 10:53:23+00:00"
+        ]
+    },
+    "dn": "CN=FOREST,OU=Domain Controllers,DC=htb,DC=local"
+}]

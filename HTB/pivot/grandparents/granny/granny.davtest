@@ -1,0 +1,44 @@
+********************************************************
+ Testing DAV connection
+OPEN		SUCCEED:		http://granny.htb
+********************************************************
+NOTE	Random string for this session: 3KGqhkk_
+********************************************************
+ Creating directory
+MKCOL		SUCCEED:		Created http://granny.htb/DavTestDir_3KGqhkk_
+********************************************************
+ Sending test files
+PUT	cfm	SUCCEED:	http://granny.htb/DavTestDir_3KGqhkk_/davtest_3KGqhkk_.cfm
+PUT	asp	FAIL
+PUT	jhtml	SUCCEED:	http://granny.htb/DavTestDir_3KGqhkk_/davtest_3KGqhkk_.jhtml
+PUT	aspx	FAIL
+PUT	txt	SUCCEED:	http://granny.htb/DavTestDir_3KGqhkk_/davtest_3KGqhkk_.txt
+PUT	html	SUCCEED:	http://granny.htb/DavTestDir_3KGqhkk_/davtest_3KGqhkk_.html
+PUT	jsp	SUCCEED:	http://granny.htb/DavTestDir_3KGqhkk_/davtest_3KGqhkk_.jsp
+PUT	pl	SUCCEED:	http://granny.htb/DavTestDir_3KGqhkk_/davtest_3KGqhkk_.pl
+PUT	cgi	FAIL
+PUT	php	SUCCEED:	http://granny.htb/DavTestDir_3KGqhkk_/davtest_3KGqhkk_.php
+PUT	shtml	FAIL
+********************************************************
+ Checking for test file execution
+EXEC	cfm	FAIL
+EXEC	jhtml	FAIL
+EXEC	txt	SUCCEED:	http://granny.htb/DavTestDir_3KGqhkk_/davtest_3KGqhkk_.txt
+EXEC	html	SUCCEED:	http://granny.htb/DavTestDir_3KGqhkk_/davtest_3KGqhkk_.html
+EXEC	jsp	FAIL
+EXEC	pl	FAIL
+EXEC	php	FAIL
+
+********************************************************
+/usr/bin/davtest Summary:
+Created: http://granny.htb/DavTestDir_3KGqhkk_
+PUT File: http://granny.htb/DavTestDir_3KGqhkk_/davtest_3KGqhkk_.cfm
+PUT File: http://granny.htb/DavTestDir_3KGqhkk_/davtest_3KGqhkk_.jhtml
+PUT File: http://granny.htb/DavTestDir_3KGqhkk_/davtest_3KGqhkk_.txt
+PUT File: http://granny.htb/DavTestDir_3KGqhkk_/davtest_3KGqhkk_.html
+PUT File: http://granny.htb/DavTestDir_3KGqhkk_/davtest_3KGqhkk_.jsp
+PUT File: http://granny.htb/DavTestDir_3KGqhkk_/davtest_3KGqhkk_.pl
+PUT File: http://granny.htb/DavTestDir_3KGqhkk_/davtest_3KGqhkk_.php
+Executes: http://granny.htb/DavTestDir_3KGqhkk_/davtest_3KGqhkk_.txt
+Executes: http://granny.htb/DavTestDir_3KGqhkk_/davtest_3KGqhkk_.html
+

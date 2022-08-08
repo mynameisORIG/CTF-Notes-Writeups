@@ -1,0 +1,6260 @@
+[{
+    "attributes": {
+        "cn": [
+            "test"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:54+00:00",
+            "2022-01-09 19:31:54+00:00",
+            "2022-01-09 19:31:54+00:00",
+            "2022-01-09 19:31:54+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "distinguishedName": [
+            "CN=test,OU=Security Groups,DC=htb,DC=local"
+        ],
+        "groupType": [
+            -2147483646
+        ],
+        "instanceType": [
+            4
+        ],
+        "name": [
+            "test"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{02708f63-84fc-4e8b-a3f5-c9456315da74}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-5101"
+        ],
+        "sAMAccountName": [
+            "test"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            109313
+        ],
+        "uSNCreated": [
+            82016
+        ],
+        "whenChanged": [
+            "2019-09-23 22:53:08+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-23 22:08:52+00:00"
+        ]
+    },
+    "dn": "CN=test,OU=Security Groups,DC=htb,DC=local"
+},{
+    "attributes": {
+        "adminCount": [
+            1
+        ],
+        "cn": [
+            "Privileged IT Accounts"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:54+00:00",
+            "2022-01-09 19:31:54+00:00",
+            "2022-01-09 19:31:54+00:00",
+            "2022-01-09 19:31:54+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "distinguishedName": [
+            "CN=Privileged IT Accounts,OU=Security Groups,DC=htb,DC=local"
+        ],
+        "groupType": [
+            -2147483646
+        ],
+        "instanceType": [
+            4
+        ],
+        "member": [
+            "CN=Service Accounts,OU=Security Groups,DC=htb,DC=local"
+        ],
+        "memberOf": [
+            "CN=Account Operators,CN=Builtin,DC=htb,DC=local",
+            "CN=Remote Management Users,CN=Builtin,DC=htb,DC=local"
+        ],
+        "name": [
+            "Privileged IT Accounts"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{be8fee5e-79fa-4b5b-aea5-79222caf26b9}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-1149"
+        ],
+        "sAMAccountName": [
+            "Privileged IT Accounts"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            65574
+        ],
+        "uSNCreated": [
+            28777
+        ],
+        "whenChanged": [
+            "2019-09-23 19:43:21+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-20 22:35:02+00:00"
+        ]
+    },
+    "dn": "CN=Privileged IT Accounts,OU=Security Groups,DC=htb,DC=local"
+},{
+    "attributes": {
+        "adminCount": [
+            1
+        ],
+        "cn": [
+            "Service Accounts"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:54+00:00",
+            "2022-01-09 19:31:54+00:00",
+            "2022-01-09 19:31:54+00:00",
+            "2022-01-09 19:31:54+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "distinguishedName": [
+            "CN=Service Accounts,OU=Security Groups,DC=htb,DC=local"
+        ],
+        "groupType": [
+            -2147483646
+        ],
+        "instanceType": [
+            4
+        ],
+        "member": [
+            "CN=svc-alfresco,OU=Service Accounts,DC=htb,DC=local"
+        ],
+        "memberOf": [
+            "CN=Privileged IT Accounts,OU=Security Groups,DC=htb,DC=local"
+        ],
+        "name": [
+            "Service Accounts"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{8b287cd5-8692-484c-bbe7-03ab3764d060}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-1148"
+        ],
+        "sAMAccountName": [
+            "Service Accounts"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            65575
+        ],
+        "uSNCreated": [
+            26096
+        ],
+        "whenChanged": [
+            "2019-09-23 19:43:21+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-20 01:03:08+00:00"
+        ]
+    },
+    "dn": "CN=Service Accounts,OU=Security Groups,DC=htb,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Exchange Install Domain Servers"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:54+00:00",
+            "2022-01-09 19:31:54+00:00",
+            "2022-01-09 19:31:54+00:00",
+            "2022-01-09 19:31:54+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "This group is used during Exchange setup and is not intended to be used for other purposes."
+        ],
+        "displayName": [
+            "Exchange Install Domain Servers"
+        ],
+        "distinguishedName": [
+            "CN=Exchange Install Domain Servers,CN=Microsoft Exchange System Objects,DC=htb,DC=local"
+        ],
+        "garbageCollPeriod": [
+            1209600
+        ],
+        "groupType": [
+            -2147483646
+        ],
+        "instanceType": [
+            4
+        ],
+        "internetEncoding": [
+            0
+        ],
+        "member": [
+            "CN=EXCH01,CN=Computers,DC=htb,DC=local"
+        ],
+        "memberOf": [
+            "CN=Exchange Servers,OU=Microsoft Exchange Security Groups,DC=htb,DC=local"
+        ],
+        "msExchAddressBookFlags": [
+            1
+        ],
+        "msExchBypassAudit": [
+            false
+        ],
+        "msExchGroupExternalMemberCount": [
+            0
+        ],
+        "msExchGroupMemberCount": [
+            0
+        ],
+        "msExchProvisioningFlags": [
+            0
+        ],
+        "msExchUserAccountControl": [
+            0
+        ],
+        "name": [
+            "Exchange Install Domain Servers"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{e9de19cf-9f67-4bfa-8259-db7a084dda29}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-1133"
+        ],
+        "sAMAccountName": [
+            "$D31000-NSEL5BRJ63V7"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            24505
+        ],
+        "uSNCreated": [
+            24469
+        ],
+        "whenChanged": [
+            "2019-09-19 11:37:31+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-19 11:11:35+00:00"
+        ]
+    },
+    "dn": "CN=Exchange Install Domain Servers,CN=Microsoft Exchange System Objects,DC=htb,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "ExchangeLegacyInterop"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:56+00:00",
+            "2022-01-09 19:31:56+00:00",
+            "2022-01-09 19:31:56+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "This group is for interoperability with Exchange 2003 servers within the same forest. This group should not be deleted."
+        ],
+        "distinguishedName": [
+            "CN=ExchangeLegacyInterop,OU=Microsoft Exchange Security Groups,DC=htb,DC=local"
+        ],
+        "garbageCollPeriod": [
+            1209600
+        ],
+        "groupType": [
+            -2147483640
+        ],
+        "instanceType": [
+            4
+        ],
+        "internetEncoding": [
+            0
+        ],
+        "msExchAddressBookFlags": [
+            1
+        ],
+        "msExchBypassAudit": [
+            false
+        ],
+        "msExchGroupDepartRestriction": [
+            0
+        ],
+        "msExchGroupExternalMemberCount": [
+            0
+        ],
+        "msExchGroupJoinRestriction": [
+            0
+        ],
+        "msExchGroupMemberCount": [
+            0
+        ],
+        "msExchGroupSecurityFlags": [
+            0
+        ],
+        "msExchLocalizationFlags": [
+            0
+        ],
+        "msExchMDBRulesQuota": [
+            256
+        ],
+        "msExchMailboxAuditEnable": [
+            false
+        ],
+        "msExchMailboxAuditLogAgeLimit": [
+            7776000
+        ],
+        "msExchMailboxFolderSet": [
+            0
+        ],
+        "msExchModerationFlags": [
+            6
+        ],
+        "msExchProvisioningFlags": [
+            0
+        ],
+        "msExchRecipientSoftDeletedStatus": [
+            0
+        ],
+        "msExchRoleGroupType": [
+            0
+        ],
+        "msExchTransportRecipientSettingsFlags": [
+            0
+        ],
+        "msExchUserAccountControl": [
+            0
+        ],
+        "msExchVersion": [
+            44220983382016
+        ],
+        "name": [
+            "ExchangeLegacyInterop"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{e32397ee-381a-4236-adf4-bc06d3a33516}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-1122"
+        ],
+        "sAMAccountName": [
+            "ExchangeLegacyInterop"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            21640
+        ],
+        "uSNCreated": [
+            21625
+        ],
+        "whenChanged": [
+            "2019-09-19 11:11:14+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-19 11:11:14+00:00"
+        ]
+    },
+    "dn": "CN=ExchangeLegacyInterop,OU=Microsoft Exchange Security Groups,DC=htb,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Exchange Windows Permissions"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:56+00:00",
+            "2022-01-09 19:31:56+00:00",
+            "2022-01-09 19:31:56+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "This group contains Exchange servers that run Exchange cmdlets on behalf of users via the management service. Its members have permission to read and modify all Windows accounts and groups. This group should not be deleted."
+        ],
+        "distinguishedName": [
+            "CN=Exchange Windows Permissions,OU=Microsoft Exchange Security Groups,DC=htb,DC=local"
+        ],
+        "garbageCollPeriod": [
+            1209600
+        ],
+        "groupType": [
+            -2147483640
+        ],
+        "instanceType": [
+            4
+        ],
+        "internetEncoding": [
+            0
+        ],
+        "member": [
+            "CN=mynameis,CN=Users,DC=htb,DC=local",
+            "CN=Exchange Trusted Subsystem,OU=Microsoft Exchange Security Groups,DC=htb,DC=local"
+        ],
+        "msExchAddressBookFlags": [
+            1
+        ],
+        "msExchBypassAudit": [
+            false
+        ],
+        "msExchGroupDepartRestriction": [
+            0
+        ],
+        "msExchGroupExternalMemberCount": [
+            0
+        ],
+        "msExchGroupJoinRestriction": [
+            0
+        ],
+        "msExchGroupMemberCount": [
+            0
+        ],
+        "msExchGroupSecurityFlags": [
+            0
+        ],
+        "msExchLocalizationFlags": [
+            0
+        ],
+        "msExchMDBRulesQuota": [
+            256
+        ],
+        "msExchMailboxAuditEnable": [
+            false
+        ],
+        "msExchMailboxAuditLogAgeLimit": [
+            7776000
+        ],
+        "msExchMailboxFolderSet": [
+            0
+        ],
+        "msExchModerationFlags": [
+            6
+        ],
+        "msExchProvisioningFlags": [
+            0
+        ],
+        "msExchRecipientSoftDeletedStatus": [
+            0
+        ],
+        "msExchRoleGroupType": [
+            0
+        ],
+        "msExchTransportRecipientSettingsFlags": [
+            0
+        ],
+        "msExchUserAccountControl": [
+            0
+        ],
+        "msExchVersion": [
+            44220983382016
+        ],
+        "name": [
+            "Exchange Windows Permissions"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{64f0cc0d-8e1d-4506-98be-26c67dc5bed3}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-1121"
+        ],
+        "sAMAccountName": [
+            "Exchange Windows Permissions"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            1249308
+        ],
+        "uSNCreated": [
+            21620
+        ],
+        "whenChanged": [
+            "2022-01-09 19:28:44+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-19 11:11:14+00:00"
+        ]
+    },
+    "dn": "CN=Exchange Windows Permissions,OU=Microsoft Exchange Security Groups,DC=htb,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Managed Availability Servers"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:56+00:00",
+            "2022-01-09 19:31:56+00:00",
+            "2022-01-09 19:31:56+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "This group contains all the Managed Availability servers. This group shouldn't be deleted."
+        ],
+        "distinguishedName": [
+            "CN=Managed Availability Servers,OU=Microsoft Exchange Security Groups,DC=htb,DC=local"
+        ],
+        "garbageCollPeriod": [
+            1209600
+        ],
+        "groupType": [
+            -2147483640
+        ],
+        "instanceType": [
+            4
+        ],
+        "internetEncoding": [
+            0
+        ],
+        "member": [
+            "CN=Exchange Servers,OU=Microsoft Exchange Security Groups,DC=htb,DC=local",
+            "CN=EXCH01,CN=Computers,DC=htb,DC=local"
+        ],
+        "msExchAddressBookFlags": [
+            1
+        ],
+        "msExchBypassAudit": [
+            false
+        ],
+        "msExchGroupDepartRestriction": [
+            0
+        ],
+        "msExchGroupExternalMemberCount": [
+            0
+        ],
+        "msExchGroupJoinRestriction": [
+            0
+        ],
+        "msExchGroupMemberCount": [
+            0
+        ],
+        "msExchGroupSecurityFlags": [
+            0
+        ],
+        "msExchLocalizationFlags": [
+            0
+        ],
+        "msExchMDBRulesQuota": [
+            256
+        ],
+        "msExchMailboxAuditEnable": [
+            false
+        ],
+        "msExchMailboxAuditLogAgeLimit": [
+            7776000
+        ],
+        "msExchMailboxFolderSet": [
+            0
+        ],
+        "msExchModerationFlags": [
+            6
+        ],
+        "msExchProvisioningFlags": [
+            0
+        ],
+        "msExchRecipientSoftDeletedStatus": [
+            0
+        ],
+        "msExchRoleGroupType": [
+            0
+        ],
+        "msExchTransportRecipientSettingsFlags": [
+            0
+        ],
+        "msExchUserAccountControl": [
+            0
+        ],
+        "msExchVersion": [
+            44220983382016
+        ],
+        "name": [
+            "Managed Availability Servers"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{cdb5f09a-0537-4150-aef3-8283511875ed}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-1120"
+        ],
+        "sAMAccountName": [
+            "Managed Availability Servers"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            24500
+        ],
+        "uSNCreated": [
+            21615
+        ],
+        "whenChanged": [
+            "2019-09-19 11:37:31+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-19 11:11:14+00:00"
+        ]
+    },
+    "dn": "CN=Managed Availability Servers,OU=Microsoft Exchange Security Groups,DC=htb,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Exchange Trusted Subsystem"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:56+00:00",
+            "2022-01-09 19:31:56+00:00",
+            "2022-01-09 19:31:56+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "This group contains Exchange servers that run Exchange cmdlets on behalf of users via the management service. Its members have permission to read and modify all Exchange configuration, as well as user accounts and groups. This group should not be deleted."
+        ],
+        "distinguishedName": [
+            "CN=Exchange Trusted Subsystem,OU=Microsoft Exchange Security Groups,DC=htb,DC=local"
+        ],
+        "garbageCollPeriod": [
+            1209600
+        ],
+        "groupType": [
+            -2147483640
+        ],
+        "instanceType": [
+            4
+        ],
+        "internetEncoding": [
+            0
+        ],
+        "member": [
+            "CN=EXCH01,CN=Computers,DC=htb,DC=local"
+        ],
+        "memberOf": [
+            "CN=Exchange Windows Permissions,OU=Microsoft Exchange Security Groups,DC=htb,DC=local"
+        ],
+        "msExchAddressBookFlags": [
+            1
+        ],
+        "msExchBypassAudit": [
+            false
+        ],
+        "msExchGroupDepartRestriction": [
+            0
+        ],
+        "msExchGroupExternalMemberCount": [
+            0
+        ],
+        "msExchGroupJoinRestriction": [
+            0
+        ],
+        "msExchGroupMemberCount": [
+            0
+        ],
+        "msExchGroupSecurityFlags": [
+            0
+        ],
+        "msExchLocalizationFlags": [
+            0
+        ],
+        "msExchMDBRulesQuota": [
+            256
+        ],
+        "msExchMailboxAuditEnable": [
+            false
+        ],
+        "msExchMailboxAuditLogAgeLimit": [
+            7776000
+        ],
+        "msExchMailboxFolderSet": [
+            0
+        ],
+        "msExchModerationFlags": [
+            6
+        ],
+        "msExchProvisioningFlags": [
+            0
+        ],
+        "msExchRecipientSoftDeletedStatus": [
+            0
+        ],
+        "msExchRoleGroupType": [
+            0
+        ],
+        "msExchTransportRecipientSettingsFlags": [
+            0
+        ],
+        "msExchUserAccountControl": [
+            0
+        ],
+        "msExchVersion": [
+            44220983382016
+        ],
+        "name": [
+            "Exchange Trusted Subsystem"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{ba27b45c-669a-4690-bdfc-ee0345e17521}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-1119"
+        ],
+        "sAMAccountName": [
+            "Exchange Trusted Subsystem"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            24511
+        ],
+        "uSNCreated": [
+            21610
+        ],
+        "whenChanged": [
+            "2019-09-19 11:37:31+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-19 11:11:14+00:00"
+        ]
+    },
+    "dn": "CN=Exchange Trusted Subsystem,OU=Microsoft Exchange Security Groups,DC=htb,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Exchange Servers"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:56+00:00",
+            "2022-01-09 19:31:56+00:00",
+            "2022-01-09 19:31:56+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "This group contains all the Exchange servers. This group shouldn't be deleted."
+        ],
+        "distinguishedName": [
+            "CN=Exchange Servers,OU=Microsoft Exchange Security Groups,DC=htb,DC=local"
+        ],
+        "garbageCollPeriod": [
+            1209600
+        ],
+        "groupType": [
+            -2147483640
+        ],
+        "instanceType": [
+            4
+        ],
+        "internetEncoding": [
+            0
+        ],
+        "member": [
+            "CN=Exchange Install Domain Servers,CN=Microsoft Exchange System Objects,DC=htb,DC=local",
+            "CN=EXCH01,CN=Computers,DC=htb,DC=local"
+        ],
+        "memberOf": [
+            "CN=Managed Availability Servers,OU=Microsoft Exchange Security Groups,DC=htb,DC=local",
+            "CN=Windows Authorization Access Group,CN=Builtin,DC=htb,DC=local"
+        ],
+        "msExchAddressBookFlags": [
+            1
+        ],
+        "msExchBypassAudit": [
+            false
+        ],
+        "msExchGroupDepartRestriction": [
+            0
+        ],
+        "msExchGroupExternalMemberCount": [
+            0
+        ],
+        "msExchGroupJoinRestriction": [
+            0
+        ],
+        "msExchGroupMemberCount": [
+            0
+        ],
+        "msExchGroupSecurityFlags": [
+            0
+        ],
+        "msExchLocalizationFlags": [
+            0
+        ],
+        "msExchMDBRulesQuota": [
+            256
+        ],
+        "msExchMailboxAuditEnable": [
+            false
+        ],
+        "msExchMailboxAuditLogAgeLimit": [
+            7776000
+        ],
+        "msExchMailboxFolderSet": [
+            0
+        ],
+        "msExchModerationFlags": [
+            6
+        ],
+        "msExchProvisioningFlags": [
+            0
+        ],
+        "msExchRecipientSoftDeletedStatus": [
+            0
+        ],
+        "msExchRoleGroupType": [
+            0
+        ],
+        "msExchTransportRecipientSettingsFlags": [
+            0
+        ],
+        "msExchUserAccountControl": [
+            0
+        ],
+        "msExchVersion": [
+            44220983382016
+        ],
+        "name": [
+            "Exchange Servers"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{c3ff3f55-3a34-4ee7-9130-fe335b90f854}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-1118"
+        ],
+        "sAMAccountName": [
+            "Exchange Servers"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            24508
+        ],
+        "uSNCreated": [
+            21605
+        ],
+        "whenChanged": [
+            "2019-09-19 11:37:31+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-19 11:11:14+00:00"
+        ]
+    },
+    "dn": "CN=Exchange Servers,OU=Microsoft Exchange Security Groups,DC=htb,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Security Administrator"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:56+00:00",
+            "2022-01-09 19:31:56+00:00",
+            "2022-01-09 19:31:56+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Membership in this role group is synchronized across services and managed centrally. This role group is not manageable through the administrator portals. Members of this role group may include cross-service administrators, as well as external partner groups and Microsoft Support. By default, this group may not be assigned any roles. However, it will be a member of the Security Administrators role groups and will inherit the capabilities of that role group."
+        ],
+        "distinguishedName": [
+            "CN=Security Administrator,OU=Microsoft Exchange Security Groups,DC=htb,DC=local"
+        ],
+        "garbageCollPeriod": [
+            1209600
+        ],
+        "groupType": [
+            -2147483640
+        ],
+        "instanceType": [
+            4
+        ],
+        "internetEncoding": [
+            0
+        ],
+        "managedBy": [
+            "CN=Organization Management,OU=Microsoft Exchange Security Groups,DC=htb,DC=local"
+        ],
+        "msExchAddressBookFlags": [
+            1
+        ],
+        "msExchBypassAudit": [
+            false
+        ],
+        "msExchGroupDepartRestriction": [
+            0
+        ],
+        "msExchGroupExternalMemberCount": [
+            0
+        ],
+        "msExchGroupJoinRestriction": [
+            0
+        ],
+        "msExchGroupMemberCount": [
+            0
+        ],
+        "msExchGroupSecurityFlags": [
+            0
+        ],
+        "msExchLocalizationFlags": [
+            0
+        ],
+        "msExchMDBRulesQuota": [
+            256
+        ],
+        "msExchMailboxAuditEnable": [
+            false
+        ],
+        "msExchMailboxAuditLogAgeLimit": [
+            7776000
+        ],
+        "msExchMailboxFolderSet": [
+            0
+        ],
+        "msExchModerationFlags": [
+            6
+        ],
+        "msExchProvisioningFlags": [
+            0
+        ],
+        "msExchRecipientSoftDeletedStatus": [
+            0
+        ],
+        "msExchRecipientTypeDetails": [
+            1073741824
+        ],
+        "msExchRoleGroupType": [
+            85
+        ],
+        "msExchTransportRecipientSettingsFlags": [
+            0
+        ],
+        "msExchUserAccountControl": [
+            0
+        ],
+        "msExchUserBL": [
+            "CN=Security Admin-Security Administrator,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchVersion": [
+            44220983382016
+        ],
+        "name": [
+            "Security Administrator"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{f3635c92-e04c-49f4-936d-2fcf8e9ff9ef}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-1117"
+        ],
+        "sAMAccountName": [
+            "Security Administrator"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            21603
+        ],
+        "uSNCreated": [
+            21569
+        ],
+        "whenChanged": [
+            "2019-09-19 11:11:14+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-19 11:11:14+00:00"
+        ]
+    },
+    "dn": "CN=Security Administrator,OU=Microsoft Exchange Security Groups,DC=htb,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Security Reader"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:56+00:00",
+            "2022-01-09 19:31:56+00:00",
+            "2022-01-09 19:31:56+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Membership in this role group is synchronized across services and managed centrally. This role group is not manageable through the administrator portals. Members of this role group may include cross-service administrators, as well as external partner groups and Microsoft Support. By default, this group may not be assigned any roles. However, it will be a member of the Security Reader role groups and will inherit the capabilities of that role group."
+        ],
+        "distinguishedName": [
+            "CN=Security Reader,OU=Microsoft Exchange Security Groups,DC=htb,DC=local"
+        ],
+        "garbageCollPeriod": [
+            1209600
+        ],
+        "groupType": [
+            -2147483640
+        ],
+        "instanceType": [
+            4
+        ],
+        "internetEncoding": [
+            0
+        ],
+        "managedBy": [
+            "CN=Organization Management,OU=Microsoft Exchange Security Groups,DC=htb,DC=local"
+        ],
+        "msExchAddressBookFlags": [
+            1
+        ],
+        "msExchBypassAudit": [
+            false
+        ],
+        "msExchGroupDepartRestriction": [
+            0
+        ],
+        "msExchGroupExternalMemberCount": [
+            0
+        ],
+        "msExchGroupJoinRestriction": [
+            0
+        ],
+        "msExchGroupMemberCount": [
+            0
+        ],
+        "msExchGroupSecurityFlags": [
+            0
+        ],
+        "msExchLocalizationFlags": [
+            0
+        ],
+        "msExchMDBRulesQuota": [
+            256
+        ],
+        "msExchMailboxAuditEnable": [
+            false
+        ],
+        "msExchMailboxAuditLogAgeLimit": [
+            7776000
+        ],
+        "msExchMailboxFolderSet": [
+            0
+        ],
+        "msExchModerationFlags": [
+            6
+        ],
+        "msExchProvisioningFlags": [
+            0
+        ],
+        "msExchRecipientSoftDeletedStatus": [
+            0
+        ],
+        "msExchRecipientTypeDetails": [
+            1073741824
+        ],
+        "msExchRoleGroupType": [
+            84
+        ],
+        "msExchTransportRecipientSettingsFlags": [
+            0
+        ],
+        "msExchUserAccountControl": [
+            0
+        ],
+        "msExchUserBL": [
+            "CN=Security Reader-Security Reader,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchVersion": [
+            44220983382016
+        ],
+        "name": [
+            "Security Reader"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{56e3a0c2-86fe-4cf9-bdce-0f704318db55}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-1116"
+        ],
+        "sAMAccountName": [
+            "Security Reader"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            21601
+        ],
+        "uSNCreated": [
+            21564
+        ],
+        "whenChanged": [
+            "2019-09-19 11:11:14+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-19 11:11:14+00:00"
+        ]
+    },
+    "dn": "CN=Security Reader,OU=Microsoft Exchange Security Groups,DC=htb,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Compliance Management"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:56+00:00",
+            "2022-01-09 19:31:56+00:00",
+            "2022-01-09 19:31:56+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "This role group will allow a specified user, responsible for compliance, to properly configure and manage compliance settings within Exchange in accordance with their policy."
+        ],
+        "distinguishedName": [
+            "CN=Compliance Management,OU=Microsoft Exchange Security Groups,DC=htb,DC=local"
+        ],
+        "garbageCollPeriod": [
+            1209600
+        ],
+        "groupType": [
+            -2147483640
+        ],
+        "instanceType": [
+            4
+        ],
+        "internetEncoding": [
+            0
+        ],
+        "managedBy": [
+            "CN=Organization Management,OU=Microsoft Exchange Security Groups,DC=htb,DC=local"
+        ],
+        "msExchAddressBookFlags": [
+            1
+        ],
+        "msExchBypassAudit": [
+            false
+        ],
+        "msExchGroupDepartRestriction": [
+            0
+        ],
+        "msExchGroupExternalMemberCount": [
+            0
+        ],
+        "msExchGroupJoinRestriction": [
+            0
+        ],
+        "msExchGroupMemberCount": [
+            0
+        ],
+        "msExchGroupSecurityFlags": [
+            0
+        ],
+        "msExchLocalizationFlags": [
+            0
+        ],
+        "msExchMDBRulesQuota": [
+            256
+        ],
+        "msExchMailboxAuditEnable": [
+            false
+        ],
+        "msExchMailboxAuditLogAgeLimit": [
+            7776000
+        ],
+        "msExchMailboxFolderSet": [
+            0
+        ],
+        "msExchModerationFlags": [
+            6
+        ],
+        "msExchProvisioningFlags": [
+            0
+        ],
+        "msExchRecipientSoftDeletedStatus": [
+            0
+        ],
+        "msExchRecipientTypeDetails": [
+            1073741824
+        ],
+        "msExchRoleGroupType": [
+            26
+        ],
+        "msExchTransportRecipientSettingsFlags": [
+            0
+        ],
+        "msExchUserAccountControl": [
+            0
+        ],
+        "msExchUserBL": [
+            "CN=View-Only Recipients-Compliance Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=View-Only Configuration-Compliance Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=View-Only Audit Logs-Compliance Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Transport Rules-Compliance Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Retention Management-Compliance Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Message Tracking-Compliance Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Journaling-Compliance Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Information Rights Management-Compliance Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Data Loss Prevention-Compliance Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Compliance Admin-Compliance Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Audit Logs-Compliance Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchVersion": [
+            44220983382016
+        ],
+        "name": [
+            "Compliance Management"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{3f354b03-8fc0-4faf-8a2b-30ee9726e467}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-1115"
+        ],
+        "sAMAccountName": [
+            "Compliance Management"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            21599
+        ],
+        "uSNCreated": [
+            21559
+        ],
+        "whenChanged": [
+            "2019-09-19 11:11:14+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-19 11:11:14+00:00"
+        ]
+    },
+    "dn": "CN=Compliance Management,OU=Microsoft Exchange Security Groups,DC=htb,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Hygiene Management"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:56+00:00",
+            "2022-01-09 19:31:56+00:00",
+            "2022-01-09 19:31:56+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Members of this management role group can manage Exchange anti-spam features and grant permissions for antivirus products to integrate with Exchange."
+        ],
+        "distinguishedName": [
+            "CN=Hygiene Management,OU=Microsoft Exchange Security Groups,DC=htb,DC=local"
+        ],
+        "garbageCollPeriod": [
+            1209600
+        ],
+        "groupType": [
+            -2147483640
+        ],
+        "instanceType": [
+            4
+        ],
+        "internetEncoding": [
+            0
+        ],
+        "managedBy": [
+            "CN=Organization Management,OU=Microsoft Exchange Security Groups,DC=htb,DC=local"
+        ],
+        "msExchAddressBookFlags": [
+            1
+        ],
+        "msExchBypassAudit": [
+            false
+        ],
+        "msExchGroupDepartRestriction": [
+            0
+        ],
+        "msExchGroupExternalMemberCount": [
+            0
+        ],
+        "msExchGroupJoinRestriction": [
+            0
+        ],
+        "msExchGroupMemberCount": [
+            0
+        ],
+        "msExchGroupSecurityFlags": [
+            0
+        ],
+        "msExchLocalizationFlags": [
+            0
+        ],
+        "msExchMDBRulesQuota": [
+            256
+        ],
+        "msExchMailboxAuditEnable": [
+            false
+        ],
+        "msExchMailboxAuditLogAgeLimit": [
+            7776000
+        ],
+        "msExchMailboxFolderSet": [
+            0
+        ],
+        "msExchModerationFlags": [
+            6
+        ],
+        "msExchProvisioningFlags": [
+            0
+        ],
+        "msExchRecipientSoftDeletedStatus": [
+            0
+        ],
+        "msExchRecipientTypeDetails": [
+            1073741824
+        ],
+        "msExchRoleGroupType": [
+            11
+        ],
+        "msExchTransportRecipientSettingsFlags": [
+            0
+        ],
+        "msExchUserAccountControl": [
+            0
+        ],
+        "msExchUserBL": [
+            "CN=View-Only Recipients-Hygiene Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=View-Only Configuration-Hygiene Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Transport Hygiene-Hygiene Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Transport Agents-Hygiene Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Receive Connectors-Hygiene Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=ApplicationImpersonation-Hygiene Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchVersion": [
+            44220983382016
+        ],
+        "name": [
+            "Hygiene Management"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{a831df5e-c6e8-4749-8d46-afe8dec0844d}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-1114"
+        ],
+        "sAMAccountName": [
+            "Hygiene Management"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            21597
+        ],
+        "uSNCreated": [
+            21554
+        ],
+        "whenChanged": [
+            "2019-09-19 11:11:14+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-19 11:11:14+00:00"
+        ]
+    },
+    "dn": "CN=Hygiene Management,OU=Microsoft Exchange Security Groups,DC=htb,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Delegated Setup"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:56+00:00",
+            "2022-01-09 19:31:56+00:00",
+            "2022-01-09 19:31:56+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Members of this management role group have permissions to install and uninstall Exchange on provisioned servers. This role group shouldn't be deleted."
+        ],
+        "distinguishedName": [
+            "CN=Delegated Setup,OU=Microsoft Exchange Security Groups,DC=htb,DC=local"
+        ],
+        "garbageCollPeriod": [
+            1209600
+        ],
+        "groupType": [
+            -2147483640
+        ],
+        "instanceType": [
+            4
+        ],
+        "internetEncoding": [
+            0
+        ],
+        "managedBy": [
+            "CN=Organization Management,OU=Microsoft Exchange Security Groups,DC=htb,DC=local"
+        ],
+        "msExchAddressBookFlags": [
+            1
+        ],
+        "msExchBypassAudit": [
+            false
+        ],
+        "msExchGroupDepartRestriction": [
+            0
+        ],
+        "msExchGroupExternalMemberCount": [
+            0
+        ],
+        "msExchGroupJoinRestriction": [
+            0
+        ],
+        "msExchGroupMemberCount": [
+            0
+        ],
+        "msExchGroupSecurityFlags": [
+            0
+        ],
+        "msExchLocalizationFlags": [
+            0
+        ],
+        "msExchMDBRulesQuota": [
+            256
+        ],
+        "msExchMailboxAuditEnable": [
+            false
+        ],
+        "msExchMailboxAuditLogAgeLimit": [
+            7776000
+        ],
+        "msExchMailboxFolderSet": [
+            0
+        ],
+        "msExchModerationFlags": [
+            6
+        ],
+        "msExchProvisioningFlags": [
+            0
+        ],
+        "msExchRecipientSoftDeletedStatus": [
+            0
+        ],
+        "msExchRecipientTypeDetails": [
+            1073741824
+        ],
+        "msExchRoleGroupType": [
+            10
+        ],
+        "msExchTransportRecipientSettingsFlags": [
+            0
+        ],
+        "msExchUserAccountControl": [
+            0
+        ],
+        "msExchUserBL": [
+            "CN=View-Only Configuration-Delegated Setup,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchVersion": [
+            44220983382016
+        ],
+        "name": [
+            "Delegated Setup"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{b460a3fa-65c2-41f7-a7de-9b5cad8785d5}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-1113"
+        ],
+        "sAMAccountName": [
+            "Delegated Setup"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            21595
+        ],
+        "uSNCreated": [
+            21549
+        ],
+        "whenChanged": [
+            "2019-09-19 11:11:14+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-19 11:11:14+00:00"
+        ]
+    },
+    "dn": "CN=Delegated Setup,OU=Microsoft Exchange Security Groups,DC=htb,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Server Management"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:56+00:00",
+            "2022-01-09 19:31:56+00:00",
+            "2022-01-09 19:31:56+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Members of this management role group have permissions to manage all Exchange servers within the Exchange organization, but members don't have permissions to perform operations that have global impact in the Exchange organization."
+        ],
+        "distinguishedName": [
+            "CN=Server Management,OU=Microsoft Exchange Security Groups,DC=htb,DC=local"
+        ],
+        "garbageCollPeriod": [
+            1209600
+        ],
+        "groupType": [
+            -2147483640
+        ],
+        "instanceType": [
+            4
+        ],
+        "internetEncoding": [
+            0
+        ],
+        "managedBy": [
+            "CN=Organization Management,OU=Microsoft Exchange Security Groups,DC=htb,DC=local"
+        ],
+        "msExchAddressBookFlags": [
+            1
+        ],
+        "msExchBypassAudit": [
+            false
+        ],
+        "msExchGroupDepartRestriction": [
+            0
+        ],
+        "msExchGroupExternalMemberCount": [
+            0
+        ],
+        "msExchGroupJoinRestriction": [
+            0
+        ],
+        "msExchGroupMemberCount": [
+            0
+        ],
+        "msExchGroupSecurityFlags": [
+            0
+        ],
+        "msExchLocalizationFlags": [
+            0
+        ],
+        "msExchMDBRulesQuota": [
+            256
+        ],
+        "msExchMailboxAuditEnable": [
+            false
+        ],
+        "msExchMailboxAuditLogAgeLimit": [
+            7776000
+        ],
+        "msExchMailboxFolderSet": [
+            0
+        ],
+        "msExchModerationFlags": [
+            6
+        ],
+        "msExchProvisioningFlags": [
+            0
+        ],
+        "msExchRecipientSoftDeletedStatus": [
+            0
+        ],
+        "msExchRecipientTypeDetails": [
+            1073741824
+        ],
+        "msExchRoleGroupType": [
+            9
+        ],
+        "msExchTransportRecipientSettingsFlags": [
+            0
+        ],
+        "msExchUserAccountControl": [
+            0
+        ],
+        "msExchUserBL": [
+            "CN=Transport Queues-Server Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Receive Connectors-Server Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=POP3 And IMAP4 Protocols-Server Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Monitoring-Server Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Exchange Virtual Directories-Server Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Exchange Servers-Server Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Exchange Server Certificates-Server Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Exchange Connectors-Server Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Databases-Server Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Database Copies-Server Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchVersion": [
+            44220983382016
+        ],
+        "name": [
+            "Server Management"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{d0e44f77-9d08-4d80-b9dd-6c5ef82f27d4}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-1112"
+        ],
+        "sAMAccountName": [
+            "Server Management"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            21593
+        ],
+        "uSNCreated": [
+            21544
+        ],
+        "whenChanged": [
+            "2019-09-19 11:11:14+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-19 11:11:14+00:00"
+        ]
+    },
+    "dn": "CN=Server Management,OU=Microsoft Exchange Security Groups,DC=htb,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Discovery Management"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:56+00:00",
+            "2022-01-09 19:31:56+00:00",
+            "2022-01-09 19:31:56+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Members of this management role group can perform searches of mailboxes in the Exchange organization for data that meets specific criteria."
+        ],
+        "distinguishedName": [
+            "CN=Discovery Management,OU=Microsoft Exchange Security Groups,DC=htb,DC=local"
+        ],
+        "garbageCollPeriod": [
+            1209600
+        ],
+        "groupType": [
+            -2147483640
+        ],
+        "instanceType": [
+            4
+        ],
+        "internetEncoding": [
+            0
+        ],
+        "managedBy": [
+            "CN=Organization Management,OU=Microsoft Exchange Security Groups,DC=htb,DC=local"
+        ],
+        "msExchAddressBookFlags": [
+            1
+        ],
+        "msExchBypassAudit": [
+            false
+        ],
+        "msExchGroupDepartRestriction": [
+            0
+        ],
+        "msExchGroupExternalMemberCount": [
+            0
+        ],
+        "msExchGroupJoinRestriction": [
+            0
+        ],
+        "msExchGroupMemberCount": [
+            0
+        ],
+        "msExchGroupSecurityFlags": [
+            0
+        ],
+        "msExchLocalizationFlags": [
+            0
+        ],
+        "msExchMDBRulesQuota": [
+            256
+        ],
+        "msExchMailboxAuditEnable": [
+            false
+        ],
+        "msExchMailboxAuditLogAgeLimit": [
+            7776000
+        ],
+        "msExchMailboxFolderSet": [
+            0
+        ],
+        "msExchModerationFlags": [
+            6
+        ],
+        "msExchProvisioningFlags": [
+            0
+        ],
+        "msExchRecipientSoftDeletedStatus": [
+            0
+        ],
+        "msExchRecipientTypeDetails": [
+            1073741824
+        ],
+        "msExchRoleGroupType": [
+            8
+        ],
+        "msExchTransportRecipientSettingsFlags": [
+            0
+        ],
+        "msExchUserAccountControl": [
+            0
+        ],
+        "msExchUserBL": [
+            "CN=Mailbox Search-Discovery Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Legal Hold-Discovery Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchVersion": [
+            44220983382016
+        ],
+        "name": [
+            "Discovery Management"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{81fedabb-912f-434b-b433-bc5827286d1f}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-1111"
+        ],
+        "sAMAccountName": [
+            "Discovery Management"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            21591
+        ],
+        "uSNCreated": [
+            21539
+        ],
+        "whenChanged": [
+            "2019-09-19 11:11:14+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-19 11:11:14+00:00"
+        ]
+    },
+    "dn": "CN=Discovery Management,OU=Microsoft Exchange Security Groups,DC=htb,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Records Management"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Members of this management role group can configure compliance features such as retention policy tags, message classifications, transport rules, and more."
+        ],
+        "distinguishedName": [
+            "CN=Records Management,OU=Microsoft Exchange Security Groups,DC=htb,DC=local"
+        ],
+        "garbageCollPeriod": [
+            1209600
+        ],
+        "groupType": [
+            -2147483640
+        ],
+        "instanceType": [
+            4
+        ],
+        "internetEncoding": [
+            0
+        ],
+        "managedBy": [
+            "CN=Organization Management,OU=Microsoft Exchange Security Groups,DC=htb,DC=local"
+        ],
+        "msExchAddressBookFlags": [
+            1
+        ],
+        "msExchBypassAudit": [
+            false
+        ],
+        "msExchGroupDepartRestriction": [
+            0
+        ],
+        "msExchGroupExternalMemberCount": [
+            0
+        ],
+        "msExchGroupJoinRestriction": [
+            0
+        ],
+        "msExchGroupMemberCount": [
+            0
+        ],
+        "msExchGroupSecurityFlags": [
+            0
+        ],
+        "msExchLocalizationFlags": [
+            0
+        ],
+        "msExchMDBRulesQuota": [
+            256
+        ],
+        "msExchMailboxAuditEnable": [
+            false
+        ],
+        "msExchMailboxAuditLogAgeLimit": [
+            7776000
+        ],
+        "msExchMailboxFolderSet": [
+            0
+        ],
+        "msExchModerationFlags": [
+            6
+        ],
+        "msExchProvisioningFlags": [
+            0
+        ],
+        "msExchRecipientSoftDeletedStatus": [
+            0
+        ],
+        "msExchRecipientTypeDetails": [
+            1073741824
+        ],
+        "msExchRoleGroupType": [
+            7
+        ],
+        "msExchTransportRecipientSettingsFlags": [
+            0
+        ],
+        "msExchUserAccountControl": [
+            0
+        ],
+        "msExchUserBL": [
+            "CN=Transport Rules-Records Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Retention Management-Records Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Message Tracking-Records Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Journaling-Records Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Audit Logs-Records Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchVersion": [
+            44220983382016
+        ],
+        "name": [
+            "Records Management"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{3467bc45-3f7d-4b27-a7ec-cd11124b6a4c}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-1110"
+        ],
+        "sAMAccountName": [
+            "Records Management"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            21589
+        ],
+        "uSNCreated": [
+            21534
+        ],
+        "whenChanged": [
+            "2019-09-19 11:11:14+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-19 11:11:14+00:00"
+        ]
+    },
+    "dn": "CN=Records Management,OU=Microsoft Exchange Security Groups,DC=htb,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Help Desk"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Members of this management role group can view and manage the configuration for individual recipients and view recipients in an Exchange organization. Members of this role group can only manage the configuration each user can manage on his or her own mailbox. Additional  permissions can be added by assigning additional management roles to this role group."
+        ],
+        "distinguishedName": [
+            "CN=Help Desk,OU=Microsoft Exchange Security Groups,DC=htb,DC=local"
+        ],
+        "garbageCollPeriod": [
+            1209600
+        ],
+        "groupType": [
+            -2147483640
+        ],
+        "instanceType": [
+            4
+        ],
+        "internetEncoding": [
+            0
+        ],
+        "managedBy": [
+            "CN=Organization Management,OU=Microsoft Exchange Security Groups,DC=htb,DC=local"
+        ],
+        "msExchAddressBookFlags": [
+            1
+        ],
+        "msExchBypassAudit": [
+            false
+        ],
+        "msExchGroupDepartRestriction": [
+            0
+        ],
+        "msExchGroupExternalMemberCount": [
+            0
+        ],
+        "msExchGroupJoinRestriction": [
+            0
+        ],
+        "msExchGroupMemberCount": [
+            0
+        ],
+        "msExchGroupSecurityFlags": [
+            0
+        ],
+        "msExchLocalizationFlags": [
+            0
+        ],
+        "msExchMDBRulesQuota": [
+            256
+        ],
+        "msExchMailboxAuditEnable": [
+            false
+        ],
+        "msExchMailboxAuditLogAgeLimit": [
+            7776000
+        ],
+        "msExchMailboxFolderSet": [
+            0
+        ],
+        "msExchModerationFlags": [
+            6
+        ],
+        "msExchProvisioningFlags": [
+            0
+        ],
+        "msExchRecipientSoftDeletedStatus": [
+            0
+        ],
+        "msExchRecipientTypeDetails": [
+            1073741824
+        ],
+        "msExchRoleGroupType": [
+            6
+        ],
+        "msExchTransportRecipientSettingsFlags": [
+            0
+        ],
+        "msExchUserAccountControl": [
+            0
+        ],
+        "msExchUserBL": [
+            "CN=View-Only Recipients-Help Desk,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=User Options-Help Desk,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchVersion": [
+            44220983382016
+        ],
+        "name": [
+            "Help Desk"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{5ee18c6e-59a9-4f8d-844f-2822f9a83695}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-1109"
+        ],
+        "sAMAccountName": [
+            "Help Desk"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            21587
+        ],
+        "uSNCreated": [
+            21529
+        ],
+        "whenChanged": [
+            "2019-09-19 11:11:14+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-19 11:11:14+00:00"
+        ]
+    },
+    "dn": "CN=Help Desk,OU=Microsoft Exchange Security Groups,DC=htb,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "UM Management"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Members of this management role group can manage Unified Messaging organization, server, and recipient configuration."
+        ],
+        "distinguishedName": [
+            "CN=UM Management,OU=Microsoft Exchange Security Groups,DC=htb,DC=local"
+        ],
+        "garbageCollPeriod": [
+            1209600
+        ],
+        "groupType": [
+            -2147483640
+        ],
+        "instanceType": [
+            4
+        ],
+        "internetEncoding": [
+            0
+        ],
+        "managedBy": [
+            "CN=Organization Management,OU=Microsoft Exchange Security Groups,DC=htb,DC=local"
+        ],
+        "msExchAddressBookFlags": [
+            1
+        ],
+        "msExchBypassAudit": [
+            false
+        ],
+        "msExchGroupDepartRestriction": [
+            0
+        ],
+        "msExchGroupExternalMemberCount": [
+            0
+        ],
+        "msExchGroupJoinRestriction": [
+            0
+        ],
+        "msExchGroupMemberCount": [
+            0
+        ],
+        "msExchGroupSecurityFlags": [
+            0
+        ],
+        "msExchLocalizationFlags": [
+            0
+        ],
+        "msExchMDBRulesQuota": [
+            256
+        ],
+        "msExchMailboxAuditEnable": [
+            false
+        ],
+        "msExchMailboxAuditLogAgeLimit": [
+            7776000
+        ],
+        "msExchMailboxFolderSet": [
+            0
+        ],
+        "msExchModerationFlags": [
+            6
+        ],
+        "msExchProvisioningFlags": [
+            0
+        ],
+        "msExchRecipientSoftDeletedStatus": [
+            0
+        ],
+        "msExchRecipientTypeDetails": [
+            1073741824
+        ],
+        "msExchRoleGroupType": [
+            5
+        ],
+        "msExchTransportRecipientSettingsFlags": [
+            0
+        ],
+        "msExchUserAccountControl": [
+            0
+        ],
+        "msExchUserBL": [
+            "CN=Unified Messaging-UM Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=UM Prompts-UM Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=UM Mailboxes-UM Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchVersion": [
+            44220983382016
+        ],
+        "name": [
+            "UM Management"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{bb285712-7100-4915-8404-2abab426f22b}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-1108"
+        ],
+        "sAMAccountName": [
+            "UM Management"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            21585
+        ],
+        "uSNCreated": [
+            21524
+        ],
+        "whenChanged": [
+            "2019-09-19 11:11:14+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-19 11:11:14+00:00"
+        ]
+    },
+    "dn": "CN=UM Management,OU=Microsoft Exchange Security Groups,DC=htb,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Public Folder Management"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Members of this management role group can manage public folders. Members can create and delete public folders and manage public folder settings such as replicas, quotas, age limits, and permissions as well as mail-enable and mail-disable public folders."
+        ],
+        "distinguishedName": [
+            "CN=Public Folder Management,OU=Microsoft Exchange Security Groups,DC=htb,DC=local"
+        ],
+        "garbageCollPeriod": [
+            1209600
+        ],
+        "groupType": [
+            -2147483640
+        ],
+        "instanceType": [
+            4
+        ],
+        "internetEncoding": [
+            0
+        ],
+        "managedBy": [
+            "CN=Organization Management,OU=Microsoft Exchange Security Groups,DC=htb,DC=local"
+        ],
+        "msExchAddressBookFlags": [
+            1
+        ],
+        "msExchBypassAudit": [
+            false
+        ],
+        "msExchGroupDepartRestriction": [
+            0
+        ],
+        "msExchGroupExternalMemberCount": [
+            0
+        ],
+        "msExchGroupJoinRestriction": [
+            0
+        ],
+        "msExchGroupMemberCount": [
+            0
+        ],
+        "msExchGroupSecurityFlags": [
+            0
+        ],
+        "msExchLocalizationFlags": [
+            0
+        ],
+        "msExchMDBRulesQuota": [
+            256
+        ],
+        "msExchMailboxAuditEnable": [
+            false
+        ],
+        "msExchMailboxAuditLogAgeLimit": [
+            7776000
+        ],
+        "msExchMailboxFolderSet": [
+            0
+        ],
+        "msExchModerationFlags": [
+            6
+        ],
+        "msExchProvisioningFlags": [
+            0
+        ],
+        "msExchRecipientSoftDeletedStatus": [
+            0
+        ],
+        "msExchRecipientTypeDetails": [
+            1073741824
+        ],
+        "msExchRoleGroupType": [
+            4
+        ],
+        "msExchTransportRecipientSettingsFlags": [
+            0
+        ],
+        "msExchUserAccountControl": [
+            0
+        ],
+        "msExchUserBL": [
+            "CN=Public Folders-Public Folder Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Mail Enabled Public Folders-Public Folder Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchVersion": [
+            44220983382016
+        ],
+        "name": [
+            "Public Folder Management"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{d2048d81-a709-40c9-ba20-357592b82eab}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-1107"
+        ],
+        "sAMAccountName": [
+            "Public Folder Management"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            21638
+        ],
+        "uSNCreated": [
+            21519
+        ],
+        "whenChanged": [
+            "2019-09-19 11:11:14+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-19 11:11:14+00:00"
+        ]
+    },
+    "dn": "CN=Public Folder Management,OU=Microsoft Exchange Security Groups,DC=htb,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "View-Only Organization Management"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Members of this management role group can view recipient and configuration objects and their properties in the Exchange organization."
+        ],
+        "distinguishedName": [
+            "CN=View-Only Organization Management,OU=Microsoft Exchange Security Groups,DC=htb,DC=local"
+        ],
+        "garbageCollPeriod": [
+            1209600
+        ],
+        "groupType": [
+            -2147483640
+        ],
+        "instanceType": [
+            4
+        ],
+        "internetEncoding": [
+            0
+        ],
+        "managedBy": [
+            "CN=Organization Management,OU=Microsoft Exchange Security Groups,DC=htb,DC=local"
+        ],
+        "msExchAddressBookFlags": [
+            1
+        ],
+        "msExchBypassAudit": [
+            false
+        ],
+        "msExchGroupDepartRestriction": [
+            0
+        ],
+        "msExchGroupExternalMemberCount": [
+            0
+        ],
+        "msExchGroupJoinRestriction": [
+            0
+        ],
+        "msExchGroupMemberCount": [
+            0
+        ],
+        "msExchGroupSecurityFlags": [
+            0
+        ],
+        "msExchLocalizationFlags": [
+            0
+        ],
+        "msExchMDBRulesQuota": [
+            256
+        ],
+        "msExchMailboxAuditEnable": [
+            false
+        ],
+        "msExchMailboxAuditLogAgeLimit": [
+            7776000
+        ],
+        "msExchMailboxFolderSet": [
+            0
+        ],
+        "msExchModerationFlags": [
+            6
+        ],
+        "msExchProvisioningFlags": [
+            0
+        ],
+        "msExchRecipientSoftDeletedStatus": [
+            0
+        ],
+        "msExchRecipientTypeDetails": [
+            1073741824
+        ],
+        "msExchRoleGroupType": [
+            3
+        ],
+        "msExchTransportRecipientSettingsFlags": [
+            0
+        ],
+        "msExchUserAccountControl": [
+            0
+        ],
+        "msExchUserBL": [
+            "CN=View-Only Recipients-View-Only Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=View-Only Configuration-View-Only Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Monitoring-View-Only Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchVersion": [
+            44220983382016
+        ],
+        "name": [
+            "View-Only Organization Management"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{3a28aed9-be6c-4cd1-a5fa-eab80dec5226}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-1106"
+        ],
+        "sAMAccountName": [
+            "View-Only Organization Management"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            21581
+        ],
+        "uSNCreated": [
+            21514
+        ],
+        "whenChanged": [
+            "2019-09-19 11:11:14+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-19 11:11:14+00:00"
+        ]
+    },
+    "dn": "CN=View-Only Organization Management,OU=Microsoft Exchange Security Groups,DC=htb,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Recipient Management"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Members of this management role group have rights to create, manage, and remove Exchange recipient objects in the Exchange organization."
+        ],
+        "distinguishedName": [
+            "CN=Recipient Management,OU=Microsoft Exchange Security Groups,DC=htb,DC=local"
+        ],
+        "garbageCollPeriod": [
+            1209600
+        ],
+        "groupType": [
+            -2147483640
+        ],
+        "instanceType": [
+            4
+        ],
+        "internetEncoding": [
+            0
+        ],
+        "managedBy": [
+            "CN=Organization Management,OU=Microsoft Exchange Security Groups,DC=htb,DC=local"
+        ],
+        "msExchAddressBookFlags": [
+            1
+        ],
+        "msExchBypassAudit": [
+            false
+        ],
+        "msExchGroupDepartRestriction": [
+            0
+        ],
+        "msExchGroupExternalMemberCount": [
+            0
+        ],
+        "msExchGroupJoinRestriction": [
+            0
+        ],
+        "msExchGroupMemberCount": [
+            0
+        ],
+        "msExchGroupSecurityFlags": [
+            0
+        ],
+        "msExchLocalizationFlags": [
+            0
+        ],
+        "msExchMDBRulesQuota": [
+            256
+        ],
+        "msExchMailboxAuditEnable": [
+            false
+        ],
+        "msExchMailboxAuditLogAgeLimit": [
+            7776000
+        ],
+        "msExchMailboxFolderSet": [
+            0
+        ],
+        "msExchModerationFlags": [
+            6
+        ],
+        "msExchProvisioningFlags": [
+            0
+        ],
+        "msExchRecipientSoftDeletedStatus": [
+            0
+        ],
+        "msExchRecipientTypeDetails": [
+            1073741824
+        ],
+        "msExchRoleGroupType": [
+            2
+        ],
+        "msExchTransportRecipientSettingsFlags": [
+            0
+        ],
+        "msExchUserAccountControl": [
+            0
+        ],
+        "msExchUserBL": [
+            "CN=Team Mailboxes-Recipient Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Recipient Policies-Recipient Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Move Mailboxes-Recipient Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Migration-Recipient Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Message Tracking-Recipient Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Mail Recipients-Recipient Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Mail Recipient Creation-Recipient Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Distribution Groups-Recipient Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchVersion": [
+            44220983382016
+        ],
+        "name": [
+            "Recipient Management"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{cc25b1f9-b8e4-43ca-a03b-82f0019ac1a3}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-1105"
+        ],
+        "sAMAccountName": [
+            "Recipient Management"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            21579
+        ],
+        "uSNCreated": [
+            21509
+        ],
+        "whenChanged": [
+            "2019-09-19 11:11:14+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-19 11:11:14+00:00"
+        ]
+    },
+    "dn": "CN=Recipient Management,OU=Microsoft Exchange Security Groups,DC=htb,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Organization Management"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Members of this management role group have permissions to manage Exchange objects and their properties in the Exchange organization. Members can also delegate role groups and management roles in the organization. This role group shouldn't be deleted."
+        ],
+        "distinguishedName": [
+            "CN=Organization Management,OU=Microsoft Exchange Security Groups,DC=htb,DC=local"
+        ],
+        "garbageCollPeriod": [
+            1209600
+        ],
+        "groupType": [
+            -2147483640
+        ],
+        "instanceType": [
+            4
+        ],
+        "internetEncoding": [
+            0
+        ],
+        "managedBy": [
+            "CN=Organization Management,OU=Microsoft Exchange Security Groups,DC=htb,DC=local"
+        ],
+        "managedObjects": [
+            "CN=Security Administrator,OU=Microsoft Exchange Security Groups,DC=htb,DC=local",
+            "CN=Security Reader,OU=Microsoft Exchange Security Groups,DC=htb,DC=local",
+            "CN=Compliance Management,OU=Microsoft Exchange Security Groups,DC=htb,DC=local",
+            "CN=Hygiene Management,OU=Microsoft Exchange Security Groups,DC=htb,DC=local",
+            "CN=Delegated Setup,OU=Microsoft Exchange Security Groups,DC=htb,DC=local",
+            "CN=Server Management,OU=Microsoft Exchange Security Groups,DC=htb,DC=local",
+            "CN=Discovery Management,OU=Microsoft Exchange Security Groups,DC=htb,DC=local",
+            "CN=Records Management,OU=Microsoft Exchange Security Groups,DC=htb,DC=local",
+            "CN=Help Desk,OU=Microsoft Exchange Security Groups,DC=htb,DC=local",
+            "CN=UM Management,OU=Microsoft Exchange Security Groups,DC=htb,DC=local",
+            "CN=Public Folder Management,OU=Microsoft Exchange Security Groups,DC=htb,DC=local",
+            "CN=View-Only Organization Management,OU=Microsoft Exchange Security Groups,DC=htb,DC=local",
+            "CN=Recipient Management,OU=Microsoft Exchange Security Groups,DC=htb,DC=local",
+            "CN=Organization Management,OU=Microsoft Exchange Security Groups,DC=htb,DC=local"
+        ],
+        "member": [
+            "CN=Administrator,CN=Users,DC=htb,DC=local"
+        ],
+        "msExchAddressBookFlags": [
+            1
+        ],
+        "msExchBypassAudit": [
+            false
+        ],
+        "msExchGroupDepartRestriction": [
+            0
+        ],
+        "msExchGroupExternalMemberCount": [
+            0
+        ],
+        "msExchGroupJoinRestriction": [
+            0
+        ],
+        "msExchGroupMemberCount": [
+            0
+        ],
+        "msExchGroupSecurityFlags": [
+            0
+        ],
+        "msExchLocalizationFlags": [
+            0
+        ],
+        "msExchMDBRulesQuota": [
+            256
+        ],
+        "msExchMailboxAuditEnable": [
+            false
+        ],
+        "msExchMailboxAuditLogAgeLimit": [
+            7776000
+        ],
+        "msExchMailboxFolderSet": [
+            0
+        ],
+        "msExchModerationFlags": [
+            6
+        ],
+        "msExchProvisioningFlags": [
+            0
+        ],
+        "msExchRecipientSoftDeletedStatus": [
+            0
+        ],
+        "msExchRecipientTypeDetails": [
+            1073741824
+        ],
+        "msExchRoleGroupType": [
+            1
+        ],
+        "msExchTransportRecipientSettingsFlags": [
+            0
+        ],
+        "msExchUserAccountControl": [
+            0
+        ],
+        "msExchUserBL": [
+            "CN=MyVoiceMail-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=MyTextMessaging-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=MyTeamMailboxes-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=MyRetentionPolicies-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=MyProfileInformation-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=MyMailboxDelegation-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=MyDistributionGroups-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=MyDistributionGroupMembership-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=MyDiagnostics-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=MyContactInformation-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=MyBaseOptions-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=My ReadWriteMailbox Apps-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=My Marketplace Apps-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=My Custom Apps-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=WorkloadManagement-Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=WorkloadManagement-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=View-Only Recipients-Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=View-Only Recipients-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=View-Only Configuration-Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=View-Only Configuration-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=View-Only Audit Logs-Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=View-Only Audit Logs-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=User Options-Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=User Options-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=UserApplication-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Unified Messaging-Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Unified Messaging-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=UnScoped Role Management-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=UM Prompts-Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=UM Prompts-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=UM Mailboxes-Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=UM Mailboxes-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Transport Rules-Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Transport Rules-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Transport Queues-Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Transport Queues-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Transport Hygiene-Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Transport Hygiene-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Transport Agents-Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Transport Agents-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Team Mailboxes-Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Team Mailboxes-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=TeamMailboxLifecycleApplication-Organization Management-Delegati,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Support Diagnostics-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=SendMailApplication-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Send Connectors-Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Send Connectors-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Security Reader-Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Security Reader-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Security Group Creation and Membership-Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Security Group Creation and Membership-Organization Management-D,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Security Admin-Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Security Admin-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Role Management-Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Role Management-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Retention Management-Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Retention Management-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Reset Password-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Remote and Accepted Domains-Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Remote and Accepted Domains-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Recipient Policies-Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Recipient Policies-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Receive Connectors-Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Receive Connectors-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Public Folders-Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Public Folders-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=POP3 And IMAP4 Protocols-Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=POP3 And IMAP4 Protocols-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Organization Transport Settings-Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Organization Transport Settings-Organization Management-Delegati,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Organization Configuration-Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Organization Configuration-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Organization Client Access-Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Organization Client Access-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Org Marketplace Apps-Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Org Marketplace Apps-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Org Custom Apps-Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Org Custom Apps-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=OfficeExtensionApplication-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Move Mailboxes-Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Move Mailboxes-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Monitoring-Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Monitoring-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Migration-Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Migration-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Message Tracking-Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Message Tracking-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=MeetingGraphApplication-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=MailboxSearchApplication-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Mailbox Search-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Mailbox Import Export-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Mail Tips-Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Mail Tips-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Mail Recipients-Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Mail Recipients-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Mail Recipient Creation-Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Mail Recipient Creation-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Mail Enabled Public Folders-Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Mail Enabled Public Folders-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=LegalHoldApplication-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Legal Hold-Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Legal Hold-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Journaling-Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Journaling-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Information Rights Management-Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Information Rights Management-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Federated Sharing-Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Federated Sharing-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Exchange Virtual Directories-Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Exchange Virtual Directories-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Exchange Servers-Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Exchange Servers-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Exchange Server Certificates-Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Exchange Server Certificates-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=ExchangeCrossServiceIntegration-Organization Management-Delegati,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Exchange Connectors-Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Exchange Connectors-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=E-Mail Address Policies-Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=E-Mail Address Policies-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Edge Subscriptions-Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Edge Subscriptions-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Distribution Groups-Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Distribution Groups-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Disaster Recovery-Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Disaster Recovery-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Databases-Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Databases-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Database Copies-Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Database Copies-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Database Availability Groups-Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Database Availability Groups-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Data Loss Prevention-Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Data Loss Prevention-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Compliance Admin-Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Compliance Admin-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Cmdlet Extension Agents-Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Cmdlet Extension Agents-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Audit Logs-Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Audit Logs-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=ArchiveApplication-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=ApplicationImpersonation-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Address Lists-Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Address Lists-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Active Directory Permissions-Organization Management,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local",
+            "CN=Active Directory Permissions-Organization Management-Delegating,CN=Role Assignments,CN=RBAC,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=htb,DC=local"
+        ],
+        "msExchVersion": [
+            44220983382016
+        ],
+        "name": [
+            "Organization Management"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{cb0f6e2a-400d-4e0b-8142-6ac22be2aeab}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-1104"
+        ],
+        "sAMAccountName": [
+            "Organization Management"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            81991
+        ],
+        "uSNCreated": [
+            21504
+        ],
+        "whenChanged": [
+            "2019-09-23 22:03:53+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-19 11:11:14+00:00"
+        ]
+    },
+    "dn": "CN=Organization Management,OU=Microsoft Exchange Security Groups,DC=htb,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "DnsUpdateProxy"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "DNS clients who are permitted to perform dynamic updates on behalf of some other clients (such as DHCP servers)."
+        ],
+        "distinguishedName": [
+            "CN=DnsUpdateProxy,CN=Users,DC=htb,DC=local"
+        ],
+        "groupType": [
+            -2147483646
+        ],
+        "instanceType": [
+            4
+        ],
+        "name": [
+            "DnsUpdateProxy"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{0c2c7c95-ea4b-458a-a494-93df6f83979a}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-1102"
+        ],
+        "sAMAccountName": [
+            "DnsUpdateProxy"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            12488
+        ],
+        "uSNCreated": [
+            12488
+        ],
+        "whenChanged": [
+            "2019-09-18 10:54:03+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-18 10:54:03+00:00"
+        ]
+    },
+    "dn": "CN=DnsUpdateProxy,CN=Users,DC=htb,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "DnsAdmins"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "DNS Administrators Group"
+        ],
+        "distinguishedName": [
+            "CN=DnsAdmins,CN=Users,DC=htb,DC=local"
+        ],
+        "groupType": [
+            -2147483644
+        ],
+        "instanceType": [
+            4
+        ],
+        "name": [
+            "DnsAdmins"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{64d78f1a-a739-4ffe-ba23-ea0e7f846b8b}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-1101"
+        ],
+        "sAMAccountName": [
+            "DnsAdmins"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "uSNChanged": [
+            12485
+        ],
+        "uSNCreated": [
+            12483
+        ],
+        "whenChanged": [
+            "2019-09-18 10:54:03+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-18 10:54:03+00:00"
+        ]
+    },
+    "dn": "CN=DnsAdmins,CN=Users,DC=htb,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Enterprise Key Admins"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Members of this group can perform administrative actions on key objects within the forest."
+        ],
+        "distinguishedName": [
+            "CN=Enterprise Key Admins,CN=Users,DC=htb,DC=local"
+        ],
+        "groupType": [
+            -2147483640
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Enterprise Key Admins"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{8c0a3f11-78ac-45b7-a32f-8cfa23b7f093}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-527"
+        ],
+        "sAMAccountName": [
+            "Enterprise Key Admins"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            12455
+        ],
+        "uSNCreated": [
+            12453
+        ],
+        "whenChanged": [
+            "2019-09-18 10:53:23+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-18 10:53:23+00:00"
+        ]
+    },
+    "dn": "CN=Enterprise Key Admins,CN=Users,DC=htb,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Key Admins"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Members of this group can perform administrative actions on key objects within the domain."
+        ],
+        "distinguishedName": [
+            "CN=Key Admins,CN=Users,DC=htb,DC=local"
+        ],
+        "groupType": [
+            -2147483646
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Key Admins"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{d96a5abb-8801-4f3a-9094-6c69574d82ad}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-526"
+        ],
+        "sAMAccountName": [
+            "Key Admins"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            12452
+        ],
+        "uSNCreated": [
+            12450
+        ],
+        "whenChanged": [
+            "2019-09-18 10:53:23+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-18 10:53:23+00:00"
+        ]
+    },
+    "dn": "CN=Key Admins,CN=Users,DC=htb,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Protected Users"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Members of this group are afforded additional protections against authentication security threats. See http://go.microsoft.com/fwlink/?LinkId=298939 for more information."
+        ],
+        "distinguishedName": [
+            "CN=Protected Users,CN=Users,DC=htb,DC=local"
+        ],
+        "groupType": [
+            -2147483646
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Protected Users"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{f49ff1f0-6eac-45b4-8b00-4557dad337dc}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-525"
+        ],
+        "sAMAccountName": [
+            "Protected Users"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            12447
+        ],
+        "uSNCreated": [
+            12445
+        ],
+        "whenChanged": [
+            "2019-09-18 10:53:23+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-18 10:53:23+00:00"
+        ]
+    },
+    "dn": "CN=Protected Users,CN=Users,DC=htb,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Cloneable Domain Controllers"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Members of this group that are domain controllers may be cloned."
+        ],
+        "distinguishedName": [
+            "CN=Cloneable Domain Controllers,CN=Users,DC=htb,DC=local"
+        ],
+        "groupType": [
+            -2147483646
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Cloneable Domain Controllers"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{d8693b95-68c4-44ea-8748-dc45c26dd433}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-522"
+        ],
+        "sAMAccountName": [
+            "Cloneable Domain Controllers"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            12442
+        ],
+        "uSNCreated": [
+            12440
+        ],
+        "whenChanged": [
+            "2019-09-18 10:53:23+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-18 10:53:23+00:00"
+        ]
+    },
+    "dn": "CN=Cloneable Domain Controllers,CN=Users,DC=htb,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Enterprise Read-only Domain Controllers"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Members of this group are Read-Only Domain Controllers in the enterprise"
+        ],
+        "distinguishedName": [
+            "CN=Enterprise Read-only Domain Controllers,CN=Users,DC=htb,DC=local"
+        ],
+        "groupType": [
+            -2147483640
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Enterprise Read-only Domain Controllers"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{f9d71231-02d9-4007-b238-8480a1a03d03}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-498"
+        ],
+        "sAMAccountName": [
+            "Enterprise Read-only Domain Controllers"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            12431
+        ],
+        "uSNCreated": [
+            12429
+        ],
+        "whenChanged": [
+            "2019-09-18 10:53:23+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-18 10:53:23+00:00"
+        ]
+    },
+    "dn": "CN=Enterprise Read-only Domain Controllers,CN=Users,DC=htb,DC=local"
+},{
+    "attributes": {
+        "adminCount": [
+            1
+        ],
+        "cn": [
+            "Read-only Domain Controllers"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Members of this group are Read-Only Domain Controllers in the domain"
+        ],
+        "distinguishedName": [
+            "CN=Read-only Domain Controllers,CN=Users,DC=htb,DC=local"
+        ],
+        "groupType": [
+            -2147483646
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "memberOf": [
+            "CN=Denied RODC Password Replication Group,CN=Users,DC=htb,DC=local"
+        ],
+        "name": [
+            "Read-only Domain Controllers"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{b33b7263-e2e2-4014-a7fc-fdd641d27919}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-521"
+        ],
+        "sAMAccountName": [
+            "Read-only Domain Controllers"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            25312
+        ],
+        "uSNCreated": [
+            12419
+        ],
+        "whenChanged": [
+            "2019-09-19 12:08:33+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-18 10:53:23+00:00"
+        ]
+    },
+    "dn": "CN=Read-only Domain Controllers,CN=Users,DC=htb,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Denied RODC Password Replication Group"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Members in this group cannot have their passwords replicated to any read-only domain controllers in the domain"
+        ],
+        "distinguishedName": [
+            "CN=Denied RODC Password Replication Group,CN=Users,DC=htb,DC=local"
+        ],
+        "groupType": [
+            -2147483644
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "member": [
+            "CN=Read-only Domain Controllers,CN=Users,DC=htb,DC=local",
+            "CN=Group Policy Creator Owners,CN=Users,DC=htb,DC=local",
+            "CN=Domain Admins,CN=Users,DC=htb,DC=local",
+            "CN=Cert Publishers,CN=Users,DC=htb,DC=local",
+            "CN=Enterprise Admins,CN=Users,DC=htb,DC=local",
+            "CN=Schema Admins,CN=Users,DC=htb,DC=local",
+            "CN=Domain Controllers,CN=Users,DC=htb,DC=local",
+            "CN=krbtgt,CN=Users,DC=htb,DC=local"
+        ],
+        "name": [
+            "Denied RODC Password Replication Group"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{85841ef1-2192-4d20-889c-673355fe244f}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-572"
+        ],
+        "sAMAccountName": [
+            "Denied RODC Password Replication Group"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "uSNChanged": [
+            12433
+        ],
+        "uSNCreated": [
+            12405
+        ],
+        "whenChanged": [
+            "2019-09-18 10:53:23+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-18 10:53:23+00:00"
+        ]
+    },
+    "dn": "CN=Denied RODC Password Replication Group,CN=Users,DC=htb,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Allowed RODC Password Replication Group"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Members in this group can have their passwords replicated to all read-only domain controllers in the domain"
+        ],
+        "distinguishedName": [
+            "CN=Allowed RODC Password Replication Group,CN=Users,DC=htb,DC=local"
+        ],
+        "groupType": [
+            -2147483644
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Allowed RODC Password Replication Group"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{749868e0-643a-4dc0-9924-5bf97cfbd368}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-571"
+        ],
+        "sAMAccountName": [
+            "Allowed RODC Password Replication Group"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "uSNChanged": [
+            12404
+        ],
+        "uSNCreated": [
+            12402
+        ],
+        "whenChanged": [
+            "2019-09-18 10:53:23+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-18 10:53:23+00:00"
+        ]
+    },
+    "dn": "CN=Allowed RODC Password Replication Group,CN=Users,DC=htb,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Terminal Server License Servers"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Members of this group can update user accounts in Active Directory with information about license issuance, for the purpose of tracking and reporting TS Per User CAL usage"
+        ],
+        "distinguishedName": [
+            "CN=Terminal Server License Servers,CN=Builtin,DC=htb,DC=local"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Terminal Server License Servers"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{aaaa9add-99e1-4b97-896a-bb67694dec95}"
+        ],
+        "objectSid": [
+            "S-1-5-32-561"
+        ],
+        "sAMAccountName": [
+            "Terminal Server License Servers"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            12377
+        ],
+        "uSNCreated": [
+            12375
+        ],
+        "whenChanged": [
+            "2019-09-18 10:53:23+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-18 10:53:23+00:00"
+        ]
+    },
+    "dn": "CN=Terminal Server License Servers,CN=Builtin,DC=htb,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Windows Authorization Access Group"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Members of this group have access to the computed tokenGroupsGlobalAndUniversal attribute on User objects"
+        ],
+        "distinguishedName": [
+            "CN=Windows Authorization Access Group,CN=Builtin,DC=htb,DC=local"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "member": [
+            "CN=Exchange Servers,OU=Microsoft Exchange Security Groups,DC=htb,DC=local",
+            "CN=S-1-5-9,CN=ForeignSecurityPrincipals,DC=htb,DC=local"
+        ],
+        "name": [
+            "Windows Authorization Access Group"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{1b8b2cb7-e686-4ced-8762-524e9ce76836}"
+        ],
+        "objectSid": [
+            "S-1-5-32-560"
+        ],
+        "sAMAccountName": [
+            "Windows Authorization Access Group"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            24478
+        ],
+        "uSNCreated": [
+            12372
+        ],
+        "whenChanged": [
+            "2019-09-19 11:11:50+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-18 10:53:23+00:00"
+        ]
+    },
+    "dn": "CN=Windows Authorization Access Group,CN=Builtin,DC=htb,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Incoming Forest Trust Builders"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Members of this group can create incoming, one-way trusts to this forest"
+        ],
+        "distinguishedName": [
+            "CN=Incoming Forest Trust Builders,CN=Builtin,DC=htb,DC=local"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Incoming Forest Trust Builders"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{97cecf4e-539f-4c87-93d0-52a28ebb8200}"
+        ],
+        "objectSid": [
+            "S-1-5-32-557"
+        ],
+        "sAMAccountName": [
+            "Incoming Forest Trust Builders"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            12371
+        ],
+        "uSNCreated": [
+            12369
+        ],
+        "whenChanged": [
+            "2019-09-18 10:53:23+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-18 10:53:23+00:00"
+        ]
+    },
+    "dn": "CN=Incoming Forest Trust Builders,CN=Builtin,DC=htb,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Pre-Windows 2000 Compatible Access"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "A backward compatibility group which allows read access on all users and groups in the domain"
+        ],
+        "distinguishedName": [
+            "CN=Pre-Windows 2000 Compatible Access,CN=Builtin,DC=htb,DC=local"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "member": [
+            "CN=S-1-1-0,CN=ForeignSecurityPrincipals,DC=htb,DC=local",
+            "CN=S-1-5-7,CN=ForeignSecurityPrincipals,DC=htb,DC=local"
+        ],
+        "name": [
+            "Pre-Windows 2000 Compatible Access"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{69f0bcfe-eba9-43cc-b04b-d9974b5a26a1}"
+        ],
+        "objectSid": [
+            "S-1-5-32-554"
+        ],
+        "sAMAccountName": [
+            "Pre-Windows 2000 Compatible Access"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            36945
+        ],
+        "uSNCreated": [
+            12366
+        ],
+        "whenChanged": [
+            "2019-09-22 23:11:06+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-18 10:53:23+00:00"
+        ]
+    },
+    "dn": "CN=Pre-Windows 2000 Compatible Access,CN=Builtin,DC=htb,DC=local"
+},{
+    "attributes": {
+        "adminCount": [
+            1
+        ],
+        "cn": [
+            "Account Operators"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Members can administer domain user and group accounts"
+        ],
+        "distinguishedName": [
+            "CN=Account Operators,CN=Builtin,DC=htb,DC=local"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "member": [
+            "CN=Privileged IT Accounts,OU=Security Groups,DC=htb,DC=local"
+        ],
+        "name": [
+            "Account Operators"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{a7a4d8b8-3ba8-40f8-9dfd-879bfd6a4964}"
+        ],
+        "objectSid": [
+            "S-1-5-32-548"
+        ],
+        "sAMAccountName": [
+            "Account Operators"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            57415
+        ],
+        "uSNCreated": [
+            12363
+        ],
+        "whenChanged": [
+            "2019-09-23 12:07:40+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-18 10:53:23+00:00"
+        ]
+    },
+    "dn": "CN=Account Operators,CN=Builtin,DC=htb,DC=local"
+},{
+    "attributes": {
+        "adminCount": [
+            1
+        ],
+        "cn": [
+            "Server Operators"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Members can administer domain servers"
+        ],
+        "distinguishedName": [
+            "CN=Server Operators,CN=Builtin,DC=htb,DC=local"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Server Operators"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{825c599e-0c08-4909-9421-9de73ded4fdb}"
+        ],
+        "objectSid": [
+            "S-1-5-32-549"
+        ],
+        "sAMAccountName": [
+            "Server Operators"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            25308
+        ],
+        "uSNCreated": [
+            12360
+        ],
+        "whenChanged": [
+            "2019-09-19 12:08:33+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-18 10:53:23+00:00"
+        ]
+    },
+    "dn": "CN=Server Operators,CN=Builtin,DC=htb,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "RAS and IAS Servers"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Servers in this group can access remote access properties of users"
+        ],
+        "distinguishedName": [
+            "CN=RAS and IAS Servers,CN=Users,DC=htb,DC=local"
+        ],
+        "groupType": [
+            -2147483644
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "RAS and IAS Servers"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{bb29475c-24ae-4148-8cc6-688e1a2980e6}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-553"
+        ],
+        "sAMAccountName": [
+            "RAS and IAS Servers"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "uSNChanged": [
+            12359
+        ],
+        "uSNCreated": [
+            12357
+        ],
+        "whenChanged": [
+            "2019-09-18 10:53:23+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-18 10:53:23+00:00"
+        ]
+    },
+    "dn": "CN=RAS and IAS Servers,CN=Users,DC=htb,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Group Policy Creator Owners"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Members in this group can modify group policy for the domain"
+        ],
+        "distinguishedName": [
+            "CN=Group Policy Creator Owners,CN=Users,DC=htb,DC=local"
+        ],
+        "groupType": [
+            -2147483646
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "member": [
+            "CN=Administrator,CN=Users,DC=htb,DC=local"
+        ],
+        "memberOf": [
+            "CN=Denied RODC Password Replication Group,CN=Users,DC=htb,DC=local"
+        ],
+        "name": [
+            "Group Policy Creator Owners"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{28f05359-bcd9-45c6-89bf-80e0ddc7c3fe}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-520"
+        ],
+        "sAMAccountName": [
+            "Group Policy Creator Owners"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            12391
+        ],
+        "uSNCreated": [
+            12354
+        ],
+        "whenChanged": [
+            "2019-09-18 10:53:23+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-18 10:53:23+00:00"
+        ]
+    },
+    "dn": "CN=Group Policy Creator Owners,CN=Users,DC=htb,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Domain Guests"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "All domain guests"
+        ],
+        "distinguishedName": [
+            "CN=Domain Guests,CN=Users,DC=htb,DC=local"
+        ],
+        "groupType": [
+            -2147483646
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "memberOf": [
+            "CN=Guests,CN=Builtin,DC=htb,DC=local"
+        ],
+        "name": [
+            "Domain Guests"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{0c11cc9a-3dab-494f-8bed-478274a4f345}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-514"
+        ],
+        "sAMAccountName": [
+            "Domain Guests"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            12353
+        ],
+        "uSNCreated": [
+            12351
+        ],
+        "whenChanged": [
+            "2019-09-18 10:53:23+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-18 10:53:23+00:00"
+        ]
+    },
+    "dn": "CN=Domain Guests,CN=Users,DC=htb,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Domain Users"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "All domain users"
+        ],
+        "distinguishedName": [
+            "CN=Domain Users,CN=Users,DC=htb,DC=local"
+        ],
+        "groupType": [
+            -2147483646
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "memberOf": [
+            "CN=Users,CN=Builtin,DC=htb,DC=local"
+        ],
+        "name": [
+            "Domain Users"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{7cd3af35-c652-400f-9fd9-345bf4b3fc7a}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-513"
+        ],
+        "sAMAccountName": [
+            "Domain Users"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            12350
+        ],
+        "uSNCreated": [
+            12348
+        ],
+        "whenChanged": [
+            "2019-09-18 10:53:23+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-18 10:53:23+00:00"
+        ]
+    },
+    "dn": "CN=Domain Users,CN=Users,DC=htb,DC=local"
+},{
+    "attributes": {
+        "adminCount": [
+            1
+        ],
+        "cn": [
+            "Domain Admins"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Designated administrators of the domain"
+        ],
+        "distinguishedName": [
+            "CN=Domain Admins,CN=Users,DC=htb,DC=local"
+        ],
+        "groupType": [
+            -2147483646
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "member": [
+            "CN=Administrator,CN=Users,DC=htb,DC=local"
+        ],
+        "memberOf": [
+            "CN=Denied RODC Password Replication Group,CN=Users,DC=htb,DC=local",
+            "CN=Administrators,CN=Builtin,DC=htb,DC=local"
+        ],
+        "name": [
+            "Domain Admins"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{7276b065-f6d1-4c04-b091-25ffa1cf9abf}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-512"
+        ],
+        "sAMAccountName": [
+            "Domain Admins"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            25302
+        ],
+        "uSNCreated": [
+            12345
+        ],
+        "whenChanged": [
+            "2019-09-19 12:08:33+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-18 10:53:23+00:00"
+        ]
+    },
+    "dn": "CN=Domain Admins,CN=Users,DC=htb,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Cert Publishers"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Members of this group are permitted to publish certificates to the directory"
+        ],
+        "distinguishedName": [
+            "CN=Cert Publishers,CN=Users,DC=htb,DC=local"
+        ],
+        "groupType": [
+            -2147483644
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "memberOf": [
+            "CN=Denied RODC Password Replication Group,CN=Users,DC=htb,DC=local"
+        ],
+        "name": [
+            "Cert Publishers"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{6d9cdbb3-3a84-4d3a-8392-9d517cdfc672}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-517"
+        ],
+        "sAMAccountName": [
+            "Cert Publishers"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "uSNChanged": [
+            12344
+        ],
+        "uSNCreated": [
+            12342
+        ],
+        "whenChanged": [
+            "2019-09-18 10:53:23+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-18 10:53:23+00:00"
+        ]
+    },
+    "dn": "CN=Cert Publishers,CN=Users,DC=htb,DC=local"
+},{
+    "attributes": {
+        "adminCount": [
+            1
+        ],
+        "cn": [
+            "Enterprise Admins"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Designated administrators of the enterprise"
+        ],
+        "distinguishedName": [
+            "CN=Enterprise Admins,CN=Users,DC=htb,DC=local"
+        ],
+        "groupType": [
+            -2147483640
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "member": [
+            "CN=Administrator,CN=Users,DC=htb,DC=local"
+        ],
+        "memberOf": [
+            "CN=Denied RODC Password Replication Group,CN=Users,DC=htb,DC=local",
+            "CN=Administrators,CN=Builtin,DC=htb,DC=local"
+        ],
+        "name": [
+            "Enterprise Admins"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{1d4f5503-50ac-44fc-8d9f-fd7cede17a33}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-519"
+        ],
+        "sAMAccountName": [
+            "Enterprise Admins"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            25300
+        ],
+        "uSNCreated": [
+            12339
+        ],
+        "whenChanged": [
+            "2019-09-19 12:08:33+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-18 10:53:23+00:00"
+        ]
+    },
+    "dn": "CN=Enterprise Admins,CN=Users,DC=htb,DC=local"
+},{
+    "attributes": {
+        "adminCount": [
+            1
+        ],
+        "cn": [
+            "Schema Admins"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Designated administrators of the schema"
+        ],
+        "distinguishedName": [
+            "CN=Schema Admins,CN=Users,DC=htb,DC=local"
+        ],
+        "groupType": [
+            -2147483640
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "member": [
+            "CN=Administrator,CN=Users,DC=htb,DC=local"
+        ],
+        "memberOf": [
+            "CN=Denied RODC Password Replication Group,CN=Users,DC=htb,DC=local"
+        ],
+        "name": [
+            "Schema Admins"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{5ac47aae-ea30-4392-91ed-ca3f6fa4a3c0}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-518"
+        ],
+        "sAMAccountName": [
+            "Schema Admins"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            25303
+        ],
+        "uSNCreated": [
+            12336
+        ],
+        "whenChanged": [
+            "2019-09-19 12:08:33+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-18 10:53:23+00:00"
+        ]
+    },
+    "dn": "CN=Schema Admins,CN=Users,DC=htb,DC=local"
+},{
+    "attributes": {
+        "adminCount": [
+            1
+        ],
+        "cn": [
+            "Domain Controllers"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "All domain controllers in the domain"
+        ],
+        "distinguishedName": [
+            "CN=Domain Controllers,CN=Users,DC=htb,DC=local"
+        ],
+        "groupType": [
+            -2147483646
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "memberOf": [
+            "CN=Denied RODC Password Replication Group,CN=Users,DC=htb,DC=local"
+        ],
+        "name": [
+            "Domain Controllers"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{f0057b04-7993-49ba-af49-93006469db51}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-516"
+        ],
+        "sAMAccountName": [
+            "Domain Controllers"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            25311
+        ],
+        "uSNCreated": [
+            12333
+        ],
+        "whenChanged": [
+            "2019-09-19 12:08:33+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-18 10:53:23+00:00"
+        ]
+    },
+    "dn": "CN=Domain Controllers,CN=Users,DC=htb,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Domain Computers"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "2022-01-09 19:31:50+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "All workstations and servers joined to the domain"
+        ],
+        "distinguishedName": [
+            "CN=Domain Computers,CN=Users,DC=htb,DC=local"
+        ],
+        "groupType": [
+            -2147483646
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Domain Computers"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{6e52e5a2-858c-4ed8-9726-c3c76ea40e6b}"
+        ],
+        "objectSid": [
+            "S-1-5-21-3072663084-364016917-1341370565-515"
+        ],
+        "sAMAccountName": [
+            "Domain Computers"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            12332
+        ],
+        "uSNCreated": [
+            12330
+        ],
+        "whenChanged": [
+            "2019-09-18 10:53:23+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-18 10:53:23+00:00"
+        ]
+    },
+    "dn": "CN=Domain Computers,CN=Users,DC=htb,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Storage Replica Administrators"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Members of this group have complete and unrestricted access to all features of Storage Replica."
+        ],
+        "distinguishedName": [
+            "CN=Storage Replica Administrators,CN=Builtin,DC=htb,DC=local"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Storage Replica Administrators"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{fb1055e9-894e-4366-9a57-c3e10a0f621e}"
+        ],
+        "objectSid": [
+            "S-1-5-32-582"
+        ],
+        "sAMAccountName": [
+            "Storage Replica Administrators"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            8236
+        ],
+        "uSNCreated": [
+            8236
+        ],
+        "whenChanged": [
+            "2019-09-18 17:45:57+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-18 17:45:57+00:00"
+        ]
+    },
+    "dn": "CN=Storage Replica Administrators,CN=Builtin,DC=htb,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "System Managed Accounts Group"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Members of this group are managed by the system."
+        ],
+        "distinguishedName": [
+            "CN=System Managed Accounts Group,CN=Builtin,DC=htb,DC=local"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "member": [
+            "CN=DefaultAccount,CN=Users,DC=htb,DC=local"
+        ],
+        "name": [
+            "System Managed Accounts Group"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{82922222-4fd4-4e31-8036-229085ff50b2}"
+        ],
+        "objectSid": [
+            "S-1-5-32-581"
+        ],
+        "sAMAccountName": [
+            "System Managed Accounts Group"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            8235
+        ],
+        "uSNCreated": [
+            8233
+        ],
+        "whenChanged": [
+            "2019-09-18 17:45:57+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-18 17:45:57+00:00"
+        ]
+    },
+    "dn": "CN=System Managed Accounts Group,CN=Builtin,DC=htb,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Remote Management Users"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Members of this group can access WMI resources over management protocols (such as WS-Management via the Windows Remote Management service). This applies only to WMI namespaces that grant access to the user."
+        ],
+        "distinguishedName": [
+            "CN=Remote Management Users,CN=Builtin,DC=htb,DC=local"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "member": [
+            "CN=Privileged IT Accounts,OU=Security Groups,DC=htb,DC=local"
+        ],
+        "name": [
+            "Remote Management Users"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{c193227f-7dac-48b8-90b9-161893eef8c5}"
+        ],
+        "objectSid": [
+            "S-1-5-32-580"
+        ],
+        "sAMAccountName": [
+            "Remote Management Users"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            81988
+        ],
+        "uSNCreated": [
+            8232
+        ],
+        "whenChanged": [
+            "2019-09-23 22:03:53+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-18 17:45:57+00:00"
+        ]
+    },
+    "dn": "CN=Remote Management Users,CN=Builtin,DC=htb,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Access Control Assistance Operators"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Members of this group can remotely query authorization attributes and permissions for resources on this computer."
+        ],
+        "distinguishedName": [
+            "CN=Access Control Assistance Operators,CN=Builtin,DC=htb,DC=local"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Access Control Assistance Operators"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{9cb7a900-d74f-480b-b55c-f6404e2e27a3}"
+        ],
+        "objectSid": [
+            "S-1-5-32-579"
+        ],
+        "sAMAccountName": [
+            "Access Control Assistance Operators"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            8231
+        ],
+        "uSNCreated": [
+            8231
+        ],
+        "whenChanged": [
+            "2019-09-18 17:45:57+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-18 17:45:57+00:00"
+        ]
+    },
+    "dn": "CN=Access Control Assistance Operators,CN=Builtin,DC=htb,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Hyper-V Administrators"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Members of this group have complete and unrestricted access to all features of Hyper-V."
+        ],
+        "distinguishedName": [
+            "CN=Hyper-V Administrators,CN=Builtin,DC=htb,DC=local"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Hyper-V Administrators"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{366a021b-9cca-488e-b078-ba0c861099b5}"
+        ],
+        "objectSid": [
+            "S-1-5-32-578"
+        ],
+        "sAMAccountName": [
+            "Hyper-V Administrators"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            8230
+        ],
+        "uSNCreated": [
+            8230
+        ],
+        "whenChanged": [
+            "2019-09-18 17:45:57+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-18 17:45:57+00:00"
+        ]
+    },
+    "dn": "CN=Hyper-V Administrators,CN=Builtin,DC=htb,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "RDS Management Servers"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Servers in this group can perform routine administrative actions on servers running Remote Desktop Services. This group needs to be populated on all servers in a Remote Desktop Services deployment. The servers running the RDS Central Management service must be included in this group."
+        ],
+        "distinguishedName": [
+            "CN=RDS Management Servers,CN=Builtin,DC=htb,DC=local"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "RDS Management Servers"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{b46d2a09-6c1d-4b3f-8537-9e5181332c94}"
+        ],
+        "objectSid": [
+            "S-1-5-32-577"
+        ],
+        "sAMAccountName": [
+            "RDS Management Servers"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            8229
+        ],
+        "uSNCreated": [
+            8229
+        ],
+        "whenChanged": [
+            "2019-09-18 17:45:57+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-18 17:45:57+00:00"
+        ]
+    },
+    "dn": "CN=RDS Management Servers,CN=Builtin,DC=htb,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "RDS Endpoint Servers"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Servers in this group run virtual machines and host sessions where users RemoteApp programs and personal virtual desktops run. This group needs to be populated on servers running RD Connection Broker. RD Session Host servers and RD Virtualization Host servers used in the deployment need to be in this group."
+        ],
+        "distinguishedName": [
+            "CN=RDS Endpoint Servers,CN=Builtin,DC=htb,DC=local"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "RDS Endpoint Servers"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{9a95d452-5254-4d87-8f9f-52ef1be6e3ab}"
+        ],
+        "objectSid": [
+            "S-1-5-32-576"
+        ],
+        "sAMAccountName": [
+            "RDS Endpoint Servers"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            8228
+        ],
+        "uSNCreated": [
+            8228
+        ],
+        "whenChanged": [
+            "2019-09-18 17:45:57+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-18 17:45:57+00:00"
+        ]
+    },
+    "dn": "CN=RDS Endpoint Servers,CN=Builtin,DC=htb,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "RDS Remote Access Servers"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Servers in this group enable users of RemoteApp programs and personal virtual desktops access to these resources. In Internet-facing deployments, these servers are typically deployed in an edge network. This group needs to be populated on servers running RD Connection Broker. RD Gateway servers and RD Web Access servers used in the deployment need to be in this group."
+        ],
+        "distinguishedName": [
+            "CN=RDS Remote Access Servers,CN=Builtin,DC=htb,DC=local"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "RDS Remote Access Servers"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{6d2a746c-161b-4d93-bc08-e77c454e5f43}"
+        ],
+        "objectSid": [
+            "S-1-5-32-575"
+        ],
+        "sAMAccountName": [
+            "RDS Remote Access Servers"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            8227
+        ],
+        "uSNCreated": [
+            8227
+        ],
+        "whenChanged": [
+            "2019-09-18 17:45:57+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-18 17:45:57+00:00"
+        ]
+    },
+    "dn": "CN=RDS Remote Access Servers,CN=Builtin,DC=htb,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Certificate Service DCOM Access"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Members of this group are allowed to connect to Certification Authorities in the enterprise"
+        ],
+        "distinguishedName": [
+            "CN=Certificate Service DCOM Access,CN=Builtin,DC=htb,DC=local"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Certificate Service DCOM Access"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{8c309483-c539-4968-ac7c-eb77daeb4d69}"
+        ],
+        "objectSid": [
+            "S-1-5-32-574"
+        ],
+        "sAMAccountName": [
+            "Certificate Service DCOM Access"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            8226
+        ],
+        "uSNCreated": [
+            8226
+        ],
+        "whenChanged": [
+            "2019-09-18 17:45:57+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-18 17:45:57+00:00"
+        ]
+    },
+    "dn": "CN=Certificate Service DCOM Access,CN=Builtin,DC=htb,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Event Log Readers"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Members of this group can read event logs from local machine"
+        ],
+        "distinguishedName": [
+            "CN=Event Log Readers,CN=Builtin,DC=htb,DC=local"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Event Log Readers"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{ac9b8aee-9298-4cc5-85f0-f7f07d4f6ba0}"
+        ],
+        "objectSid": [
+            "S-1-5-32-573"
+        ],
+        "sAMAccountName": [
+            "Event Log Readers"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            8225
+        ],
+        "uSNCreated": [
+            8225
+        ],
+        "whenChanged": [
+            "2019-09-18 17:45:57+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-18 17:45:57+00:00"
+        ]
+    },
+    "dn": "CN=Event Log Readers,CN=Builtin,DC=htb,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Cryptographic Operators"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Members are authorized to perform cryptographic operations."
+        ],
+        "distinguishedName": [
+            "CN=Cryptographic Operators,CN=Builtin,DC=htb,DC=local"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Cryptographic Operators"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{5940d315-e640-47e1-a8a3-3c6a66ccf02f}"
+        ],
+        "objectSid": [
+            "S-1-5-32-569"
+        ],
+        "sAMAccountName": [
+            "Cryptographic Operators"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            8224
+        ],
+        "uSNCreated": [
+            8224
+        ],
+        "whenChanged": [
+            "2019-09-18 17:45:57+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-18 17:45:57+00:00"
+        ]
+    },
+    "dn": "CN=Cryptographic Operators,CN=Builtin,DC=htb,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "IIS_IUSRS"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Built-in group used by Internet Information Services."
+        ],
+        "distinguishedName": [
+            "CN=IIS_IUSRS,CN=Builtin,DC=htb,DC=local"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "member": [
+            "CN=S-1-5-17,CN=ForeignSecurityPrincipals,DC=htb,DC=local"
+        ],
+        "name": [
+            "IIS_IUSRS"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{1ff8ef3e-9241-4a6e-b36e-096117a2362a}"
+        ],
+        "objectSid": [
+            "S-1-5-32-568"
+        ],
+        "sAMAccountName": [
+            "IIS_IUSRS"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            8223
+        ],
+        "uSNCreated": [
+            8220
+        ],
+        "whenChanged": [
+            "2019-09-18 17:45:57+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-18 17:45:57+00:00"
+        ]
+    },
+    "dn": "CN=IIS_IUSRS,CN=Builtin,DC=htb,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Distributed COM Users"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Members are allowed to launch, activate and use Distributed COM objects on this machine."
+        ],
+        "distinguishedName": [
+            "CN=Distributed COM Users,CN=Builtin,DC=htb,DC=local"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Distributed COM Users"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{c21951db-a48a-40a7-9641-7c8d80c7077d}"
+        ],
+        "objectSid": [
+            "S-1-5-32-562"
+        ],
+        "sAMAccountName": [
+            "Distributed COM Users"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            8219
+        ],
+        "uSNCreated": [
+            8219
+        ],
+        "whenChanged": [
+            "2019-09-18 17:45:57+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-18 17:45:57+00:00"
+        ]
+    },
+    "dn": "CN=Distributed COM Users,CN=Builtin,DC=htb,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Performance Log Users"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Members of this group may schedule logging of performance counters, enable trace providers, and collect event traces both locally and via remote access to this computer"
+        ],
+        "distinguishedName": [
+            "CN=Performance Log Users,CN=Builtin,DC=htb,DC=local"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Performance Log Users"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{5d1d5b5a-27c3-42ba-a22c-bd62ec024b3e}"
+        ],
+        "objectSid": [
+            "S-1-5-32-559"
+        ],
+        "sAMAccountName": [
+            "Performance Log Users"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            8218
+        ],
+        "uSNCreated": [
+            8218
+        ],
+        "whenChanged": [
+            "2019-09-18 17:45:57+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-18 17:45:57+00:00"
+        ]
+    },
+    "dn": "CN=Performance Log Users,CN=Builtin,DC=htb,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Performance Monitor Users"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Members of this group can access performance counter data locally and remotely"
+        ],
+        "distinguishedName": [
+            "CN=Performance Monitor Users,CN=Builtin,DC=htb,DC=local"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Performance Monitor Users"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{a7a98602-f608-43f7-b834-f410342871a4}"
+        ],
+        "objectSid": [
+            "S-1-5-32-558"
+        ],
+        "sAMAccountName": [
+            "Performance Monitor Users"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            8217
+        ],
+        "uSNCreated": [
+            8217
+        ],
+        "whenChanged": [
+            "2019-09-18 17:45:57+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-18 17:45:57+00:00"
+        ]
+    },
+    "dn": "CN=Performance Monitor Users,CN=Builtin,DC=htb,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Network Configuration Operators"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Members in this group can have some administrative privileges to manage configuration of networking features"
+        ],
+        "distinguishedName": [
+            "CN=Network Configuration Operators,CN=Builtin,DC=htb,DC=local"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Network Configuration Operators"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{921308b5-4b1b-4595-882d-ecf9003a967d}"
+        ],
+        "objectSid": [
+            "S-1-5-32-556"
+        ],
+        "sAMAccountName": [
+            "Network Configuration Operators"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            8216
+        ],
+        "uSNCreated": [
+            8216
+        ],
+        "whenChanged": [
+            "2019-09-18 17:45:57+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-18 17:45:57+00:00"
+        ]
+    },
+    "dn": "CN=Network Configuration Operators,CN=Builtin,DC=htb,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Remote Desktop Users"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Members in this group are granted the right to logon remotely"
+        ],
+        "distinguishedName": [
+            "CN=Remote Desktop Users,CN=Builtin,DC=htb,DC=local"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Remote Desktop Users"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{3d7b79dc-6f46-4346-b4f6-c3f39a2ac275}"
+        ],
+        "objectSid": [
+            "S-1-5-32-555"
+        ],
+        "sAMAccountName": [
+            "Remote Desktop Users"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            57411
+        ],
+        "uSNCreated": [
+            8215
+        ],
+        "whenChanged": [
+            "2019-09-23 12:07:15+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-18 17:45:57+00:00"
+        ]
+    },
+    "dn": "CN=Remote Desktop Users,CN=Builtin,DC=htb,DC=local"
+},{
+    "attributes": {
+        "adminCount": [
+            1
+        ],
+        "cn": [
+            "Replicator"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Supports file replication in a domain"
+        ],
+        "distinguishedName": [
+            "CN=Replicator,CN=Builtin,DC=htb,DC=local"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Replicator"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{081a0378-3e5a-4270-9eec-538ff44eb891}"
+        ],
+        "objectSid": [
+            "S-1-5-32-552"
+        ],
+        "sAMAccountName": [
+            "Replicator"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            25305
+        ],
+        "uSNCreated": [
+            8214
+        ],
+        "whenChanged": [
+            "2019-09-19 12:08:33+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-18 17:45:57+00:00"
+        ]
+    },
+    "dn": "CN=Replicator,CN=Builtin,DC=htb,DC=local"
+},{
+    "attributes": {
+        "adminCount": [
+            1
+        ],
+        "cn": [
+            "Backup Operators"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Backup Operators can override security restrictions for the sole purpose of backing up or restoring files"
+        ],
+        "distinguishedName": [
+            "CN=Backup Operators,CN=Builtin,DC=htb,DC=local"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Backup Operators"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{394bc784-6a8b-4406-9a69-5593f3c93bd8}"
+        ],
+        "objectSid": [
+            "S-1-5-32-551"
+        ],
+        "sAMAccountName": [
+            "Backup Operators"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            25306
+        ],
+        "uSNCreated": [
+            8213
+        ],
+        "whenChanged": [
+            "2019-09-19 12:08:33+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-18 17:45:57+00:00"
+        ]
+    },
+    "dn": "CN=Backup Operators,CN=Builtin,DC=htb,DC=local"
+},{
+    "attributes": {
+        "adminCount": [
+            1
+        ],
+        "cn": [
+            "Print Operators"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Members can administer printers installed on domain controllers"
+        ],
+        "distinguishedName": [
+            "CN=Print Operators,CN=Builtin,DC=htb,DC=local"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Print Operators"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{21429604-27ba-44a8-9676-6e4f0338ecc8}"
+        ],
+        "objectSid": [
+            "S-1-5-32-550"
+        ],
+        "sAMAccountName": [
+            "Print Operators"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            28917
+        ],
+        "uSNCreated": [
+            8212
+        ],
+        "whenChanged": [
+            "2019-09-21 00:03:03+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-18 17:45:57+00:00"
+        ]
+    },
+    "dn": "CN=Print Operators,CN=Builtin,DC=htb,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Guests"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Guests have the same access as members of the Users group by default, except for the Guest account which is further restricted"
+        ],
+        "distinguishedName": [
+            "CN=Guests,CN=Builtin,DC=htb,DC=local"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "member": [
+            "CN=Domain Guests,CN=Users,DC=htb,DC=local",
+            "CN=Guest,CN=Users,DC=htb,DC=local"
+        ],
+        "name": [
+            "Guests"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{3edcfc88-84c0-4176-8408-840c07943778}"
+        ],
+        "objectSid": [
+            "S-1-5-32-546"
+        ],
+        "sAMAccountName": [
+            "Guests"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            12383
+        ],
+        "uSNCreated": [
+            8209
+        ],
+        "whenChanged": [
+            "2019-09-18 10:53:23+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-18 17:45:57+00:00"
+        ]
+    },
+    "dn": "CN=Guests,CN=Builtin,DC=htb,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Users"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Users are prevented from making accidental or intentional system-wide changes and can run most applications"
+        ],
+        "distinguishedName": [
+            "CN=Users,CN=Builtin,DC=htb,DC=local"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "member": [
+            "CN=Domain Users,CN=Users,DC=htb,DC=local",
+            "CN=S-1-5-11,CN=ForeignSecurityPrincipals,DC=htb,DC=local",
+            "CN=S-1-5-4,CN=ForeignSecurityPrincipals,DC=htb,DC=local"
+        ],
+        "name": [
+            "Users"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{6984db3e-602f-4484-94ec-ce9fc65c48f3}"
+        ],
+        "objectSid": [
+            "S-1-5-32-545"
+        ],
+        "sAMAccountName": [
+            "Users"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            12381
+        ],
+        "uSNCreated": [
+            8203
+        ],
+        "whenChanged": [
+            "2019-09-18 10:53:23+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-18 17:45:57+00:00"
+        ]
+    },
+    "dn": "CN=Users,CN=Builtin,DC=htb,DC=local"
+},{
+    "attributes": {
+        "adminCount": [
+            1
+        ],
+        "cn": [
+            "Administrators"
+        ],
+        "dSCorePropagationData": [
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "2022-01-09 19:31:55+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Administrators have complete and unrestricted access to the computer/domain"
+        ],
+        "distinguishedName": [
+            "CN=Administrators,CN=Builtin,DC=htb,DC=local"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "member": [
+            "CN=Domain Admins,CN=Users,DC=htb,DC=local",
+            "CN=Enterprise Admins,CN=Users,DC=htb,DC=local",
+            "CN=Administrator,CN=Users,DC=htb,DC=local"
+        ],
+        "name": [
+            "Administrators"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=htb,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{40b6508d-2756-4d63-a2fd-05336a6f335d}"
+        ],
+        "objectSid": [
+            "S-1-5-32-544"
+        ],
+        "sAMAccountName": [
+            "Administrators"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            25307
+        ],
+        "uSNCreated": [
+            8200
+        ],
+        "whenChanged": [
+            "2019-09-19 12:08:33+00:00"
+        ],
+        "whenCreated": [
+            "2019-09-18 17:45:57+00:00"
+        ]
+    },
+    "dn": "CN=Administrators,CN=Builtin,DC=htb,DC=local"
+}]

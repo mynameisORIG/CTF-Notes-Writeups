@@ -1,0 +1,9 @@
+#!/bin/bash
+
+hashfile="hashes1.txt"
+sha2512="1400"
+
+for hash in $(cat $hashfile); do
+    echo "$hash"
+    hashcat -m $sha2512 -a 0 "$file" /usr/share/wordlists/rockyou.txt --force
+done

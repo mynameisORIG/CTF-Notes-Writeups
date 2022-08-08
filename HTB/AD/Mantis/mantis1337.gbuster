@@ -1,0 +1,19 @@
+===============================================================
+Gobuster v3.1.0
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://mantis:1337
+[+] Method:                  GET
+[+] Threads:                 50
+[+] Wordlist:                /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.1.0
+[+] Timeout:                 10s
+===============================================================
+2022/07/23 19:21:10 Starting gobuster in directory enumeration mode
+===============================================================
+/orchard              (Status: 500) [Size: 3026]
+/secure_notes         (Status: 301) [Size: 155] [--> http://mantis:1337/secure_notes/]
+===============================================================
+2022/07/23 19:22:35 Finished
+===============================================================

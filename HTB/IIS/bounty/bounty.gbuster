@@ -1,0 +1,59 @@
+===============================================================
+Gobuster v3.1.0
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.10.10.93
+[+] Method:                  GET
+[+] Threads:                 30
+[+] Wordlist:                /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.1.0
+[+] Extensions:              aspx
+[+] Timeout:                 10s
+===============================================================
+2022/07/25 19:39:45 Starting gobuster in directory enumeration mode
+===============================================================
+/transfer.aspx        (Status: 200) [Size: 941]
+/*checkout*.aspx      (Status: 400) [Size: 11] 
+/*docroot*.aspx       (Status: 400) [Size: 11] 
+/*.aspx               (Status: 400) [Size: 11] 
+/http%3A%2F%2Fwww.aspx (Status: 400) [Size: 11]
+/http%3A.aspx         (Status: 400) [Size: 11] 
+/UploadedFiles        (Status: 301) [Size: 156] [--> http://10.10.10.93/UploadedFiles/]
+/q%26a.aspx           (Status: 400) [Size: 11]                                         
+/**http%3a.aspx       (Status: 400) [Size: 11]                                         
+/*http%3A.aspx        (Status: 400) [Size: 11]                                         
+/uploadedFiles        (Status: 301) [Size: 156] [--> http://10.10.10.93/uploadedFiles/]
+/**http%3A.aspx       (Status: 400) [Size: 11]                                         
+/http%3A%2F%2Fyoutube.aspx (Status: 400) [Size: 11]                                    
+/http%3A%2F%2Fblogs.aspx (Status: 400) [Size: 11]                                      
+/http%3A%2F%2Fblog.aspx (Status: 400) [Size: 11]                                       
+/uploadedfiles        (Status: 301) [Size: 156] [--> http://10.10.10.93/uploadedfiles/]
+/**http%3A%2F%2Fwww.aspx (Status: 400) [Size: 11]                                      
+/s%26p.aspx           (Status: 400) [Size: 11]                                         
+/%3FRID%3D2671.aspx   (Status: 400) [Size: 11]                                         
+/devinmoore*.aspx     (Status: 400) [Size: 11]                                         
+/children%2527s_tent.aspx (Status: 400) [Size: 11]                                     
+/How_to%2e%2e%2e.aspx (Status: 400) [Size: 11]                                         
+/Wanted%2e%2e%2e.aspx (Status: 400) [Size: 11]                                         
+/200109*.aspx         (Status: 400) [Size: 11]                                         
+/*sa_.aspx            (Status: 400) [Size: 11]                                         
+/*dc_.aspx            (Status: 400) [Size: 11]                                         
+/help%2523drupal.aspx (Status: 400) [Size: 11]                                         
+/http%3A%2F%2Fcommunity.aspx (Status: 400) [Size: 11]                                  
+/Chamillionaire%20%26%20Paul%20Wall-%20Get%20Ya%20Mind%20Correct.aspx (Status: 400) [Size: 11]
+/Clinton%20Sparks%20%26%20Diddy%20-%20Dont%20Call%20It%20A%20Comeback%28RuZtY%29.aspx (Status: 400) [Size: 11]
+/DJ%20Haze%20%26%20The%20Game%20-%20New%20Blood%20Series%20Pt.aspx (Status: 400) [Size: 11]                   
+/http%3A%2F%2Fradar.aspx (Status: 400) [Size: 11]                                                             
+/q%26a2.aspx          (Status: 400) [Size: 11]                                                                
+/login%3f.aspx        (Status: 400) [Size: 11]                                                                
+/Shakira%20Oral%20Fixation%201%20%26%202.aspx (Status: 400) [Size: 11]                                        
+/%22britney%20spears%22.aspx (Status: 500) [Size: 3026]                                                       
+/%22julie%20roehm%22.aspx (Status: 500) [Size: 3026]                                                          
+/%22james%20kim%22.aspx (Status: 500) [Size: 3026]                                                            
+/http%3A%2F%2Fjeremiahgrossman.aspx (Status: 400) [Size: 11]                                                  
+/http%3A%2F%2Fweblog.aspx (Status: 400) [Size: 11]                                                            
+/http%3A%2F%2Fswik.aspx (Status: 400) [Size: 11]                                                              
+===============================================================
+2022/07/25 19:45:47 Finished
+===============================================================
